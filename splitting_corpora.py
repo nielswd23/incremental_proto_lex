@@ -1,4 +1,5 @@
 import random
+import re
 
 def disjoint_random_samples(corpus_size, k, slice_factor, seed=None):
     """
@@ -48,13 +49,42 @@ samples_4 = disjoint_random_samples(len(AGPhonotactic), 4, 4, seed=42)
 samples_2 = disjoint_random_samples(len(AGPhonotactic), 2, 2, seed=42)
 
 
+def process_corpus(corpus, indices_segmented):
+    """
+    indices_segmented determine which lines should be remain segmented with 
+    whitespace marking the words in the line.
+    Every other line is unsegmented and treated as a "word".
+    We typize the corpus such that each word is added to the processed_corpus
+    once. 
+    Then format for the UCI phonotactic calculator by adding space between 
+    each letter.
+    """
+    processed_corpus = []
+    for i, line in enumerate(corpus):
+        if i in indices_segmented:
+            words = line.split(' ')
+            for word in words:
+                formatted = ' '.join(word)
+                if formatted not in processed_corpus:
+                    processed_corpus.append(formatted)
+        else:
+            line_no_whitespace = re.sub(r'\s+', '', line)
+            formatted_line = ' '.join(line_no_whitespace)
+            if formatted_line not in process_corpus:
+                processed_corpus.append(formatted_line)
+
+    return processed_corpus
 
 
-# function that takes in the indices and create variants of the corpora with 
-# line[index] left untouched but every other line we strip whitespaces
+# test = process_corpus(AGPhonotactic, samples_512[0])
+
 
 
 
 
 # when running on other corpora, I'll need to ensure they are all the 
-# same length
+# same length as a basic check that this is the raw output of segmentation
+# algorithm on the exact same corpus 
+
+# also check if the process_corpus() with feeding it all of the indices
+# gives us the same typized files I have in SupplementaryMaterials folder
