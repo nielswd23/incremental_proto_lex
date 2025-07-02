@@ -48,12 +48,12 @@ def process_corpus(corpus, indices_segmented):
         if i in indices_segmented:
             words = line.split(' ')
             for word in words:
-                formatted = ' '.join(word)
+                formatted = ' '.join(word).replace('x', '^')
                 if formatted not in processed_corpus:
                     processed_corpus.append(formatted)
         else:
             line_no_whitespace = re.sub(r'\s+', '', line)
-            formatted_line = ' '.join(line_no_whitespace)
+            formatted_line = ' '.join(line_no_whitespace).replace('x', '^')
             if formatted_line not in processed_corpus:
                 processed_corpus.append(formatted_line)
 
