@@ -1,0 +1,161 @@
+# particle, Mon Jan 23 19:15:27 2023
+# debug-level=100
+# data-file=/opt/dpseg/myfiles/Prepped.txt
+# data-start-index=0
+# data-num-sents=0
+# eval-file=none
+# eval-start-index=0
+# eval-num-sents=0
+# eval-maximize=1
+# eval-interval=500
+# output-file=                            /opt/dpseg/myfiles/Model.txt
+# estimator= D
+# decay_rate=1.5
+# samples_per_utt=20000
+# mode=      online
+# ngram=2
+# do_mbdp=0
+# a1=0
+# b1=1
+# a2=0
+# b2=90
+# Pstop=0.5
+# hypersamp-ratio=0
+# aeos=2
+# init_pboundary=0.5
+# pya-beta-a=1
+# pya-beta-b=1
+# pyb-gamma-s=10
+# pyb-gamma-c=0.1
+# randseed=2
+# trace-every=2000
+# nsubjects=1
+# forget-rate=0
+# burnin-iterations=1
+# anneal-iterations=0
+# anneal-start-temperature=1
+# anneal-stop-temperature=1
+# anneal-a=10
+# anneal-b=0.2
+# result-field-separator=	
+# nchartypes=42
+# nsentences=28391
+initial probability = 0
+#Iter	Temp	-logP	a1	b1	Pstop	a2	b2
+0	0	-0	0	1	-1	0	90 P 46.1 R 27.51 F 34.46 BP 90.38 BR 50.06 BF 64.43 LP 0.4221 LR 94.81 LF 0.8404
+Test set after 0 sentences of training 
+P 1.282 R 0.1236 F 0.2255 BP -nan BR 0 BF -nan LP 0.06439 LR 12.99 LF 0.1281
+Test set after 500 sentences of training 
+P 47.18 R 34.6 F 39.92 BP 84.86 BR 59.83 BF 70.18 LP 3.533 LR 50.65 LF 6.605
+Test set after 1000 sentences of training 
+P 48.03 R 36.2 F 41.28 BP 85.33 BR 62.07 BF 71.86 LP 6.794 LR 50.65 LF 11.98
+Test set after 1500 sentences of training 
+P 48.37 R 36.74 F 41.76 BP 85.46 BR 62.72 BF 72.35 LP 11.44 LR 50.65 LF 18.66
+Test set after 2000 sentences of training 
+P 48.25 R 36.6 F 41.63 BP 85.43 BR 62.6 BF 72.26 LP 12.42 LR 50.65 LF 19.95
+Test set after 2500 sentences of training 
+P 47.96 R 36.31 F 41.33 BP 85.4 BR 62.43 BF 72.13 LP 13.38 LR 51.95 LF 21.28
+Test set after 3000 sentences of training 
+P 47.67 R 35.96 F 40.99 BP 85.34 BR 62.12 BF 71.9 LP 12.91 LR 50.65 LF 20.58
+Test set after 3500 sentences of training 
+P 47.39 R 35.66 F 40.7 BP 85.31 BR 61.95 BF 71.77 LP 13.59 LR 50.65 LF 21.43
+Test set after 4000 sentences of training 
+P 47.11 R 35.36 F 40.4 BP 85.26 BR 61.72 BF 71.6 LP 12.79 LR 50.65 LF 20.42
+Test set after 4500 sentences of training 
+P 47.15 R 35.36 F 40.41 BP 85.29 BR 61.69 BF 71.6 LP 13.07 LR 51.95 LF 20.89
+Test set after 5000 sentences of training 
+P 47.18 R 35.39 F 40.45 BP 85.3 BR 61.71 BF 71.62 LP 13.16 LR 51.95 LF 21
+Test set after 5500 sentences of training 
+P 47.16 R 35.37 F 40.42 BP 85.3 BR 61.69 BF 71.6 LP 13.75 LR 51.95 LF 21.74
+Test set after 6000 sentences of training 
+P 47.13 R 35.33 F 40.38 BP 85.29 BR 61.66 BF 71.57 LP 13.65 LR 51.95 LF 21.62
+Test set after 6500 sentences of training 
+P 47.02 R 35.21 F 40.27 BP 85.27 BR 61.57 BF 71.51 LP 13.56 LR 51.95 LF 21.51
+Test set after 7000 sentences of training 
+P 47 R 35.2 F 40.25 BP 85.27 BR 61.57 BF 71.5 LP 13.99 LR 51.95 LF 22.04
+Test set after 7500 sentences of training 
+P 46.99 R 35.19 F 40.24 BP 85.27 BR 61.56 BF 71.5 LP 14.04 LR 51.95 LF 22.1
+Test set after 8000 sentences of training 
+P 46.76 R 34.96 F 40.01 BP 85.24 BR 61.43 BF 71.4 LP 14.08 LR 51.95 LF 22.16
+Test set after 8500 sentences of training 
+P 46.72 R 34.92 F 39.97 BP 85.24 BR 61.4 BF 71.38 LP 14.13 LR 51.95 LF 22.22
+Test set after 9000 sentences of training 
+P 46.69 R 34.89 F 39.93 BP 85.24 BR 61.39 BF 71.38 LP 14.13 LR 51.95 LF 22.22
+Test set after 9500 sentences of training 
+P 46.65 R 34.83 F 39.88 BP 85.25 BR 61.34 BF 71.35 LP 13.94 LR 51.95 LF 21.98
+Test set after 10000 sentences of training 
+P 46.6 R 34.78 F 39.83 BP 85.25 BR 61.32 BF 71.33 LP 13.94 LR 51.95 LF 21.98
+Test set after 10500 sentences of training 
+P 46.57 R 34.74 F 39.8 BP 85.25 BR 61.28 BF 71.31 LP 13.79 LR 51.95 LF 21.8
+Test set after 11000 sentences of training 
+P 46.47 R 34.63 F 39.69 BP 85.24 BR 61.21 BF 71.25 LP 13.61 LR 51.95 LF 21.56
+Test set after 11500 sentences of training 
+P 46.48 R 34.64 F 39.7 BP 85.24 BR 61.22 BF 71.26 LP 13.65 LR 51.95 LF 21.62
+Test set after 12000 sentences of training 
+P 46.42 R 34.58 F 39.63 BP 85.22 BR 61.17 BF 71.22 LP 13.56 LR 51.95 LF 21.51
+Test set after 12500 sentences of training 
+P 46.37 R 34.52 F 39.58 BP 85.21 BR 61.12 BF 71.18 LP 13.51 LR 51.95 LF 21.45
+Test set after 13000 sentences of training 
+P 46.29 R 34.42 F 39.48 BP 85.19 BR 61.02 BF 71.11 LP 13.42 LR 51.95 LF 21.33
+Test set after 13500 sentences of training 
+P 46.23 R 34.36 F 39.42 BP 85.18 BR 60.98 BF 71.08 LP 13.38 LR 51.95 LF 21.28
+Test set after 14000 sentences of training 
+P 46.08 R 34.2 F 39.26 BP 85.15 BR 60.84 BF 70.97 LP 13.29 LR 51.95 LF 21.16
+Test set after 14500 sentences of training 
+P 45.94 R 34.06 F 39.12 BP 85.13 BR 60.76 BF 70.91 LP 13.11 LR 51.95 LF 20.94
+Test set after 15000 sentences of training 
+P 45.87 R 33.98 F 39.04 BP 85.12 BR 60.7 BF 70.87 LP 13.03 LR 51.95 LF 20.83
+Test set after 15500 sentences of training 
+P 45.85 R 33.96 F 39.02 BP 85.12 BR 60.68 BF 70.85 LP 13.11 LR 51.95 LF 20.94
+Test set after 16000 sentences of training 
+P 45.79 R 33.89 F 38.95 BP 85.11 BR 60.63 BF 70.81 LP 13.11 LR 51.95 LF 20.94
+Test set after 16500 sentences of training 
+P 45.71 R 33.82 F 38.88 BP 85.09 BR 60.61 BF 70.79 LP 13.07 LR 51.95 LF 20.89
+Test set after 17000 sentences of training 
+P 45.71 R 33.82 F 38.87 BP 85.09 BR 60.6 BF 70.78 LP 12.99 LR 51.95 LF 20.78
+Test set after 17500 sentences of training 
+P 45.67 R 33.77 F 38.83 BP 85.08 BR 60.55 BF 70.75 LP 12.82 LR 51.95 LF 20.57
+Test set after 18000 sentences of training 
+P 45.61 R 33.71 F 38.77 BP 85.07 BR 60.51 BF 70.72 LP 12.54 LR 51.95 LF 20.2
+Test set after 18500 sentences of training 
+P 45.52 R 33.61 F 38.67 BP 85.07 BR 60.44 BF 70.67 LP 12.5 LR 51.95 LF 20.15
+Test set after 19000 sentences of training 
+P 45.36 R 33.46 F 38.51 BP 85.04 BR 60.35 BF 70.6 LP 12.38 LR 51.95 LF 20
+Test set after 19500 sentences of training 
+P 45.3 R 33.4 F 38.45 BP 85.03 BR 60.3 BF 70.56 LP 12.38 LR 51.95 LF 20
+Test set after 20000 sentences of training 
+P 45.27 R 33.37 F 38.42 BP 85.03 BR 60.29 BF 70.55 LP 12.31 LR 51.95 LF 19.9
+Test set after 20500 sentences of training 
+P 45.26 R 33.35 F 38.4 BP 85.03 BR 60.27 BF 70.54 LP 12.31 LR 51.95 LF 19.9
+Test set after 21000 sentences of training 
+P 45.16 R 33.25 F 38.3 BP 85.01 BR 60.2 BF 70.48 LP 12.23 LR 51.95 LF 19.8
+Test set after 21500 sentences of training 
+P 45.13 R 33.21 F 38.26 BP 85 BR 60.15 BF 70.45 LP 12.23 LR 51.95 LF 19.8
+Test set after 22000 sentences of training 
+P 45.08 R 33.16 F 38.21 BP 84.99 BR 60.11 BF 70.42 LP 12.16 LR 51.95 LF 19.7
+Test set after 22500 sentences of training 
+P 45.05 R 33.12 F 38.18 BP 84.98 BR 60.09 BF 70.4 LP 12.01 LR 51.95 LF 19.51
+Test set after 23000 sentences of training 
+P 45.01 R 33.08 F 38.13 BP 84.98 BR 60.06 BF 70.38 LP 11.98 LR 51.95 LF 19.46
+Test set after 23500 sentences of training 
+P 44.98 R 33.05 F 38.11 BP 84.98 BR 60.04 BF 70.36 LP 11.98 LR 51.95 LF 19.46
+Test set after 24000 sentences of training 
+P 44.98 R 33.03 F 38.09 BP 84.97 BR 59.99 BF 70.33 LP 11.9 LR 51.95 LF 19.37
+Test set after 24500 sentences of training 
+P 44.92 R 32.97 F 38.03 BP 84.96 BR 59.94 BF 70.29 LP 11.83 LR 51.95 LF 19.28
+Test set after 25000 sentences of training 
+P 44.91 R 32.96 F 38.02 BP 84.96 BR 59.94 BF 70.29 LP 11.83 LR 51.95 LF 19.28
+Test set after 25500 sentences of training 
+P 44.85 R 32.89 F 37.95 BP 84.95 BR 59.89 BF 70.25 LP 11.83 LR 51.95 LF 19.28
+Test set after 26000 sentences of training 
+P 44.81 R 32.85 F 37.91 BP 84.95 BR 59.85 BF 70.23 LP 11.83 LR 51.95 LF 19.28
+Test set after 26500 sentences of training 
+P 44.75 R 32.8 F 37.85 BP 84.94 BR 59.83 BF 70.21 LP 11.83 LR 51.95 LF 19.28
+Test set after 27000 sentences of training 
+P 44.73 R 32.78 F 37.84 BP 84.94 BR 59.84 BF 70.21 LP 11.8 LR 51.95 LF 19.23
+Test set after 27500 sentences of training 
+P 44.69 R 32.74 F 37.8 BP 84.93 BR 59.8 BF 70.18 LP 11.7 LR 51.95 LF 19.09
+Test set after 28000 sentences of training 
+P 44.61 R 32.64 F 37.7 BP 84.91 BR 59.71 BF 70.12 LP 11.36 LR 51.95 LF 18.65
+P 46.1 R 27.51 F 34.46 BP 90.38 BR 50.06 BF 64.43 LP 0.4221 LR 94.81 LF 0.8404
+final posterior = -913182

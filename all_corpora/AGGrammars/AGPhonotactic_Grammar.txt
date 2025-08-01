@@ -1,0 +1,188 @@
+Utterance --> Words
+1 1 Words --> WordT Words
+1 1 Words --> WordT
+WordT --> Word
+1 1 Word --> S
+1 1 Word --> SyllIF
+1 1 Word --> SyllI SyllF
+1 1 Word --> SyllI SyllsM SyllF
+1 1 SyllsM --> SyllM SyllsM
+1 1 SyllsM --> SyllM
+1 1 SyllIF --> OnsetI RhymeF
+1 1 SyllIF --> RhymeF 
+1 1 SyllI --> OnsetI Rhyme
+1 1 SyllI --> Rhyme
+1 1 SyllF --> Onset RhymeF
+1 1 SyllF --> RhymeF
+1 1 SyllM --> Onset Rhyme
+1 1 SyllM --> Rhyme
+1 1 RhymeF --> Nucleus CodaF
+1 1 RhymeF --> NucleusF
+1 1 Rhyme --> Nucleus Coda
+1 1 Rhyme --> Nucleus
+OnsetI --> SegmentsFromInitialOnset
+Onset --> SegmentsFromOnset
+Coda --> SegmentsFromCoda
+CodaF --> SegmentsFromFinalCoda
+Nucleus --> SegmentsFromNucleus
+NucleusF --> SegmentsFromFinalNucleus
+1 1 SegmentsFromInitialOnset --> SegmentFromInitialOnset SegmentsFromInitialOnset
+1 1 SegmentsFromInitialOnset --> SegmentFromInitialOnset
+1 1 SegmentsFromOnset --> SegmentFromOnset SegmentsFromOnset
+1 1 SegmentsFromOnset --> SegmentFromOnset
+1 1 SegmentsFromCoda --> SegmentFromCoda SegmentsFromCoda
+1 1 SegmentsFromCoda --> SegmentFromCoda
+1 1 SegmentsFromFinalCoda --> SegmentFromFinalCoda SegmentsFromFinalCoda
+1 1 SegmentsFromFinalCoda --> SegmentFromFinalCoda
+1 1 SegmentsFromNucleus --> SegmentFromNucleus SegmentsFromNucleus
+1 1 SegmentsFromNucleus --> SegmentFromNucleus
+1 1 SegmentsFromFinalNucleus --> SegmentFromFinalNucleus SegmentsFromFinalNucleus
+1 1 SegmentsFromFinalNucleus --> SegmentFromFinalNucleus
+1 1 SegmentFromInitialOnset --> p
+1 1 SegmentFromInitialOnset --> t
+1 1 SegmentFromInitialOnset --> k
+1 1 SegmentFromInitialOnset --> b
+1 1 SegmentFromInitialOnset --> d
+1 1 SegmentFromInitialOnset --> g
+1 1 SegmentFromInitialOnset --> C
+1 1 SegmentFromInitialOnset --> J
+1 1 SegmentFromInitialOnset --> s
+1 1 SegmentFromInitialOnset --> S
+1 1 SegmentFromInitialOnset --> z
+1 1 SegmentFromInitialOnset --> Z
+1 1 SegmentFromInitialOnset --> f
+1 1 SegmentFromInitialOnset --> T
+1 1 SegmentFromInitialOnset --> v
+1 1 SegmentFromInitialOnset --> D
+1 1 SegmentFromInitialOnset --> h
+1 1 SegmentFromInitialOnset --> m
+1 1 SegmentFromInitialOnset --> n
+1 1 SegmentFromInitialOnset --> G
+1 1 SegmentFromInitialOnset --> N
+1 1 SegmentFromInitialOnset --> M
+1 1 SegmentFromInitialOnset --> L
+1 1 SegmentFromInitialOnset --> l
+1 1 SegmentFromInitialOnset --> r
+1 1 SegmentFromInitialOnset --> w
+1 1 SegmentFromInitialOnset --> j
+1 1 SegmentFromInitialOnset --> y
+1 1 SegmentFromOnset --> p
+1 1 SegmentFromOnset --> t
+1 1 SegmentFromOnset --> k
+1 1 SegmentFromOnset --> b
+1 1 SegmentFromOnset --> d
+1 1 SegmentFromOnset --> g
+1 1 SegmentFromOnset --> C
+1 1 SegmentFromOnset --> J
+1 1 SegmentFromOnset --> s
+1 1 SegmentFromOnset --> S
+1 1 SegmentFromOnset --> z
+1 1 SegmentFromOnset --> Z
+1 1 SegmentFromOnset --> f
+1 1 SegmentFromOnset --> T
+1 1 SegmentFromOnset --> v
+1 1 SegmentFromOnset --> D
+1 1 SegmentFromOnset --> h
+1 1 SegmentFromOnset --> m
+1 1 SegmentFromOnset --> n
+1 1 SegmentFromOnset --> G
+1 1 SegmentFromOnset --> N
+1 1 SegmentFromOnset --> M
+1 1 SegmentFromOnset --> L
+1 1 SegmentFromOnset --> l
+1 1 SegmentFromOnset --> r
+1 1 SegmentFromOnset --> w
+1 1 SegmentFromOnset --> j
+1 1 SegmentFromOnset --> y
+1 1 SegmentFromCoda --> p
+1 1 SegmentFromCoda --> t
+1 1 SegmentFromCoda --> k
+1 1 SegmentFromCoda --> b
+1 1 SegmentFromCoda --> d
+1 1 SegmentFromCoda --> g
+1 1 SegmentFromCoda --> C
+1 1 SegmentFromCoda --> J
+1 1 SegmentFromCoda --> s
+1 1 SegmentFromCoda --> S
+1 1 SegmentFromCoda --> z
+1 1 SegmentFromCoda --> Z
+1 1 SegmentFromCoda --> f
+1 1 SegmentFromCoda --> T
+1 1 SegmentFromCoda --> v
+1 1 SegmentFromCoda --> D
+1 1 SegmentFromCoda --> h
+1 1 SegmentFromCoda --> m
+1 1 SegmentFromCoda --> n
+1 1 SegmentFromCoda --> G
+1 1 SegmentFromCoda --> N
+1 1 SegmentFromCoda --> M
+1 1 SegmentFromCoda --> L
+1 1 SegmentFromCoda --> l
+1 1 SegmentFromCoda --> r
+1 1 SegmentFromCoda --> w
+1 1 SegmentFromCoda --> j
+1 1 SegmentFromCoda --> y
+1 1 SegmentFromFinalCoda --> p
+1 1 SegmentFromFinalCoda --> t
+1 1 SegmentFromFinalCoda --> k
+1 1 SegmentFromFinalCoda --> b
+1 1 SegmentFromFinalCoda --> d
+1 1 SegmentFromFinalCoda --> g
+1 1 SegmentFromFinalCoda --> C
+1 1 SegmentFromFinalCoda --> J
+1 1 SegmentFromFinalCoda --> s
+1 1 SegmentFromFinalCoda --> S
+1 1 SegmentFromFinalCoda --> z
+1 1 SegmentFromFinalCoda --> Z
+1 1 SegmentFromFinalCoda --> f
+1 1 SegmentFromFinalCoda --> T
+1 1 SegmentFromFinalCoda --> v
+1 1 SegmentFromFinalCoda --> D
+1 1 SegmentFromFinalCoda --> h
+1 1 SegmentFromFinalCoda --> m
+1 1 SegmentFromFinalCoda --> n
+1 1 SegmentFromFinalCoda --> G
+1 1 SegmentFromFinalCoda --> N
+1 1 SegmentFromFinalCoda --> M
+1 1 SegmentFromFinalCoda --> L
+1 1 SegmentFromFinalCoda --> l
+1 1 SegmentFromFinalCoda --> r
+1 1 SegmentFromFinalCoda --> w
+1 1 SegmentFromFinalCoda --> j
+1 1 SegmentFromFinalCoda --> y
+1 1 SegmentFromFinalNucleus --> i
+1 1 SegmentFromFinalNucleus --> I
+1 1 SegmentFromFinalNucleus --> E
+1 1 SegmentFromFinalNucleus --> e
+1 1 SegmentFromFinalNucleus --> @
+1 1 SegmentFromFinalNucleus --> a
+1 1 SegmentFromFinalNucleus --> W
+1 1 SegmentFromFinalNucleus --> Y
+1 1 SegmentFromFinalNucleus --> ^
+1 1 SegmentFromFinalNucleus --> c
+1 1 SegmentFromFinalNucleus --> O
+1 1 SegmentFromFinalNucleus --> o
+1 1 SegmentFromFinalNucleus --> U
+1 1 SegmentFromFinalNucleus --> u
+1 1 SegmentFromFinalNucleus --> R
+1 1 SegmentFromFinalNucleus --> x
+1 1 SegmentFromFinalNucleus --> |
+1 1 SegmentFromFinalNucleus --> X
+1 1 SegmentFromNucleus --> i
+1 1 SegmentFromNucleus --> I
+1 1 SegmentFromNucleus --> E
+1 1 SegmentFromNucleus --> e
+1 1 SegmentFromNucleus --> @
+1 1 SegmentFromNucleus --> a
+1 1 SegmentFromNucleus --> W
+1 1 SegmentFromNucleus --> Y
+1 1 SegmentFromNucleus --> ^
+1 1 SegmentFromNucleus --> c
+1 1 SegmentFromNucleus --> O
+1 1 SegmentFromNucleus --> o
+1 1 SegmentFromNucleus --> U
+1 1 SegmentFromNucleus --> u
+1 1 SegmentFromNucleus --> R
+1 1 SegmentFromNucleus --> x
+1 1 SegmentFromNucleus --> |
+1 1 SegmentFromNucleus --> X

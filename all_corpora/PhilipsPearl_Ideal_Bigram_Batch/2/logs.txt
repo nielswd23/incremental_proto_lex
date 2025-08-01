@@ -1,0 +1,138 @@
+# particle, Tue Jan 24 06:42:23 2023
+# debug-level=100
+# data-file=/opt/dpseg/myfiles/Prepped.txt
+# data-start-index=0
+# data-num-sents=0
+# eval-file=none
+# eval-start-index=0
+# eval-num-sents=0
+# eval-maximize=1
+# eval-interval=500
+# output-file=                            /opt/dpseg/myfiles/Model.txt
+# estimator= F
+# decay_rate=1
+# samples_per_utt=1000
+# mode=     batch
+# ngram=2
+# do_mbdp=0
+# a1=0
+# b1=1
+# a2=0
+# b2=90
+# Pstop=0.5
+# hypersamp-ratio=0
+# aeos=2
+# init_pboundary=0.5
+# pya-beta-a=1
+# pya-beta-b=1
+# pyb-gamma-s=10
+# pyb-gamma-c=0.1
+# randseed=2
+# trace-every=2000
+# nsubjects=1
+# forget-rate=0
+# burnin-iterations=20000
+# anneal-iterations=20000
+# anneal-start-temperature=10
+# anneal-stop-temperature=1
+# anneal-a=10
+# anneal-b=0.2
+# result-field-separator=	
+# nchartypes=42
+# nsentences=28391
+initial probability = -1.4728e+06
+#Iter	Temp	-logP	a1	b1	Pstop	a2	b2
+0	0	1.4728e+06	0	1	-1	0	90 P 46.1 R 27.51 F 34.46 BP 90.38 BR 50.06 BF 64.43 LP 0.4221 LR 94.81 LF 0.8404
+Test set after 500 iterations of training 
+P 21.6 R 10.34 F 13.99 BP 85.25 BR 36.09 BF 50.71 LP 1.091 LR 94.81 LF 2.157
+Test set after 1000 iterations of training 
+P 21.73 R 10.43 F 14.1 BP 85 BR 36.1 BF 50.67 LP 1.063 LR 90.91 LF 2.101
+Test set after 1500 iterations of training 
+P 21.62 R 10.39 F 14.03 BP 84.97 BR 36.11 BF 50.69 LP 1.131 LR 92.21 LF 2.235
+Test set after 2000 iterations of training 
+P 21.83 R 10.43 F 14.12 BP 85.9 BR 36.26 BF 50.99 LP 1.184 LR 92.21 LF 2.339
+2000	8.46939	1.19021e+06	0	1	-1	0	90 P 46.54 R 30.09 F 36.55 BP 90.68 BR 55.21 BF 68.64 LP 0.9842 LR 96.1 LF 1.948
+Test set after 2500 iterations of training 
+P 21.02 R 10.1 F 13.64 BP 85.03 BR 36.13 BF 50.71 LP 1.234 LR 92.21 LF 2.436
+Test set after 3000 iterations of training 
+P 20.74 R 10.08 F 13.57 BP 84.44 BR 36.42 BF 50.89 LP 1.362 LR 93.51 LF 2.685
+Test set after 3500 iterations of training 
+P 20.18 R 9.932 F 13.31 BP 84.07 BR 36.82 BF 51.21 LP 1.45 LR 92.21 LF 2.855
+Test set after 4000 iterations of training 
+P 20.27 R 10.06 F 13.44 BP 84.03 BR 37.16 BF 51.53 LP 1.564 LR 90.91 LF 3.076
+4000	6.10753	1.11809e+06	0	1	-1	0	90 P 45.69 R 29.8 F 36.07 BP 90.47 BR 55.64 BF 68.9 LP 1.349 LR 93.51 LF 2.66
+Test set after 4500 iterations of training 
+P 20.72 R 10.29 F 13.75 BP 84.14 BR 37.24 BF 51.63 LP 1.779 LR 90.91 LF 3.49
+Test set after 5000 iterations of training 
+P 19.97 R 9.87 F 13.21 BP 83.63 BR 36.82 BF 51.13 LP 2.029 LR 90.91 LF 3.969
+Test set after 5500 iterations of training 
+P 18.99 R 9.352 F 12.53 BP 82.58 BR 36.2 BF 50.34 LP 2.336 LR 90.91 LF 4.556
+Test set after 6000 iterations of training 
+P 18.01 R 8.832 F 11.85 BP 81.06 BR 35.34 BF 49.22 LP 2.679 LR 89.61 LF 5.202
+6000	3.74567	977840	0	1	-1	0	90 P 41.56 R 26.12 F 32.08 BP 88.99 BR 52.4 BF 65.96 LP 2.436 LR 90.91 LF 4.746
+Test set after 6500 iterations of training 
+P 17.32 R 8.339 F 11.26 BP 79.84 BR 34.03 BF 47.72 LP 2.828 LR 83.12 LF 5.47
+Test set after 7000 iterations of training 
+P 16.43 R 7.788 F 10.57 BP 78.58 BR 32.84 BF 46.32 LP 3.036 LR 80.52 LF 5.852
+Test set after 7500 iterations of training 
+P 15.63 R 7.265 F 9.919 BP 77.31 BR 31.52 BF 44.78 LP 3.105 LR 76.62 LF 5.969
+Test set after 8000 iterations of training 
+P 15.13 R 6.926 F 9.501 BP 76.83 BR 30.73 BF 43.9 LP 3.206 LR 74.03 LF 6.146
+8000	2.21505	745057	0	1	-1	0	90 P 27.57 R 14.33 F 18.86 BP 82.37 BR 38.59 BF 52.56 LP 3.22 LR 75.32 LF 6.177
+Test set after 8500 iterations of training 
+P 14.83 R 6.782 F 9.306 BP 75.82 BR 30.29 BF 43.29 LP 3.02 LR 66.23 LF 5.776
+Test set after 9000 iterations of training 
+P 13.67 R 6.205 F 8.535 BP 75.02 BR 29.69 BF 42.54 LP 2.836 LR 59.74 LF 5.415
+Test set after 9500 iterations of training 
+P 13.94 R 6.354 F 8.73 BP 74.89 BR 29.78 BF 42.61 LP 2.864 LR 58.44 LF 5.461
+Test set after 10000 iterations of training 
+P 13.38 R 6.052 F 8.335 BP 74.3 BR 29.25 BF 41.98 LP 2.684 LR 54.55 LF 5.116
+10000	1.48136	642106	0	1	-1	0	90 P 15.24 R 7.032 F 9.623 BP 75.46 BR 30.49 BF 43.43 LP 2.689 LR 54.55 LF 5.125
+Test set after 10500 iterations of training 
+P 12.75 R 5.757 F 7.932 BP 73.99 BR 29.08 BF 41.75 LP 2.678 LR 53.25 LF 5.1
+Test set after 11000 iterations of training 
+P 12.74 R 5.75 F 7.924 BP 74.02 BR 29.08 BF 41.75 LP 2.696 LR 53.25 LF 5.131
+Test set after 11500 iterations of training 
+P 12.52 R 5.644 F 7.78 BP 73.97 BR 29.02 BF 41.68 LP 2.703 LR 53.25 LF 5.144
+Test set after 12000 iterations of training 
+P 12.85 R 5.799 F 7.992 BP 73.97 BR 29.05 BF 41.71 LP 2.71 LR 53.25 LF 5.157
+12000	1.18043	623877	0	1	-1	0	90 P 13.13 R 5.968 F 8.206 BP 74.03 BR 29.33 BF 42.02 LP 2.703 LR 53.25 LF 5.144
+Test set after 12500 iterations of training 
+P 13.06 R 5.913 F 8.141 BP 73.78 BR 29.1 BF 41.74 LP 2.649 LR 51.95 LF 5.041
+Test set after 13000 iterations of training 
+P 13.14 R 5.949 F 8.19 BP 73.72 BR 29.08 BF 41.7 LP 2.721 LR 53.25 LF 5.177
+Test set after 13500 iterations of training 
+P 13.15 R 5.957 F 8.201 BP 73.76 BR 29.1 BF 41.73 LP 2.713 LR 53.25 LF 5.164
+Test set after 14000 iterations of training 
+P 13.06 R 5.908 F 8.135 BP 73.76 BR 29.05 BF 41.69 LP 2.728 LR 53.25 LF 5.19
+14000	1.06499	621266	0	1	-1	0	90 P 13.23 R 6.008 F 8.263 BP 73.83 BR 29.23 BF 41.88 LP 2.722 LR 53.25 LF 5.18
+Test set after 14500 iterations of training 
+P 12.79 R 5.773 F 7.955 BP 73.66 BR 28.94 BF 41.55 LP 2.728 LR 53.25 LF 5.19
+Test set after 15000 iterations of training 
+P 12.84 R 5.798 F 7.989 BP 73.68 BR 28.94 BF 41.56 LP 2.654 LR 51.95 LF 5.051
+Test set after 15500 iterations of training 
+P 12.93 R 5.843 F 8.05 BP 73.73 BR 28.99 BF 41.62 LP 2.742 LR 53.25 LF 5.216
+Test set after 16000 iterations of training 
+P 12.77 R 5.759 F 7.938 BP 73.66 BR 28.91 BF 41.53 LP 2.739 LR 53.25 LF 5.21
+16000	1.02185	620282	0	1	-1	0	90 P 12.96 R 5.869 F 8.079 BP 73.74 BR 29.09 BF 41.72 LP 2.733 LR 53.25 LF 5.2
+Test set after 16500 iterations of training 
+P 12.76 R 5.759 F 7.937 BP 73.68 BR 28.93 BF 41.54 LP 2.735 LR 53.25 LF 5.203
+Test set after 17000 iterations of training 
+P 12.86 R 5.808 F 8.003 BP 73.7 BR 28.97 BF 41.6 LP 2.67 LR 51.95 LF 5.079
+Test set after 17500 iterations of training 
+P 12.76 R 5.762 F 7.939 BP 73.65 BR 28.94 BF 41.55 LP 2.742 LR 53.25 LF 5.216
+Test set after 18000 iterations of training 
+P 12.69 R 5.726 F 7.892 BP 73.66 BR 28.91 BF 41.52 LP 2.739 LR 53.25 LF 5.21
+18000	1.00588	619829	0	1	-1	0	90 P 12.84 R 5.808 F 7.998 BP 73.7 BR 29.04 BF 41.66 LP 2.732 LR 53.25 LF 5.196
+Test set after 18500 iterations of training 
+P 12.83 R 5.796 F 7.985 BP 73.67 BR 28.96 BF 41.57 LP 2.748 LR 53.25 LF 5.226
+Test set after 19000 iterations of training 
+P 12.77 R 5.762 F 7.941 BP 73.67 BR 28.93 BF 41.55 LP 2.748 LR 53.25 LF 5.226
+Test set after 19500 iterations of training 
+P 12.79 R 5.775 F 7.958 BP 73.68 BR 28.96 BF 41.58 LP 2.742 LR 53.25 LF 5.216
+Test set after 20000 iterations of training 
+P 12.83 R 5.79 F 7.978 BP 73.66 BR 28.94 BF 41.56 LP 2.75 LR 53.25 LF 5.23
+20000	1	619998	0	1	-1	0	90 P 12.99 R 5.881 F 8.096 BP 73.71 BR 29.08 BF 41.71 LP 2.742 LR 53.25 LF 5.216
+hyperparm accept rate: (-nan -nan -nan -nan) (during annealing), (-nan -nan -nan -nan) (after)
+P 12.99 R 5.881 F 8.096 BP 73.71 BR 29.08 BF 41.71 LP 2.742 LR 53.25 LF 5.216
+final posterior = -619998

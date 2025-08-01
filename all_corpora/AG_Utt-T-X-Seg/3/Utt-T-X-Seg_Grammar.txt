@@ -1,0 +1,55 @@
+1 1 Utterance --> Words
+1 1 Words --> Word Words
+1 1 Words --> Word
+Word --> Morphemes
+1 1 Morphemes --> Morpheme
+1 1 Morphemes --> Morpheme Morphemes
+Morpheme --> Segments
+1 1 Segments --> Segment
+1 1 Segments --> Segment Segments
+1 1 Segment --> p
+1 1 Segment --> t
+1 1 Segment --> k
+1 1 Segment --> b
+1 1 Segment --> d
+1 1 Segment --> g
+1 1 Segment --> C
+1 1 Segment --> J
+1 1 Segment --> s
+1 1 Segment --> S
+1 1 Segment --> z
+1 1 Segment --> Z
+1 1 Segment --> f
+1 1 Segment --> T
+1 1 Segment --> v
+1 1 Segment --> D
+1 1 Segment --> h
+1 1 Segment --> m
+1 1 Segment --> n
+1 1 Segment --> G
+1 1 Segment --> N
+1 1 Segment --> M
+1 1 Segment --> L
+1 1 Segment --> l
+1 1 Segment --> r
+1 1 Segment --> w
+1 1 Segment --> j
+1 1 Segment --> y
+1 1 Segment --> i
+1 1 Segment --> I
+1 1 Segment --> E
+1 1 Segment --> e
+1 1 Segment --> @
+1 1 Segment --> a
+1 1 Segment --> W
+1 1 Segment --> Y
+1 1 Segment --> ^
+1 1 Segment --> c
+1 1 Segment --> O
+1 1 Segment --> o
+1 1 Segment --> U
+1 1 Segment --> u
+1 1 Segment --> R
+1 1 Segment --> x
+1 1 Segment --> |
+1 1 Segment --> X

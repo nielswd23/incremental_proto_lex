@@ -1,0 +1,4768 @@
+weight,feature
+-0.49032,sigmoid( Pstop )
+3.03227,U h i
+7.77167,U h i r
+7.49748,U D ^
+2.07247,U ^
+7.95021,U I t
+4.37638,U D ^ k I t i
+5.86174,U k I t i
+2.60861,U c
+4.35068,U c r
+5.58418,U m c r g i
+2.61376,U m i
+7.11876,U w ^ n
+7.23579,U w ^ n t
+1.49783,U W
+4.29851,U W t
+2.95632,U o
+11.2826,U o k e
+0.268096,U e
+5.59835,U I z
+7.86489,U w ^ t
+7.15834,U w ^ t s
+8.68247,U g ^ n x
+6.29742,U d u
+0.140326,U u
+5.27155,U o n o
+6.10773,U n o
+6.22615,U n o n o
+5.27687,U i t
+5.48327,U i t I G
+1.88723,U d c g
+3.954,U w ^ z
+10.6564,U D @ t
+9.59029,U y u
+3.06085,U s I t
+8.33358,U J ^ s t
+6.42092,U f c r
+0.787264,U Y
+4.91925,U e m Y n u t
+3.81046,U o k i d o k i
+3.84476,U y R
+6.33776,U ^ o
+6.3349,U d I d
+4.43421,U s I t d W n
+5.76119,U d W n
+1.71543,U a
+3.56766,U a n
+8.21028,U w a n x
+9.40396,U D @ t s
+3.15003,U s o
+3.6174,U D E n
+5.47238,U k ^ m
+2.97808,U ^ m
+6.53334,U k ^ m h i r
+8.36322,U g E t
+3.36645,U m a m
+7.64839,U m a m i
+6.58857,U k ^ m a n
+5.86361,U g o
+6.35831,U I z D @ t
+0.636466,U s E d
+1.81304,U S
+6.57657,U p U t
+4.97922,U ^ p
+9.37779,U y u r
+4.06946,U g U d
+2.91151,U g U d g R l
+4.04613,U l E t
+8.23074,U l E t s
+2.34922,U w c k
+3.81772,U D e
+7.46878,U D e r
+4.4647,U D e r y u g o
+2.07874,U b I g
+5.3308,U a r
+8.56165,U l I t x l
+0.998296,U b u
+1.16238,U b u m
+8.03339,U W ^ t C x
+7.19463,U d u I G
+1.90209,U h R t
+9.19463,U a r y u
+6.54097,U l U k
+6.04007,U l U k @ t
+3.43716,U s t @ n d
+11.3092,U @ n d
+1.5354,U s t @ n d I G
+5.48039,U s e
+0.480988,U s e I G
+1.62318,U t c k
+2.15459,U t c k I G
+7.65065,U x b W t
+2.53171,U c l
+1.22116,U h E v i
+0.587234,U l I t x l g R l
+5.81388,U n W
+4.91714,U w i
+4.69579,U w i r
+6.06788,U w i r g ^ n x
+6.508,U h @ v
+6.91927,U h @ v t u
+6.7939,U t u
+4.99762,U t e k
+8.24562,U D I s
+4.62755,U s t ^ f
+1.75799,U d W n s t e r z
+4.99455,U d u y u s i
+4.42128,U s i
+5.45742,U s e h Y
+2.93931,U h Y
+8.09792,U y U r
+3.17637,U b e b
+6.53298,U b e b i
+1.02585,U b i
+4.20588,U I n
+1.43554,U I n D ^ m I r R
+1.75358,U w e
+6.0188,U w e r
+5.79493,U w e r z
+5.4508,U D e r z
+7.37567,U x g E n
+3.45618,U E v r i w e r
+3.38021,U b E t R
+2.52284,U w o
+5.32816,U m a m i z
+9.15116,U k @ n
+6.9258,U k @ n t
+2.3792,U Y m
+0.955018,U Y m s a r i
+0.180164,U s a r i
+6.24599,U p l e
+6.72478,U p l e w I D
+5.49318,U w I D
+2.38531,U m c r g i z
+4.26567,U b a t x l
+2.34918,U l ^ v
+4.7134,U w c t R
+5.56551,U g a t
+7.71669,U g a t x
+3.93331,U d r I G k
+2.17948,U l a t s ^ v
+4.90476,U t x d e
+5.49529,U s ^ m
+2.48336,U s ^ m J u s
+2.30702,U J u s
+1.65953e-05,U t O
+4.27869,U p r I t i
+3.01967,U t e s t
+1.26438,U t e s t i
+6.51679,U l Y k
+6.06258,U e l I t x l
+2.06399,U s R k x l
+3.76111,U h ^
+6.18771,U d @ d @
+6.56972,U n a t
+4.08378,U w E n
+4.90568,U b @ k
+3.20796,U w I l
+1.93261,U f o r
+3.52057,U r E d
+1.72258,U s I G
+0.0284655,U y E l o s R k x l
+9.79093,U I t s
+2.95279,U m I s t R
+0.395276,U g o z
+7.44342,U Y d o n t
+8.06279,U d o n t
+5.83553,U b x k c z
+3.79335,U c l m o s t
+3.44175,U v E r i g U d
+4.72548,U w E l
+1.42538,U c f
+4.65815,U D E m
+3.45092,U w Y
+7.23243,U o p x n
+4.40926,U Y m n a t
+2.79415,U p ^ t I G
+3.47811,U T I G
+6.86271,U I n D e r
+1.42021,U f Y v
+3.72224,U T r i
+0.239991,U b ^ m p
+0.506464,U h E d
+3.78012,U D ^ ^ D R
+1.61789,U ^ p s Y d d W n
+3.79079,U w o n t
+1.84434,U E n i
+6.24692,U W t ^ v
+6.09647,U Y m g ^ n x
+0.740762,U Y l
+2.51743,U T R s t i
+3.85706,U h o l d
+0.832155,U p I g l I t
+0.150793,U O G k O G k O G k
+2.89227,U l U k I G
+1.1354,U l U k I G @ t
+6.55657,U g o I G
+1.39218,U p U l
+4.40771,U h I m
+2.43839,U D o z
+3.50133,U D o z a r
+4.1431,U b U k
+4.36273,U t Y
+3.40763,U t Y r d
+4.5388,U r E d i
+4.61301,U m o r
+3.18134,U t Y m
+3.76089,U t R n
+4.78872,U I z I n t
+3.67626,U C u a n
+6.75367,U o v R
+6.03562,U m o r g I n
+2.9581,U m o r g I n z
+3.10782,U C u I G a n
+1.96177,U n e
+2.7498,U h i z
+4.40008,U f r ^ m
+2.55812,U m u v
+4.19527,U b ^ t
+3.93558,U w a C
+0.117778,U h u
+2.3,U h u z
+5.10688,U y E s
+2.98541,U s I l i
+3.35647,U D ^ d o r
+2.84282,U I f
+2.89197,U w c S
+4.04971,U d c g i
+3.86252,U D e r w i g o
+5.15907,U w i l
+5.32103,U h E l o
+3.47785,U f ^ n
+3.47978,U f ^ n i
+1.4362,U f I n I S
+1.3744,U f I n I S t
+2.4085,U k a r
+5.0283,U k ^ m b @ k
+1.12958,U m i W
+6.26571,U W t s Y d
+2.96865,U b c l
+3.94688,U b r I s k o
+3.31977,U d @ d i
+2.63174,U y ^ m i
+2.50102,U y ^ m i y ^ m i
+5.09593,U T @ G k y u
+5.138,U r Y t
+4.1436,U n i d
+1.42607,U h W
+0.0425805,U E v r i b a d i
+4.44691,U s t I l
+2.91684,U h @ z g a t
+5.61772,U t r Y
+5.02009,U D ^ b c l
+0.911645,U w W
+3.31177,U d ^ z
+1.77814,U s t a r
+3.0233,U h e
+1.85167,U w ^ z I n t
+1.35177,U m ^ s t
+2.27843,U s I k s
+3.26642,U s n @ p
+0.682323,U a n D ^ f l o r
+1.96355,U w u p s
+3.2894,U u p s
+6.18428,U t r Y I G t u
+3.05886,U s t @ n d ^ p
+5.52508,U x r W n d
+3.49977,U r W n d
+2.17852,U ^ n d R
+1.65812,U k W
+0.668771,U W C
+3.40757,U n ^ T I G
+2.54502,U s l i p
+4.65572,U D ^ b U k
+5.60343,U E l m o
+3.69965,U l E m i
+4.36825,U e l I t x l b I t
+4.16857,U b @ s k I t
+2.23261,U D ^ w I n d o
+4.17231,U h i r w i g o
+7.08768,U Y n o
+1.72042,U s w i t
+3.75135,U s w i t i
+2.55333,U a r n t
+4.41221,U Y g a t
+4.67193,U k o l d
+5.13328,U s ^ m m o r
+2.02982,U n Y s
+0.794896,U S S S
+2.30079,U m e k
+2.88818,U T r o
+0.470941,U n o z
+1.53357,U l ^ n C
+1.60101,U b Y t
+1.16576,U b Y t m i
+1.07534,U t E l
+4.60616,U d Y p R
+4.02485,U C e n J
+4.61252,U m e b i
+1.80294,U r E s t
+4.09943,U p @ n t s
+3.75694,U s e b Y b Y
+4.13757,U b Y b Y
+1.03339,U l E t g o ^ v
+1.89255,U r o l o v R
+2.30543,U f c l
+6.21797,U c l r Y t
+0.819244,U b @ d
+0.635992,U d r E s t
+2.80209,U k r Y
+0.361929,U k r Y I G
+0.718682,U l E g z
+3.20881,U l e d W n
+4.21932,U x n ^ D R
+2.79052,U m Y k r x f o n
+2.33807,U x m
+5.02767,U h i r z
+6.20373,U r i x l i
+1.42674,U y ^ m y ^ m
+4.9304,U n o p
+3.80086,U l c n d r i
+1.80128,U b ^ n i
+3.45802,U w I C w ^ n
+1.49036,U D ^ w Y t
+4.53396,U d ^ z x n t
+3.38546,U s p u n
+3.43424,U h W x b W t
+3.72347,U C I k I n
+1.93482,U k @ r I t s
+0.174195,U p x t e t o z
+3.37978,U E v r i T I G
+5.16703,U T I G k
+3.08573,U b e b i z
+2.97915,U Y d I d x n t
+4.43986,U d I d x n t
+0.876112,U m @ k x r o n i
+0.139377,U b Y y U r s E l f
+3.29419,U y U r s E l f
+2.51669,U I n y U r m W T
+2.04067,U y U r m W T
+1.57727,U f R s t
+2.25972,U n u d x l z
+2.82931,U T I G z
+2.95926,U h ^ G g r i
+2.42764,U d r a p t
+1.43869,U m e k I G
+3.16353,U c l g c n
+3.33375,U k U k i
+1.61425,U b x n @ n x
+4.56256,U h @ n d
+4.09633,U h x m
+4.24963,U h @ n d z
+2.82303,U k l i n
+3.44241,U y U r f i t
+0.684291,U h W s
+2.53251,U y e
+5.1792,U Y s i
+4.22654,U f Y n d
+2.98706,U g I v
+4.94482,U h o l d a n
+0.893178,U f W n d
+0.394533,U h e h e h e
+3.51213,U D i z
+4.63571,U k l @ p
+2.28979,U E n i w e
+0.857791,U b O
+3.39009,U m @ n
+1.79913,U s I t I G
+1.92933,U k Y n d ^ v
+3.45019,U E n i T I G
+0.26204,U S i p
+4.86542,U s ^ m T I G
+6.41982,U p i k x b u
+0.311997,U s @ t d W n
+5.7445,U g E t I G
+6.17034,U ^ h ^
+0.0829816,U b W n s b W n s
+5.12151,U Y T I G k
+4.89899,U t w E n t i
+4.93892,U t I k x l
+1.33306,U s a k
+4.10965,U k i p
+2.53521,U f U t
+2.33372,U y u v g a t
+1.89797,U s a k s
+3.28926,U s I t ^ p
+1.02861,U h a t
+4.03044,U k l o s
+1.71356,U f e s
+1.2555,U w E n t ^ p
+2.89302,U p l e I G
+2.33236,U S e k I t
+3.05304,U k r c l
+1.6121,U k y u t
+0.447962,U Y k @ n s i
+1.68647,U h E l p
+3.15791,U J E n t x l
+2.06263,U w ^ t s r c G
+2.43269,U d @ n s
+3.86377,U n i d t u
+2.94407,U d ^ n
+4.00364,U s I r i x l
+2.52792,U @ p x l
+2.50888,U s k w a S
+3.85435,U @ p x l s c s
+1.88335,U k ^ m z
+4.70712,U t x g E D R
+1.61621,U g o l d f I S
+0.787953,U f I S
+0.0601122,U E k s k y u s m i
+2.48075,U m e k S U r
+1.95862,U w e t
+3.57915,U k @ n Y h @ v
+0.448833,U f c l x s l i p
+5.54276,U p i p x l
+2.1436,U I n D ^ k a r
+3.07299,U w ^ n t I d
+0.579753,U s x p o z d t u
+0.963783,U k U d
+2.26022,U p i C I z
+1.88255,U c l m o s t d ^ n
+3.94363,U m I l k
+7.27577,U m a m x
+2.89605,U s w i t h a r t
+2.35341,U p r E s
+0.32408,U p e I G x t E n S
+3.84079,U E n i m o r
+0.0215511,U w U p s x d e z i
+1.0536,U y E p
+2.88571,U t I m
+0.524374,U k W n t
+2.40321,U f I G g R
+0.913841,U I n D ^ h W s
+3.01752,U k ^ m I G
+0.433229,U f E l
+3.65784,U r x m E m b R
+0.503913,U D e r h i I z
+2.69295,U s w i t i p Y
+2.94361,U c l d ^ n
+2.66519,U h ^ n i
+4.35887,U m @ n d i
+3.34992,U p l i z
+0.374913,U s o b I g
+0.166512,U k U k i m a n s t R
+0.172146,U w i n s i s p Y d R
+1.35942,U l a l i p a p
+2.31694,U t E d i b e r
+0.488623,U t ^ C
+1.00736,U k l Y m ^ p
+1.59457,U p u p i
+1.79845,U m a m a m a
+4.12195,U Y l ^ v y u
+0.963813,U f e v x r I t
+1.15394,U m Y f ^ z i
+3.19749,U b l @ G k I t
+2.39475,U D ^ b ^ s
+0.823381,U b x l u g x
+1.42733,U b r W n b e r
+1.1165,U l U k I G @ t m i
+2.00178,U t R n D ^ p e J
+2.08758,U k I t i k @ t
+0.793368,U C I l d r I n
+2.25944,U D ^ E n d
+0.00377699,U c l o v R t W n
+0.190169,U m u v a n b @ k
+0.16359,U b ^ m p I t i
+0.0395041,U l a l a l a
+1.68735,U w ^ t E l s
+4.03329,U l E t m i
+1.58744,U t E l m i
+1.36951,U y U r t ^ G
+2.41744,U k l i n ^ p
+1.05692,U x m h x m
+2.38127,U m i n
+0.363362,U h u I z D @ t
+1.2926,U b i n Y s
+3.40359,U g U d J a b
+0.819697,U T r i f o r
+3.76963,U w I n i D ^ p u
+1.72085,U g I v m i
+0.735315,U w e t e m Y n u t
+0.170279,U s k u l b ^ s
+0.857547,U g o x h E d
+0.190722,U k w @ k k w @ k
+2.17606,U E l x f I n t
+0.814719,U b i k e r f x l
+2.67999,U k e r f x l
+0.221812,U n ^ t b r W n h e r
+0.314848,U D ^ t r i
+3.70586,U s l i p i
+1.50303,U b ^ b x l z
+0.467531,U @ n I m x l z
+1.93012,U m E d I s I n
+2.75443,U p I g i
+1.26811,U C I k i
+2.00219,U x m k e
+0.862294,U b l o I G
+0.480024,U o m Y
+2.28349,U Y l g I v
+5.75768,U d I l x n
+2.44562,U f I G g R z
+2.37155,U g I m i
+0.3212,U h @ G a n
+0.00906791,U o m Y g U d n I s
+1.87631,U f ^ s I G
+1.89466,U e s E k x n d
+2.79591,U l E m i s i
+1.26438,U f c r w R d
+5.67941,U s t a p
+0.901382,U s ^ m T I G E l s
+2.70267,U k r I s m x s
+3.11891,U g U d b O
+1.35829,U h @ p x n d
+1.71288,U Y g E s
+2.3478,U h i g o z
+2.55134,U l e d i
+0.940446,U r Y t s Y d ^ p
+2.70776,U t e s t g U d
+2.39691,U D ^ C e r
+1.03587,U f c r e w c k
+4.42136,U x p a r t
+5.51739,U b r U k l I n
+1.0907,U w e v b Y b Y
+1.23171,U m i n z
+3.9624,U m E s w I D
+0.513006,U D ^ g l @ s
+0.350292,U g I m i k I s
+4.11569,U b I g t o
+2.665,U y U r n e m
+0.546288,U D ^ v @ k y u m
+0.475034,U h i r Y @ m
+0.00254134,U p E G g w I n
+2.52334,U b ^ t R f l Y
+1.35779,U y ^ k i
+0.487084,U w U d y u l Y k
+0.776222,U y E s t R d e
+1.45409,U e g U d b O
+0.914159,U s w i t p i
+0.250931,U w U p s i
+1.21379,U b u b u
+3.11984,U @ l I g z @ n d R
+1.99463,U b u b u n
+2.90531,U b o n i n
+0.214696,U b I G g o w ^ z
+0.160131,U h I z n e m o
+0.7942,U p E g
+0.516775,U t E l x f o n
+4.56237,U k I s I z
+1.67287,U u p s i
+1.68432,U s k w R x l i
+1.54508,U p @ t i k e k
+0.628886,U m u m u S x z
+0.315733,U k ^ t I t W t
+4.21718,U J i z x s
+0.30613,U h i n o z h I z
+4.27216,U @ l I n
+0.525288,U Y m f I k s I G
+4.42687,U t Y r i s
+2.50254,U p o k i m a n
+0.213418,U s t I G k i f i t
+2.30262,U t w I G k x l
+1.96248,U t I m i
+0.0310974,U b W n s i b c l
+3.13243,U b I g b R d
+5.17632,U t @ b I T x
+1.12459,U f r c g i
+0.390193,U m ^ G k i
+0.221773,U t w i t i b R d
+1.39087,U I n C w R m
+0.444979,U t O l I t p e p R
+1.20713,U w c t R m E l x n
+1.49906,U C i r i o z
+3.40075,U b r I t n i
+3.46646,U @ l I k s
+7.0187,U h E n r i
+0.182182,U s k r ^ b i
+3.18779,U f @ t b O
+2.6864,U m @ g i
+0.909966,U d y x
+1.88433,U d Y i S x
+0.236223,U l E f t f U t
+5.69362,L 1
+-0.957267,V 0
+0.679253,N 0
+0.452004,C 1
+3.76095e-05,CP C
+1.16159,P h
+-0.0553099,CS C
+-1.52737,S h
+-1.52193,SC _ h
+-0.0522926,CSC _C
+1.80144,L 2
+0.898418,V 1
+1.28076,CP CV
+0.185314,P h i
+0.0888337,CS V
+1.03705,S i
+-0.693121,S i h
+0.911153,SC _ i
+0.152798,CSC _V
+-0.693696,SC _ i h
+-0.108375,CSC _VC
+1.60965,C 0
+-0.699469,CP V
+-2.03779,P i
+-0.0993991,L 3
+0.143615,C 2
+-1.06509,P h i r
+0.621472,CS CV
+-0.167929,S r
+0.282263,S r i
+-0.0013722,S r i h
+-0.156798,SC _ r
+0.472062,SC _ r i
+0.617941,CSC _CV
+-0.0125322,SC _ r i h
+0.191879,CSC _CVC
+-0.929673,P r
+-0.617296,L 4
+-0.206168,C 3
+-0.434855,CS CC
+-1.26069,S D
+-1.25594,SC _ D
+-0.435034,CSC _CC
+0.580069,CSC _CCVC
+-1.22081,CP CC
+-0.167438,P D
+-0.541544,L 5
+0.0532483,V 2
+-0.848313,S ^
+0.329176,S ^ D
+-0.84657,SC _ ^
+1.46432e-07,SC _ ^ D
+-0.460669,CSC _VCC
+-0.0643829,CSC _VCCV
+0.215492,CP CCV
+1.46573,P D ^
+-0.542843,P ^
+-0.375811,L 6
+-0.572112,C 4
+0.0860343,S k
+0.433317,S k ^
+-0.915615,S k ^ D
+0.0897316,SC _ k
+0.670451,SC _ k ^
+-0.916064,SC _ k ^ D
+-0.3919,CSC _CVCC
+-0.00102272,CSC _CVCCV
+0.000978873,P k
+-0.277226,L 7
+-0.0842211,V 3
+-1.70539,S I
+-1.70552,SC _ I
+-0.125111,CSC _VCV
+0.304319,CSC _VCVC
+-0.0753803,CSC _VCVCC
+-0.437411,CSC _VCVCCV
+0.138822,CSC _VCVCCVC
+-0.26504,P I
+-0.0593537,L 8
+-0.863431,C 5
+0.415017,S t
+-0.0081546,S t I
+0.552844,SC _ t
+-0.00885346,SC _ t I
+-0.280466,CSC _CVCV
+-0.117903,CSC _CVCVC
+0.109351,CSC _CVCVCC
+0.198133,P I t
+-0.939878,P t
+-0.104848,L 9
+-0.138921,V 4
+0.0981993,S i t
+0.0685792,S i t I
+0.31168,SC _ i t
+0.0885524,SC _ i t I
+-0.282992,CSC _VCVCV
+0.0382577,CSC _VCVCVCCV
+0.572382,P k I t i
+-0.337514,L 10
+0.280133,N 1
+-0.0525087,CS N
+0.706924,CS NV
+-0.136557,S m i
+-0.0531128,CSC _N
+-0.133146,SC _ m i
+0.700964,CSC _NV
+0.138795,CSC _NVC
+0.000438752,CSC _NVCV
+0.00142463,CSC _NVCVC
+-0.210647,CSC _NVCVCV
+-0.378798,CP N
+0.603058,P m
+-0.733102,S c
+-0.739476,SC _ c
+-0.169131,CSC _VN
+0.0616505,CSC _VNV
+0.156642,CSC _VNVC
+-0.322332,CSC _VNVCV
+-0.528596,CSC _VNVCVC
+0.389644,CSC _VNVCVCV
+1.10984,CP NV
+0.105579,P c
+0.223463,S r c
+-0.212409,S r c m
+0.245382,SC _ r c
+-0.213954,SC _ r c m
+-0.00517199,CSC _CVN
+-0.2046,CSC _CVNV
+0.423092,CSC _CVNVCVC
+0.349157,P c r
+-0.551709,S g
+-0.560201,SC _ g
+0.803255,CSC _CCVN
+0.102572,CSC _CCVNVC
+0.844759,P m c r g
+-0.0781437,P g
+0.293912,S i g
+0.453452,SC _ i g
+-0.181385,CSC _VCCVN
+0.435288,P m c r g i
+-1.86953,P g i
+0.741689,P s
+0.207318,S s
+0.274771,SC _ s
+0.11431,P s @
+-1.10891,S @
+-1.10102,SC _ @
+0.0855498,S m @
+0.0855498,SC _ m @
+0.526582,S i m
+0.532526,SC _ i m
+-0.885917,P m i
+-1.52499,S w
+-1.52633,SC _ w
+0.778463,P w
+-0.0461593,CSC _VCVN
+0.216522,CSC _VCVNV
+-0.163972,P w ^
+-0.0181522,N 2
+-0.0442514,S n ^
+-0.00146863,SC _ n ^
+0.0180585,CSC _NVCVN
+-4.77069e-06,P n
+-1.01038e-06,CS CNV
+0.611555,S t n
+-2.40926e-06,S t n ^ w
+0.532117,SC _ t n
+-1.01038e-06,CSC _CNV
+-2.40926e-06,SC _ t n ^ w
+0.520381,CSC _CNVC
+-0.0677058,CSC _CNVCVN
+-0.317357,P w ^ n t
+-3.38148,CP NC
+0.888549,S s t
+0.477729,S s t n
+0.974184,SC _ s t
+0.474908,SC _ s t n
+0.299094,CSC _CCNVC
+-0.109875,P t s
+0.203752,CSC _VCCN
+-0.599199,CSC _VCCNVCV
+0.166494,P W
+0.0737869,S t W
+0.0688995,SC _ t W
+0.0129239,CSC _CVCCNV
+0.524315,CSC _CVCCNVCV
+1.43922,P W t
+0.39694,P o
+0.435183,S o
+0.436883,SC _ o
+0.177263,S e
+0.162359,S e k
+0.00469939,S e k o
+0.127747,SC _ e
+0.116455,SC _ e k
+-0.63244,P k e
+1.42688,P e
+-0.00406559,CSC _CVCVCV
+0.27509,CSC _CVCVCVC
+0.0319529,CSC _VCVCVCVC
+1.26408,V 6
+-0.62653,CSC _VV
+0.0183408,CSC _VVCV
+0.890611,S z
+-0.35464,S z I
+0.202117,S z I i
+0.962316,SC _ z
+-0.436396,SC _ z I
+0.228241,SC _ z I i
+-0.548468,CSC _CVV
+-0.218899,CSC _CVVC
+0.386422,CSC _CVVCVC
+1.66086,P I z
+-1.48287,P z
+-0.385632,CSC _VCVVCV
+0.121694,CSC _CVCVVCV
+-0.517301,P w ^ t
+-0.000499838,S t ^
+-0.209779,S t ^ w
+-0.000499838,SC _ t ^
+-0.0913137,SC _ t ^ w
+-0.647616,P ^ t
+0.095854,S s t ^
+0.095854,SC _ s t ^
+-0.507255,CS NC
+-0.506327,CSC _NC
+-0.942271,CP CN
+1.45003,P s m
+0.400114,CSC _CVNCCV
+0.266515,CSC _CCVNC
+-0.503656,CSC _VCCVNC
+-1.01825,C 6
+-0.0444792,S g i
+-0.0434714,SC _ g i
+-0.51682,P g ^
+-0.214065,S n ^ g
+-0.214065,SC _ n ^ g
+-0.100272,CSC _NVCVCC
+0.0424006,CSC _NVCVCCV
+-0.0220541,P g ^ n
+0.051033,S x
+0.6081,S x n
+0.404062,S x n ^ g
+0.0246037,SC _ x
+0.679644,SC _ x n
+0.519469,SC _ x n ^ g
+-0.00414008,P g ^ n x
+-2.36156,P n x
+0.239488,S d
+-0.42151,S d x
+0.321765,SC _ d
+-0.422602,SC _ d x
+-0.266842,P d
+0.521385,S u
+0.432495,SC _ u
+-0.0615157,CSC _VCVNVCVC
+0.113878,P d u
+-1.98303,P u
+0.0247742,S o n
+0.897236,S o n o
+0.00020495,SC _ o n
+0.831859,SC _ o n o
+0.305562,P n o
+-0.541026,CSC _NVNV
+-0.372922,CSC _VNVNV
+-0.15737,S t i
+-0.15792,SC _ t i
+2.8493,P i t
+-0.0585708,P t I
+-0.0127137,S G
+0.92236,S G I
+0.1324,S G I t
+-0.0254356,S G I t i
+-0.047501,SC _ G
+0.95029,SC _ G I
+0.202342,SC _ G I t
+-0.0254356,SC _ G I t i
+-0.112426,CSC _NVCVV
+0.0603398,P i t I G
+-0.0892638,P t I G
+-2.52737,P G
+-0.950229,CSC _CNVCVV
+-0.133785,CSC _VCN
+-0.140727,CSC _VCNVC
+1.28759,S g c
+0.130063,S g c d
+1.30918,SC _ g c
+-0.287004,CSC _CVCN
+-0.174186,CSC _CVCNV
+0.269714,CSC _CVCNVC
+1.45223,P d c g
+-0.182127,S f
+-0.189006,SC _ f
+0.114824,CSC _CCVCNV
+0.84966,P f
+-0.100897,S u f
+-0.100365,SC _ u f
+-0.314489,S d u
+1.1136,S d u f
+-0.3147,SC _ d u
+1.05838,SC _ d u f
+0.0242235,CSC _CVCCVCNV
+-0.141066,CSC _CVCCVCNVC
+1.75722,P t w
+-0.0535774,S z ^
+0.00550086,S z ^ w
+-0.112514,SC _ z ^
+0.00550086,SC _ z ^ w
+0.186532,CSC _CCVCCV
+-0.248612,CSC _VCCVCCV
+-0.339247,P D @
+0.169701,S t @
+-0.719643,S t @ D
+0.00142463,S t @ D z
+0.167636,SC _ t @
+-0.815246,SC _ t @ D
+0.00142463,SC _ t @ D z
+0.0072696,CSC _CVCCVCCVC
+-0.810283,P D @ t
+-0.731024,P @ t
+0.428254,P w ^ z e
+1.46769,P z e
+0.808624,P e g
+-0.000709006,CSC _CCVCV
+-0.0335902,CSC _CCVCVC
+3.58796,P g r
+-0.0927499,CSC _VCCVCVC
+0.179304,P r ^
+-0.266142,CSC _NVCC
+0.156464,CSC _NVCCVC
+0.136246,CSC _NVCCVCV
+0.179392,CSC _NVCCVCVC
+1.45594,P r ^ n
+-0.296235,CSC _CNVCC
+-0.000153417,CSC _CNVCCV
+-1.45073,S y
+-1.44915,SC _ y
+3.42874e-05,P y
+-0.0358062,S u y
+-0.000975033,SC _ u y
+-1.37929,P y u
+-3.60552e-05,S s u
+-3.60552e-05,SC _ s u
+-0.262862,P y u s
+0.605562,P s I t
+-0.00214658,CSC _CCVCVCV
+0.130821,CSC _CVCCVCV
+-0.0763661,CSC _CVCCVCVC
+0.444988,CSC _CVCCVCVCV
+-0.441103,CSC _CVCCVCVCVC
+0.223082,CSC _CCVCCVCVC
+-0.306005,S s ^ J
+-0.303704,SC _ s ^ J
+-0.185939,P J ^ s
+-1.39577,C 7
+0.52672,S t s
+0.429858,SC _ t s
+-0.146839,P J ^ s t
+1.32796,P s t
+-0.083566,CS CCC
+-0.084593,CSC _CCC
+-0.372682,CSC _CCCVC
+0.190981,CSC _CCCVCCV
+-0.573132,CP CCC
+-0.251603,CSC _VCCC
+-0.0132115,CP CCCV
+0.0241089,P f c
+8.61422e-05,CSC _CVCCC
+0.266984,CSC _CVCCCVC
+0.287928,CSC _CVCCCVCC
+-0.240837,CSC _VCVCCCV
+0.574872,P f c r e
+0.439322,S Y
+0.344914,SC _ Y
+1.20937,P m Y
+1.42494,P Y
+0.0229939,S n Y
+0.0229939,SC _ n Y
+0.809784,CSC _NVNVC
+1.12639e-05,P e m Y n
+4.78045e-05,P e m Y n u
+0.708455,P n u
+-0.209413,S t u
+0.0632954,S t u n Y m
+0.832864,S t u n Y m e
+-0.208462,SC _ t u
+7.35695e-06,SC _ t u n Y m
+0.146226,CSC _CVNVN
+0.874093,SC _ t u n Y m e
+0.261249,CSC _CVNVNV
+0.141159,P e m Y n u t
+0.293687,S i k
+0.239958,SC _ i k
+-0.52177,P k i
+-0.274942,S d i
+-0.270437,SC _ d i
+0.522755,P o k i d o
+-0.182791,S o d
+-0.17636,SC _ o d
+0.665517,P o k i d o k
+0.641202,P o k i d o k i
+-0.436277,P y R
+0.97274,S R
+0.830323,S R y
+0.945935,SC _ R
+1.1024,SC _ R y
+-3.19266,P R
+-0.0772469,CSC _VCVCVV
+1.55032,P ^ o
+0.041369,SC _ o ^
+0.197101,P d I
+0.128297,S d I
+0.327278,SC _ d I
+-0.108255,S d t
+-0.106103,SC _ d t
+0.0586532,CSC _CCVCVCC
+-0.0531056,S W d
+-0.0531056,SC _ W d
+0.840447,S n W d
+0.761918,SC _ n W d
+0.027725,P d W n
+-0.267565,P W n
+-0.268837,S a
+-0.273823,SC _ a
+-0.0186766,P w a
+0.0795493,P a
+0.664259,S n a
+-0.60031,S n a w
+0.513401,SC _ n a
+-0.310744,SC _ n a w
+-0.262466,CSC _NVCVCCVC
+-0.119209,P w a n
+1.33917,P a n
+0.392276,S x n a
+0.517823,SC _ x n a
+-0.853105,P w a n x
+-1.33646,P a n x
+0.178966,S s x
+0.182669,SC _ s x
+-0.30747,CSC _CVCVN
+0.421207,CSC _CVCVNVC
+0.123498,CSC _CVCVNVCV
+0.0609867,CSC _CCVCVN
+-0.078576,S s t @
+-0.000815328,S s t @ D
+-0.0784771,SC _ s t @
+-0.000815328,SC _ s t @ D
+0.340932,P s o
+-0.102645,P s o k
+-1.52995,S E
+-1.52898,SC _ E
+0.955102,P D E
+-0.126619,S n E
+0.836228,S n E D
+-0.124354,SC _ n E
+0.573163,SC _ n E D
+0.274544,P E n
+0.560069,P k ^
+0.712934,P k ^ m
+0.0710794,S m ^
+0.0660929,SC _ m ^
+0.117969,S r i h m ^
+0.284638,S r i h m ^ k
+0.0871975,SC _ r i h m ^
+0.208208,SC _ r i h m ^ k
+0.00941857,S t E
+-0.414516,S t E g
+0.0165395,SC _ t E
+-0.423734,SC _ t E g
+-0.0990274,P g E t
+-1.26793,P E t
+-0.558853,CSC _NCVC
+0.249978,CSC _VNCVC
+-0.420039,N 3
+-0.178456,S m a
+-0.182149,SC _ m a
+1.05073,P m a m
+-0.602238,P a m
+-0.438168,S i m a
+-0.319431,S i m a m
+-0.45371,SC _ i m a
+-0.32367,SC _ i m a m
+-0.270919,CSC _VNVNC
+-0.683951,P m a m i
+-0.298308,P m a n
+0.0221033,S i m t
+0.0955184,SC _ i m t
+0.340877,P g o
+0.198613,S o g
+0.192568,SC _ o g
+1.41143,S t @ D z I
+1.21565,SC _ t @ D z I
+-0.279383,CSC _VCVCCVCC
+0.333333,P s E
+0.310978,S d E
+0.492544,S d E s
+0.158351,SC _ d E
+0.492544,SC _ d E s
+-0.168685,CSC _CVCVCCVCC
+-0.0799096,P E d
+-0.092204,P g E t D
+0.141318,S S
+0.226465,SC _ S
+0.425337,P S
+0.861643,S u S
+0.704734,SC _ u S
+0.319194,P p
+0.0794039,S p
+0.0742389,SC _ p
+1.23609,P p U
+-0.879187,S U
+-0.886187,SC _ U
+-2.21128,P U
+-1.37037,P p U t
+-0.255026,P p U t D
+0.721984,S p ^
+0.772077,SC _ p ^
+1.53203,P ^ p
+0.000607674,S r u
+0.00618994,S r u y
+0.000607674,SC _ r u
+0.00764598,SC _ r u y
+0.00503466,P y u r
+0.148852,S C
+0.101449,S C ^
+0.148852,SC _ C
+0.192243,SC _ C ^
+0.157705,P s ^ C
+0.86231,P s ^ C e
+0.879876,P e g U
+0.584896,P g U
+0.42142,S d U
+-0.125201,S d U g e
+0.60007,SC _ d U
+-0.12297,SC _ d U g e
+-0.232049,CSC _CVCVCVCCVC
+0.883726,P e g U d
+0.663267,P g U d
+-0.609234,P g R
+0.0397888,S l
+1.35771,S l R g
+0.000964957,S l R g d
+0.100297,S l R g d U
+0.17179,S l R g d U g
+0.0424681,SC _ l
+1.34207,SC _ l R g
+0.1256,SC _ l R g d
+0.173133,SC _ l R g d U
+0.00216139,SC _ l R g d U g
+-0.406809,P l
+-0.23167,CSC _CVCVCVCVC
+1.21575,P l E
+0.0796974,P l E t
+-1.01377,P l E t s
+1.4143,P s w
+0.683208,P w c
+0.206835,S k c
+0.254302,S k c w
+0.312764,SC _ k c
+0.400328,SC _ k c w
+0.627888,P D e
+0.644962,S r e
+-0.262062,S r e D
+0.494997,SC _ r e
+-0.277854,SC _ r e D
+-1.34684,P e r
+0.000334637,P D e r y u
+1.07374,P D e r y u g
+-0.0115065,S g u
+-0.0115065,SC _ g u
+-0.337534,P y u g
+0.773607,P D e r y u g o
+0.000903826,S o g u y r
+0.00303443,S o g u y r e
+0.67075,S o g u y r e D
+0.000903826,SC _ o g u y r
+0.00303443,SC _ o g u y r e
+0.56341,SC _ o g u y r e D
+-0.0643575,S e t
+-0.0676686,SC _ e t
+-0.104507,P t e
+-0.732629,S b
+-0.735886,SC _ b
+0.882355,P e b
+1.07941,P b
+0.753286,P e b I
+-0.00591567,P b I
+0.623698,S g I
+0.491929,S g I b
+0.622378,SC _ g I
+0.2958,SC _ g I b
+0.539038,P e b I g
+0.227751,P b I g
+0.252581,S r a
+0.26381,SC _ r a
+0.207531,CSC _CVVCC
+0.4957,CSC _CVVCCV
+0.554901,CSC _CVVCCVC
+-0.457871,CSC _CVVCCVCC
+1.67042,P a r
+-0.262626,S t I l
+-0.259915,SC _ t I l
+-0.0369373,S x t I
+-0.0369373,SC _ x t I
+0.722539,S l x
+-0.224075,S l x t I
+-0.000122602,S l x t I l
+0.71688,SC _ l x
+-0.331328,SC _ l x t I
+-0.000122602,SC _ l x t I l
+-1.24223,P t x l
+0.179289,S k e
+0.251052,SC _ k e
+-0.137837,P k R
+0.136599,P b u
+0.473108,S u b
+0.37821,SC _ u b
+1.46304,P b u m
+0.0169237,S m u
+1.03203,S m u b
+0.0654254,SC _ m u
+0.85392,SC _ m u b
+0.415778,P W ^ t C
+0.172162,P W ^ t C x
+1.18565,S x C
+0.911209,SC _ x C
+0.139042,CSC _VCCVV
+-0.907916,P C x
+-0.14663,S G I u
+-0.000968368,S G I u d
+-0.159426,SC _ G I u
+-0.379852,CSC _NVV
+-0.00525459,SC _ G I u d
+0.461468,CSC _NVVC
+-0.180168,CSC _NVVCV
+1.60336,P W W
+0.42975,S W W
+0.373271,SC _ W W
+-0.228677,P h R
+-0.0649876,S t R
+0.345663,S t R h
+-0.0655073,SC _ t R
+0.365303,SC _ t R h
+-0.193543,P t a
+0.188779,S u y r a
+0.345345,SC _ u y r a
+0.00206257,S l o
+0.00206257,SC _ l o
+0.35853,P l U
+0.769434,P l U k
+0.376849,S t @ k
+0.532218,SC _ t @ k
+-0.318921,P k @ t
+1.20226,P s t @
+-0.64439,S n @
+-0.64417,SC _ n @
+1.20611,P s t @ n d
+0.575452,S d n
+-0.559644,S d n @
+0.588634,SC _ d n
+-0.499683,SC _ d n @
+0.325391,S G I d
+0.0510408,S G I d n @ t s
+0.324153,SC _ G I d
+-0.0801185,CSC _NVCNV
+0.0510408,SC _ G I d n @ t s
+-0.446569,P d I G
+-0.195638,CSC _VNVCN
+-0.251716,CSC _VNVCNV
+-0.532109,CSC _VNVCNVC
+0.414536,S e s
+0.300527,SC _ e s
+-0.218976,P s e
+-0.424983,P e I
+0.104873,S G I e
+0.00864285,S G I e s
+0.0501414,SC _ G I e
+0.00864285,SC _ G I e s
+1.22076,P s e I G
+-0.0252037,S t e
+-0.0252037,SC _ t e
+0.405562,P e t
+0.332204,S l W
+0.702387,S l W t
+0.339958,SC _ l W
+0.491781,SC _ l W t
+2.46758,P t c k
+0.133815,S G I k
+0.0200281,S G I k c
+0.128554,SC _ G I k
+0.0363204,SC _ G I k c
+-0.951741,P k I G
+0.000189802,P x b W
+0.000554192,S t W b
+0.155519,S t W b x
+0.000554192,SC _ t W b
+0.392648,SC _ t W b x
+0.110327,P x b W t
+-1.77647,P b W t
+-0.730968,S t ^ D
+-0.733935,SC _ t ^ D
+-0.267971,CSC _CVCCVCVN
+0.26216,P D ^ t
+6.65782e-06,S c s
+6.65782e-06,SC _ c s
+-0.382648,P s c
+0.533988,S l c
+0.388051,SC _ l c
+2.79712,P c l
+0.134674,P c l D
+0.210402,S v
+-0.708888,S v E
+0.221032,SC _ v
+-0.706938,SC _ v E
+0.114579,P h E v
+0.442036,P E v
+-1.42887,P v
+0.406246,S i v
+0.485049,SC _ i v
+2.9854,P b r
+0.0443921,S i r
+0.0479446,SC _ i r
+-0.0443991,P b r i
+-0.197783,P r i
+-0.03772,P D I
+1.18349,P l I t x l g
+0.911848,P l I t x l g R
+1.08318,P l I t x l g R l
+-0.000106189,P n W
+0.368784,S W n
+0.226916,SC _ W n
+-0.181742,S i w
+-0.178581,SC _ i w
+-0.354339,P w i
+0.399065,P w i r
+-0.741743,CSC _VNVCC
+-0.0119666,CSC _VNVCCV
+0.406332,CSC _CVNVCC
+-0.0506625,CSC _CVNVCCVC
+-0.153272,CSC _VCVNVCC
+0.358682,P h @
+-1.05859,P h @ v
+-0.653212,P @ v
+0.363653,S u t
+0.065994,S u t v @
+0.0240533,S u t v @ h
+0.337315,SC _ u t
+0.0838928,SC _ u t v @
+0.0464175,SC _ u t v @ h
+1.80389,P t e k
+0.0313533,S s I
+-0.162681,S s I D
+0.00757613,SC _ s I
+-0.220884,SC _ s I D
+-0.575978,P I s
+0.817571,P s t ^
+0.895879,S f ^
+0.927705,SC _ f ^
+-0.085225,CSC _CCVCCCVC
+0.491543,CSC _NVCCVCC
+0.29338,S s n
+0.40371,SC _ s n
+-0.00112222,CSC _CCNVCCV
+0.290336,P d W n s t
+0.490357,P d W n s t e
+1.05727,P s t e
+3.9704e-05,CSC _CVCCNVCC
+0.512769,P d W n s t e r
+0.863078,S z r
+0.027738,S z r e
+0.248374,S z r e t
+0.655104,S z r e t s
+0.636069,SC _ z r
+0.0252079,SC _ z r e
+0.161557,SC _ z r e t
+0.564367,SC _ z r e t s
+0.000126347,CSC _CCVCCNVC
+0.894125,P d W n s t e r z
+-0.229529,P e r z
+0.338549,S i s
+0.270857,S i s u y u
+3.46025e-05,S i s u y u d
+0.270854,SC _ i s
+0.324044,SC _ i s u y u
+0.0297507,SC _ i s u y u d
+-0.756681,P s i
+-0.213147,S g x
+-0.210202,SC _ g x
+0.810502,S Y h
+0.440775,SC _ Y h
+-0.297952,P h Y
+2.27409,P s p
+0.714579,CSC _CVCCCCV
+0.383985,CSC _VCCCVCVC
+0.385154,P y U
+-0.234692,S r U y
+-0.21263,SC _ r U y
+0.0222717,CSC _CVCCCVCV
+0.658329,P y U r
+-0.344563,S e b
+-0.339165,SC _ e b
+0.179148,P b e
+-0.0249282,P D ^ b e b
+0.192404,S i b
+-0.300533,S i b e b
+0.209484,SC _ i b
+-0.0901854,SC _ i b e b
+-0.0241019,P D ^ b e b i
+-0.0186408,P b e b i
+-1.02177,P e b i
+-0.449713,P b i
+0.297315,S n I
+-0.00109597,S n I i
+0.284038,SC _ n I
+-0.00109597,SC _ n I i
+2.23806,P I n
+1.04471,P I n D
+0.190722,CSC _VCNVVC
+0.782456,P I n D ^
+-0.27381,S m ^ D
+-0.274506,SC _ m ^ D
+0.185306,P m I r
+0.277688,S R r I
+0.550944,S R r I m
+0.258742,SC _ R r I
+0.535622,SC _ R r I m
+0.298645,P I n D ^ m I r R
+0.683935,S e w
+0.946489,SC _ e w
+-0.386624,P w e r
+0.12483,S r e w
+0.12491,SC _ r e w
+-0.0518091,P w e r z
+2.77164,P x g E n
+0.599821,P c l w
+-0.401785,S z e
+-0.398269,SC _ z e
+-0.336129,S l a
+-0.334598,SC _ l a
+0.325053,S o l
+0.535823,S o l a
+0.288235,SC _ o l
+0.535823,SC _ o l a
+-1.30774,P l o
+-0.122654,P o I
+0.23777,S G I o l
+0.237106,SC _ G I o l
+-0.38449,CS NN
+-0.0718052,CS NNV
+-0.381307,CSC _NN
+-0.0707251,CSC _NNV
+-0.667699,CP NN
+-0.0753521,CSC _VNN
+-0.220667,CP NNV
+1.81902,P E v r
+1.77211,P E v r i
+0.112358,CSC _CVCVCCVV
+0.380072,S R t
+0.127482,S R t E
+0.12232,SC _ R t
+0.373174,SC _ R t E
+-0.259171,P t R
+0.297937,P w o
+0.303021,S o w
+0.14915,SC _ o w
+0.112447,S z i
+-0.101167,S z i m
+0.11142,SC _ z i
+-0.101167,SC _ z i m
+-0.165904,CSC _CVNVNC
+0.457297,P m a m i z
+-0.226098,P m i z
+-0.608586,S k u
+-0.609369,SC _ k u
+0.000408075,S n @ k
+0.000408075,SC _ n @ k
+-0.266162,CSC _CNVCVC
+1.15139,P Y m
+0.233797,P Y m s
+0.530671,P Y m s a
+0.419994,P Y m s a r
+0.614813,P Y m s a r i
+0.16353,S i r a
+1.22278,S i r a s
+0.0309914,SC _ i r a
+1.06588,SC _ i r a s
+-0.776458,CSC _VCVCNV
+-0.260427,CSC _NVNVN
+-0.33058,CSC _VCVNVN
+-0.0521686,CSC _VCVCVN
+-0.305047,CSC _VCVCVNV
+0.110898,CSC _NVCVCVN
+2.74893,P p l
+0.492596,P p l e
+-0.0273204,P e w I
+-0.207542,P w I
+0.825944,S D I
+0.978251,S D I w
+0.792162,SC _ D I
+0.746285,SC _ D I w
+-0.0159484,P e w I D
+-0.0608822,P w I D
+-0.466843,P w I D D
+0.0635722,CSC _NVVCC
+0.312263,S z i g
+0.29278,SC _ z i g
+0.899804,S m u r
+0.945425,SC _ m u r
+-0.128573,CSC _NVCCVCCV
+0.0137173,CSC _CVNCVCC
+0.164172,CSC _CCVNCV
+0.0855283,P b a
+0.0931599,S t a
+-0.249462,S t a b
+0.105003,SC _ t a
+-0.248945,SC _ t a b
+-1.02842,P a t
+0.0131448,S l x t a b
+0.0131448,SC _ l x t a b
+0.0607165,P l ^
+0.791499,S v ^
+0.774145,SC _ v ^
+0.487413,P l ^ v
+1.21828,P ^ v
+-0.573655,S t c w
+-0.575191,SC _ t c w
+0.242131,P g a
+0.109519,S t a g
+-7.83915e-06,S t a g u y
+0.14144,SC _ t a g
+-3.2937e-06,SC _ t a g u y
+0.807857,S x t a g
+8.5402e-06,P t x d
+3.38516,P d r
+-0.450068,S G I r d
+-0.458446,SC _ G I r d
+1.17805,S k G
+1.16646,SC _ k G
+3.26571,P k l
+0.107543,P l a
+0.969615,P l a t s ^
+0.976647,P l a t s ^ v
+-0.940307,P s ^ v
+1.99234,P f l
+0.986057,S z d
+0.756304,SC _ z d
+-0.202845,S t z
+-0.201924,SC _ t z
+1.19485,S e d
+1.05899,SC _ e d
+1.13806,P t x d e
+-0.468922,P d e
+0.587062,P s ^ m
+0.773426,S s u J
+1.10222,SC _ s u J
+0.156957,CSC _CVCNVCC
+-0.00947714,CSC _CVCNVCCVC
+8.5413e-05,P s ^ m J u s
+0.00321164,P J u s
+1.73352,P s l
+0.239444,S R t e
+0.44563,S R t e l
+0.0808458,SC _ R t e
+0.511621,SC _ R t e l
+0.0254612,CSC _VCVCCVCNVC
+-0.10035,P w i g
+-0.022189,S f e
+-0.0182651,SC _ f e
+1.10165,P e f
+1.04666e-05,P e f y
+1.1575e-05,P e f y u
+0.932179,S O t
+1.43964,SC _ O t
+1.98469,P t O
+-0.817199,P O
+0.100334,S z O t
+0.100334,SC _ z O t
+0.749485,S m r
+1.21327,SC _ m r
+-0.105194,CSC _VNCVCCV
+0.193035,CSC _CVNCVCCV
+0.108093,CSC _CVCCVVC
+-0.0683454,S p e
+-0.0636058,SC _ p e
+1.10267,P e p
+3.158,P p r
+-0.0393483,P r I t
+0.20454,P r @
+0.352225,S k @
+-0.0789502,S k @ r
+0.42731,SC _ k @
+-0.0789502,SC _ k @ r
+0.207,S n u
+0.339445,S n u k @
+0.293627,S n u k @ r
+0.187765,SC _ n u
+0.295087,SC _ n u k @
+0.326443,SC _ n u k @ r
+-0.13529,S s e
+-0.132922,SC _ s e
+0.925868,P e s
+2.55061,P t e s t
+-0.0470225,P e s t
+0.78712,S i t s
+0.101606,S i t s e t
+0.715734,SC _ i t s
+0.132577,SC _ i t s e t
+-0.210949,P e s t i
+-0.256418,P s t i
+2.05183,P ^ D
+0.32422,S R D
+0.326478,SC _ R D
+0.627038,P ^ D R
+-1.70481,P D R
+-0.0741658,S z @
+-0.0741658,SC _ z @
+-0.0140295,P h @ z
+0.847065,P @ z
+-0.348735,CSC _CNVCVCVC
+0.293326,P D ^ r
+0.0178541,CSC _CVCVCN
+0.28943,CSC _CVCVCNVC
+-0.0418585,CSC _VCVCVCNV
+-0.0220253,S Y l
+-0.0220253,SC _ Y l
+0.553377,S k Y l
+0.506536,SC _ k Y l
+-0.596732,P Y k
+0.291103,P e l
+-0.15982,S t I l e
+-0.157195,SC _ t I l e
+0.300249,P e l I t
+0.357596,P e l I t x
+0.373332,P e l I t x l
+0.732816,P l c
+2.06229,P c r I n
+0.387527,S J n
+0.47668,SC _ J n
+2.1113,P c r I n J
+-0.118102,S R s
+-0.118666,SC _ R s
+0.595691,S l x k
+0.415037,SC _ l x k
+0.414558,P s R k x l
+-0.869563,P k x l
+1.62258,S ^ h
+1.70419,SC _ ^ h
+0.0578895,P h ^
+1.69083,P d @ d
+0.3956,S d @
+-0.558175,S d @ d
+0.408724,SC _ d @
+-0.560084,SC _ d @ d
+0.516543,S @ d @
+0.933703,S @ d @ d
+0.256701,SC _ @ d @
+0.949148,SC _ @ d @ d
+-0.496247,S d e
+-0.498492,SC _ d e
+0.294251,P n a
+0.00250246,S t a n
+0.039568,SC _ t a n
+0.22102,P n a t
+0.0566089,S n E w
+0.0104853,SC _ n E w
+0.575642,P w E n
+0.16564,S t n E
+0.182345,S t n E w
+0.187281,SC _ t n E
+0.173433,SC _ t n E w
+0.277982,P w E n t
+-0.349695,S t t
+-0.346526,SC _ t t
+-0.227441,S R w
+-0.224748,SC _ R w
+0.180769,S k R w
+0.215728,SC _ k R w
+0.299444,P w R k
+0.255219,S l i
+0.392072,SC _ l i
+0.15153,S i b l
+0.15153,SC _ i b l
+0.0792852,P b @
+0.0522864,S k @ b
+0.0594817,SC _ k @ b
+-0.00701834,P b @ k
+1.07742,S l I w
+0.158709,SC _ l I w
+0.111577,P w I l
+-0.293865,S o f
+-0.293404,SC _ o f
+-0.00023384,P f o
+0.549382,S r o
+0.627836,S r o f
+0.612224,SC _ r o
+0.87431,SC _ r o f
+-0.65178,P o r
+-0.162756,S k x
+-0.164049,SC _ k x
+0.210301,S k a
+0.255111,S k a l
+0.0589133,S k a l k
+0.262044,SC _ k a
+0.295477,SC _ k a l
+0.0589133,SC _ k a l k
+-0.243575,S l ^
+-0.236692,SC _ l ^
+0.0531041,S z R
+0.0501564,SC _ z R
+0.535594,P r E
+1.61411,P r E d
+1.71267,P y E
+0.0630093,S l E
+0.0720691,SC _ l E
+0.157344,P y E l o
+0.474319,S o l E
+0.40447,SC _ o l E
+0.376175,CSC _CVNCVCV
+0.646693,P m I s
+-0.264745,S s o
+-0.265837,SC _ s o
+-0.163187,CSC _CVCVCVN
+0.0838103,S l x k R s o l
+0.246472,S l x k R s o l E
+0.322802,S l x k R s o l E y
+0.0918041,SC _ l x k R s o l
+0.13201,SC _ l x k R s o l E
+0.222404,SC _ l x k R s o l E y
+0.954828,P e b l
+3.00144,P b l
+0.756993,S u l b
+0.756993,SC _ u l b
+-0.001056,S s t I
+-0.001056,SC _ s t I
+-0.189288,S t G
+-0.190036,SC _ t G
+-0.261689,CSC _CVCNVCVC
+3.05734,P t r
+0.256838,CSC _CVCCVCVCN
+0.317808,CSC _CVCCVCVCNV
+1.13112,P m I s t
+0.916269,S R t s
+0.458875,SC _ R t s
+-0.646113,P s t R
+0.299066,CSC _CVCCVNV
+0.00992901,CSC _CVCCVNVC
+0.521272,CSC _CVCVCCVNVC
+-0.854809,S f ^ D
+-0.851216,SC _ f ^ D
+0.112368,P D ^ f
+-0.203575,S p u
+-0.204411,SC _ p u
+2.18982,P u p
+0.0741183,S n a k
+0.0732712,SC _ n a k
+-0.512156,CSC _CNVCVCC
+0.503684,P a n D
+1.86091,P k w
+0.192776,S z o g
+0.104355,SC _ z o g
+1.19688,P g o z
+-0.58093,P o z
+0.211538,P e n
+-0.480478,S n o d
+-0.473494,SC _ n o d
+-0.0273275,S t n o d
+-0.0273275,SC _ t n o d
+-0.385257,P o n t
+0.253247,CSC _NVCCNV
+0.618088,CSC _CNVCCNVC
+0.311636,CSC _NVCCCVC
+-0.230717,S t I t
+-0.257675,SC _ t I t
+-0.191024,P b x
+-0.000299103,P b x k
+-0.00045234,P b x k c
+0.658447,P k c
+-0.0004463,P b x k c z
+-0.207007,S z c
+-0.000229453,S z c k
+-0.193084,SC _ z c
+-0.000229453,SC _ z c k
+-1.42779,P k c z
+0.529123,P n ^
+0.0390175,S t ^ n
+0.0390175,SC _ t ^ n
+-0.153338,S o m
+-0.160637,SC _ o m
+0.303172,P c l m o
+0.47934,P c l m o s
+0.406857,P c l m o s t
+0.0269562,S t I d
+0.00921329,SC _ t I d
+-0.112041,P d I t
+2.04017,P v E
+0.229508,P v E r
+0.408162,S i r E
+0.504931,SC _ i r E
+0.872593,P v E r i
+0.121658,CSC _CVCCVCVCVN
+-0.0650926,S d o
+-0.0652969,SC _ d o
+-0.21624,P w E l
+0.884537,S l E w
+0.195268,SC _ l E w
+-0.305993,CSC _NVCCVCCVC
+0.00539493,CSC _CCVCNVCVC
+-0.609433,P n I
+0.0851604,S G I n
+0.0857707,SC _ G I n
+0.267381,P S i
+-0.208185,S s u t
+-0.207203,SC _ s u t
+-0.173892,S t s u
+-0.173892,SC _ t s u
+1.27296,P s t u
+0.289946,P s t u p
+0.156014,P s t u p I
+0.19818,P s t u p I d
+-0.0332563,S t d
+-0.0355326,SC _ t d
+0.766521,S u t d
+0.69687,SC _ u t d
+-0.349522,S t x
+-0.348044,SC _ t x
+0.131425,P c l D ^
+-0.100372,S s ^ D
+-0.100372,SC _ s ^ D
+0.714903,S z l
+0.444953,S z l x
+0.666217,SC _ z l
+0.317975,SC _ z l x
+1.00439,S f c
+0.95341,SC _ f c
+2.32734,P c f
+-0.0147396,P f ^ v
+0.501215,S m E D
+0.561316,SC _ m E D
+0.136819,P w Y
+0.549745,P o p
+-1.42368e-06,S x p
+-1.42368e-06,SC _ x p
+0.407553,P o p x
+0.10854,S n x
+0.0768503,SC _ n x
+0.928021,P o p x n
+-0.946361,P p x n
+0.873943,P x n
+0.635448,CSC _VNNVCVC
+0.124008,S T W
+1.05438,S T W m
+0.160682,SC _ T W
+1.11648,SC _ T W m
+0.00654173,P Y m n
+0.0695668,P Y m n a
+0.0792257,P Y m n a t
+-0.29783,S G I T
+-0.257268,SC _ G I T
+0.376967,P T I G
+-0.138655,CSC _CNVNV
+-0.0395994,CSC _CVCNVN
+-0.112828,S n u y
+-0.112385,SC _ n u y
+0.0888871,S v Y
+0.722715,S v Y f
+0.127822,SC _ v Y
+0.512587,SC _ v Y f
+0.382532,P f Y v
+3.57946,P T r
+0.190056,S i r T
+0.246966,SC _ i r T
+0.293844,P T r i
+0.457987,S n i
+0.43103,SC _ n i
+0.933539,P g r i n
+-0.0312323,CSC _VCVVCCVC
+0.122431,P b i t
+0.256037,S p m
+0.590435,S p m ^
+0.209456,SC _ p m
+0.61219,SC _ p m ^
+0.0709333,SC _ p m ^ b
+2.25996,P b ^ m p
+0.652939,S t p
+0.652939,SC _ t p
+0.772173,S d E h
+0.0172747,S d E h r U
+0.0314431,S d E h r U y
+0.757702,SC _ d E h
+0.0327508,SC _ d E h r U
+0.00682237,SC _ d E h r U y
+-0.0547108,S n I d
+-0.0545949,SC _ n I d
+0.00430869,S t n I
+0.0103424,SC _ t n I
+1.17461,S s k
+-0.138226,S s k E
+1.32752,SC _ s k
+-0.138226,SC _ s k E
+3.70116,P E k s
+-0.0554651,S Y s
+-0.0554651,SC _ Y s
+-1.48099,P s Y
+0.229969,S t Y
+0.222574,SC _ t Y
+-0.667235,P Y t
+0.11903,P E k s Y t I
+0.839687,S d I t
+0.869983,SC _ d I t
+-0.335096,S s R
+-0.338446,SC _ s R
+-0.00498924,S R D ^ ^
+-0.00487884,S R D ^ ^ D
+-0.00498924,SC _ R D ^ ^
+-0.00487884,SC _ R D ^ ^ D
+1.70003,P b a b
+1.04163,S s p
+1.04455,SC _ s p
+2.1189,P ^ p s
+0.431627,S d Y s
+0.633062,SC _ d Y s
+5.05428e-05,P ^ p s Y d d
+0.574885,P ^ p s Y d d W
+0.427785,P ^ p s Y d d W n
+0.00727961,S t n o w
+0.00727961,SC _ t n o w
+1.37299,P t E
+0.0343908,S n E t
+0.0343908,SC _ n E t
+0.0477064,S i n
+-0.0301541,S i n E
+0.0534093,SC _ i n
+-0.0301541,SC _ i n E
+2.92829,P E n i
+-0.158157,P n i
+0.0893547,S v ^ t
+-0.371418,S v ^ t W
+0.0893547,SC _ v ^ t
+-0.371418,SC _ v ^ t W
+-0.204435,P t ^ v
+0.197553,S p ^ t I
+0.228457,SC _ p ^ t I
+0.0525085,CSC _NVCNVCVC
+0.174893,S l Y
+0.174893,SC _ l Y
+0.0775539,P m Y l
+1.91989,P Y l
+-0.855633,P Y l I
+0.379491,CSC _CVCVNC
+-0.343726,S R T
+-0.342911,SC _ R T
+0.0556526,S t s R
+0.0556526,SC _ t s R
+0.173445,P T R s t
+0.788659,P T R s t i
+-0.342432,S o h
+-0.346798,SC _ o h
+0.208522,S l o h
+0.208522,SC _ l o h
+0.327072,P h o l
+0.743395,S d l
+0.51126,S d l o
+0.9261,SC _ d l
+0.311728,SC _ d l o
+0.0129086,P p e
+1.72386,P s n
+-0.00829036,CSC _NVCCVN
+0.366243,CSC _CNVCCVN
+0.737431,S d n W
+0.775273,SC _ d n W
+0.0201045,CSC _CNVCNVC
+0.662594,P s W n d
+0.42467,P b i I G
+-0.0865014,CSC _VNVV
+1.72703,P p I g
+0.130261,P p I g l
+2.01559,P g l
+0.829075,P p I g l I
+4.81869e-05,S t I l g I
+8.39583e-05,S t I l g I p
+4.81869e-05,SC _ t I l g I
+0.45621,SC _ t I l g I p
+0.832155,P p I g l I t
+0.000100333,P O G
+1.1592,P O G k
+1.02509,P O G k O
+1.62766,P O G k O G
+1.65279,P O G k O G k
+0.0273156,S k G O k G
+0.206712,S k G O k G O
+4.79259e-05,SC _ k G O k G
+0.137058,SC _ k G O k G O
+0.0925352,P O G k O G k O G k
+0.0945643,S k G O k G O k G
+0.100589,S k G O k G O k G O
+0.224481,SC _ k G O k G O k G
+0.249723,SC _ k G O k G O k G O
+-0.000364493,S G I k U
+-0.118539,S G I k U l
+-0.000364493,SC _ G I k U
+-0.118539,SC _ G I k U l
+1.04101,P l U k I G
+1.03922,P l U k I G @
+0.0715202,S t @ G
+0.086609,S t @ G I
+0.0695556,SC _ t @ G
+0.086609,SC _ t @ G I
+0.829587,P l U k I G @ t
+0.761769,S n e r
+0.0443039,S n e r ^
+0.0105788,S n e r ^ D
+0.218349,SC _ n e r
+0.409703,SC _ n e r ^
+0.376774,SC _ n e r ^ D
+0.827285,P r e n
+0.536706,S i d
+0.0394748,S i d n
+0.468419,SC _ i d
+0.0132607,SC _ i d n
+-0.412804,P d i
+1.14259,S r i d
+0.170348,S r i d n e r
+0.854848,SC _ r i d
+0.262593,SC _ r i d n e r
+0.000691755,S o g i
+0.598769,S o g i w
+0.90501,S o g i w r
+0.000691755,SC _ o g i
+0.591686,SC _ o g i w
+0.685714,SC _ o g i w r
+-0.103595,S G I o g
+-0.00217577,SC _ G I o g
+0.458503,S l U
+0.0876713,S l U p
+0.420042,SC _ l U
+0.243079,SC _ l U p
+0.381298,P p U l
+-0.560131,P l I G
+0.269828,S m I h
+0.39156,SC _ m I h
+0.0761119,P k c r
+1.07106,P k c r n
+0.458072,S o D
+0.430891,SC _ o D
+0.345245,P D o
+0.856691,P D o z
+0.538127,S r a z
+7.82621e-06,S r a z o D
+0.531291,SC _ r a z
+7.82621e-06,SC _ r a z o D
+0.874621,S m r a
+1.40502,SC _ m r a
+0.678168,P a r m
+-0.0663973,P b U
+0.492113,S k U b
+0.629443,SC _ k U b
+0.447576,S s k U
+0.472482,SC _ s k U
+0.964334,P t Y
+1.58465,P t Y r
+1.12088,S d r
+1.04219,SC _ d r
+-0.0123533,S i d E
+-0.0123533,SC _ i d E
+0.0232542,S p @
+0.755733,S p @ n
+0.029635,SC _ p @
+0.751698,SC _ p @ n
+0.177953,P @ p
+1.05609,P m o r
+0.634198,CSC _NVNCVN
+0.855327,S m Y t
+1.09762,SC _ m Y t
+0.177274,P Y m f
+-0.0066123,P f c r y
+0.468285,S f @
+0.634013,SC _ f @
+0.799216,S t f
+0.81524,SC _ t f
+2.91235,P t R n
+0.798802,P S o
+0.283501,P S o m
+0.935303,P m @
+0.353893,P m @ k
+-0.177134,S m u t
+-0.17184,SC _ m u t
+0.107506,S p i
+0.127498,SC _ p i
+0.616245,P p I G k
+-0.420043,S n I z
+-0.420043,SC _ n I z
+0.336377,S t n I z
+0.339373,SC _ t n I z
+1.04188,P I z I n t
+0.249912,S t Y w
+0.249912,SC _ t Y w
+1.85824,S b @ r
+1.85824,SC _ b @ r
+0.000277058,S t I b
+0.000277058,SC _ t I b
+0.0455422,S n a t
+0.0436373,SC _ n a t
+0.123065,S d U g o
+0.106399,SC _ d U g o
+0.000311007,S u m
+0.000311007,SC _ u m
+1.53379,P m u
+1.78359,P w ^ t E
+0.2246,S R v
+0.364438,S R v E
+0.22456,SC _ R v
+0.369522,SC _ R v E
+-0.392814,P v R
+1.47282,P w e v
+0.228258,S G I v
+0.224445,SC _ G I v
+-0.0803245,N 4
+0.975636,P C u
+0.00715851,P C u a
+0.0083255,P C u a n
+1.03906,P a n D ^
+0.130077,S m @ l
+0.130077,SC _ m @ l
+-0.042001,CSC _CNVCVCN
+-0.0277222,CSC _CNVCVCNV
+1.47394,CSC _CCNVCCCV
+0.284272,S o t
+0.290447,SC _ o t
+-0.870702,S v o
+-0.874465,SC _ v o
+0.911474,P o v
+-0.000168973,S R v o
+-0.000168973,SC _ R v o
+-0.320849,P f c r D
+0.0895855,P m o r g I
+0.3502,P m o r g I n
+-0.22591,P g I n
+0.340996,S z n
+0.079989,S z n I
+0.456082,SC _ z n
+0.0680526,SC _ z n I
+0.274435,P m o r g I n z
+-0.419796,P I n z
+0.81551,P n u d
+0.0672694,P C u I G a
+0.274102,S n a G
+0.297686,SC _ n a G
+0.123848,P C u I G a n
+0.779969,S m e n
+0.778596,SC _ m e n
+-0.57613,S k i
+-0.575116,SC _ k i
+0.498776,P k o
+0.0210632,P h i z f
+2.46765,P f r
+0.333261,S m ^ r
+0.396339,SC _ m ^ r
+-0.0217995,CSC _CVNCVCNVC
+0.213557,P m u v
+-0.0539599,P b ^ t
+0.012543,S n x v
+0.012543,SC _ n x v
+0.25005,S t n x
+0.228755,SC _ t n x
+2.27513e-05,P x n t
+0.172923,P w a C
+0.365249,S t C
+0.365249,SC _ t C
+0.587295,S t E y
+0.569362,SC _ t E y
+0.356448,P m Y n e
+0.31909,P m Y n e m
+0.318991,P h u
+0.228358,S u h
+0.228358,SC _ u h
+-0.0786464,S z u
+-0.0786464,SC _ z u
+-0.287524,P y E s
+0.138127,S s E
+0.0797303,SC _ s E
+1.55323,P n a k
+0.44058,S s k a
+0.0323514,S s k a b
+0.218222,SC _ s k a
+0.0323514,SC _ s k a b
+-0.556178,P Y I
+-0.864906,CSC _NVVCCV
+0.724302,P g r @
+0.0249737,P g r @ m
+0.226913,S i l
+0.311288,S i l I
+0.267035,SC _ i l
+0.195674,SC _ i l I
+0.894529,P s I l i
+-0.638334,P l i
+0.333749,S i z
+0.284003,SC _ i z
+0.1777,S n I k
+0.0132122,SC _ n I k
+-0.395355,P k I n
+0.304898,P I n D ^ k
+-0.0891681,S t m
+-0.0877229,SC _ t m
+0.21726,CSC _VCNVCCVCV
+-0.418213,S d ^ D
+-0.417284,SC _ d ^ D
+0.0305809,P D ^ d
+0.290533,P D ^ d o
+0.638814,S r o d
+0.677711,SC _ r o d
+0.197858,P D ^ d o r
+1.28856,P k l o
+0.0196616,P k l o z d
+0.384592,S f I
+0.371875,SC _ f I
+2.66941,P I f
+-0.107325,P w i k
+0.147412,P w c S
+-1.16327,P S I
+0.230502,P d c g i
+0.00011024,P D e r w i
+0.462668,P D e r w i g
+0.449075,P D e r w i g o
+0.000750586,P w i l
+1.19708,S n o f
+1.1379,SC _ n o f
+-0.141467,P f o n
+0.0903715,S o l E h
+0.0648021,SC _ o l E h
+0.243332,CSC _CCVCCVVC
+0.16343,S n ^ f
+0.102324,SC _ n ^ f
+0.741122,S i n ^
+0.499282,SC _ i n ^
+-0.0295148,S n I f
+-0.0313275,SC _ n I f
+0.0149997,P f I n I
+0.610992,S S I
+0.654993,SC _ S I
+1.24935,P f I n I S
+0.689272,S t S
+0.19137,S t S I n I f
+0.865785,SC _ t S
+0.0201101,SC _ t S I n I f
+0.0524731,P f I n I S t
+-0.248395,S S i
+-0.250941,SC _ S i
+0.515134,P S U
+0.460366,P S U d
+-0.142314,S G @
+-0.148311,SC _ G @
+0.492277,S r a k
+0.00370474,S r a k ^
+0.557792,SC _ r a k
+1.17535,P k a r
+-0.0328127,CSC _CVCNVCN
+0.886635,P n ^ m
+1.16735,P n ^ m b
+8.96334e-05,P n ^ m b R
+-0.281974,S R b
+1.33636,S R b m
+-0.282761,SC _ R b
+0.719051,SC _ R b m
+-0.661477,P b R
+0.0762734,S n a R
+0.0769246,SC _ n a R
+0.0979711,P w U
+0.402162,P w U d
+0.326769,S i r E v i
+0.33698,SC _ i r E v i
+-0.0730346,P v E r i k
+-0.444935,S R f
+-0.44455,SC _ R f
+0.534588,S l x b x
+0.542633,SC _ l x b x
+-0.294826,P b x l
+0.0821374,S x d
+0.0821374,SC _ x d
+-0.901499,P d x
+0.514746,S t n x d
+0.490137,SC _ t n x d
+1.63277,P m i W
+1.77946,S W i m
+1.46649,SC _ W i m
+-0.219162,CSC _NVVN
+-0.18589,S s t W
+-0.185196,SC _ s t W
+3.97982e-05,P W t s
+0.000966695,P W t s Y
+0.00100745,P W t s Y d
+-0.0621834,S z ^ f
+-0.0644509,SC _ z ^ f
+0.430025,S l c b
+0.356568,SC _ l c b
+0.0905105,S z l c b
+0.0905105,SC _ z l c b
+-0.0537919,P c l z
+0.110716,P c f D
+0.103351,P c f D ^
+0.356855,S r o l
+0.320933,S r o l f
+0.347001,S r o l f ^
+0.390204,S r o l f ^ D
+0.40871,SC _ r o l
+0.186254,SC _ r o l f
+0.394538,SC _ r o l f ^
+0.173769,SC _ r o l f ^ D
+0.0531809,P v E r i t
+0.0973384,P b r I
+1.71652,P s k
+-0.558076,S i f
+-0.558552,SC _ i f
+0.706943,P f i l
+-0.190844,S R y R
+-0.0474022,SC _ R y R
+-0.0590517,S p Y
+-0.0541303,SC _ p Y
+1.25905,CSC _VVV
+1.60117,P y ^
+0.549056,S m ^ y
+0.746772,SC _ m ^ y
+0.00130179,P y ^ m
+0.112615,S i m ^
+0.191266,S i m ^ y
+0.0700234,SC _ i m ^
+0.185994,SC _ i m ^ y
+0.6324,S d n E
+0.425468,SC _ d n E
+1.2263,P r ^ b
+0.317297,P d ^
+0.19928,S m i r
+0.215345,SC _ m i r
+0.598378,P m E
+1.50298,S b ^ t
+1.34343,SC _ b ^ t
+0.322955,P T @ G
+0.893896,P T @ G k
+0.629901,S u y k G @
+0.773677,S u y k G @ T
+0.526448,SC _ u y k G @
+0.461952,SC _ u y k G @ T
+0.278759,P k y u
+0.797976,P b i k
+-0.0493704,CSC _NVCCVNV
+0.381522,S Y r d
+0.381546,SC _ Y r d
+0.317807,P d r Y
+0.202569,P r Y
+0.797486,P r Y t
+0.642131,S n a G @
+0.667479,SC _ n a G @
+0.397845,S l x b e
+0.439657,S l x b e t
+0.473384,SC _ l x b e
+0.721798,SC _ l x b e t
+1.86508,P n i d
+0.302296,S i l n
+0.302296,SC _ i l n
+0.553247,S d E b
+0.824425,SC _ d E b
+0.0989838,S m u b m
+0.0198969,S m u b m u
+0.136925,S m u b m u b
+0.0968567,SC _ m u b m
+0.0837094,SC _ m u b m u
+0.11637,SC _ m u b m u b
+1.25071,CSC _NVCNVCNVC
+-0.956657,S p ^ D
+-0.961964,SC _ p ^ D
+-0.291291,P D ^ p
+0.186463,S R p
+0.353198,S R p e p
+0.19872,SC _ R p
+0.459634,SC _ R p e p
+-0.66052,P p R
+0.402378,P b i e
+1.76418,P e d r
+-0.462259,P m R
+0.184891,S k I
+0.185598,SC _ k I
+0.201722,P r I k
+2.5527,P Y k @ n
+0.478951,S p a
+0.0837148,S p a t
+0.527148,SC _ p a
+0.0262111,SC _ p a t
+1.5841,P e n u
+-0.547239,P l W
+0.511933,S d W l
+0.511933,SC _ d W l
+0.115166,P p E
+-0.301941,P S x
+0.10676,S i l x
+0.103316,SC _ i l x
+0.367858,CSC _VCNVCVN
+0.0845913,CSC _CVCNVCVN
+0.0915556,S Y b
+0.325282,SC _ Y b
+0.097228,P b Y
+0.21108,S x y
+0.21108,SC _ x y
+-0.688862,P s p U t
+0.297989,P h W
+0.864226,S W h
+0.864226,SC _ W h
+0.634248,P l I d
+0.227164,S n a z
+0.233359,SC _ n a z
+-0.215093,S t n a
+-0.214698,SC _ t n a
+-1.80431,P s I z
+0.773202,P k w I
+0.21961,P k w I t
+1.3453,S n @ D
+1.3453,SC _ n @ D
+0.808995,P n E
+-0.340662,P b a d
+0.554114,P s t I
+1.13188,S l I t
+0.786205,SC _ l I t
+-0.0850706,S p x
+-0.0850706,SC _ p x
+2.46241,P r o l
+0.0412495,S l o r
+0.0412495,SC _ l o r
+0.149305,S t k
+0.149305,SC _ t k
+1.32793,P t r Y
+0.000264088,P t r Y I
+0.09661,P t x g E
+0.522739,S s W
+0.451595,SC _ s W
+1.08086,S W w
+1.22864,SC _ W w
+-0.43518,P e Y
+1.55644,P k e r
+0.641505,P d ^ z
+1.84528,P s t r
+1.15074,P s t a
+0.95052,P s t a r
+-0.131907,S z r a
+-0.131907,SC _ z r a
+0.0987631,P n Y
+-0.158861,S Y n
+-0.158861,SC _ Y n
+0.726913,P n Y n
+0.479645,S n Y n
+0.479645,SC _ n Y n
+0.97182,P Y h
+0.33697,S e h
+0.724425,SC _ e h
+-0.188671,P h e
+1.31896,P t w E
+0.160868,S l c t
+0.161894,SC _ l c t
+-9.26938e-06,P c l I
+0.160096,P w ^ z I n
+0.617987,P w ^ z I n t
+0.144498,S t n I z ^
+0.231747,S t n I z ^ w
+0.144498,SC _ t n I z ^
+0.231747,SC _ t n I z ^ w
+0.533258,P m ^
+1.01338,S t s ^ m
+1.01338,SC _ t s ^ m
+0.487099,P m ^ s t
+-0.351983,P s w ^
+-0.041084,P m I n
+0.456174,P s E v I
+0.591156,P s E v I n
+0.727886,S n I v E
+0.969245,SC _ n I v E
+0.00577717,P s I k
+0.0129708,S s k I
+0.353076,S s k I s
+0.0253824,SC _ s k I
+0.49585,SC _ s k I s
+0.0112876,S n I l
+0.00642547,SC _ n I l
+0.0966425,P d a
+0.735471,S n a d I
+0.03342,S n a d I l
+0.735471,SC _ n a d I
+0.03342,SC _ n a d I l
+0.892234,P s n @
+0.39636,P s n @ p
+0.442382,S f c t I
+0.521404,SC _ f c t I
+-1.0874,P f x
+-0.000136086,CSC _CNVCVCNVC
+0.160702,P a n D ^ f l
+0.243298,P a n D ^ f l o
+1.26574,P a n D ^ f l o r
+3.015,P s k w
+0.510069,S r e w k s
+0.51286,SC _ r e w k s
+0.753456,P w u p s
+0.371345,S s p u
+0.418433,S s p u w
+0.232026,SC _ s p u
+0.574308,SC _ s p u w
+3.43092,P u p s
+0.263969,P t r Y @
+0.286629,P t r Y @ G
+0.443891,P t r Y @ G g
+0.444304,P t r Y @ G g x
+-0.244307,P g x
+0.52725,P t r Y @ G g x l
+0.826685,S l x g G @
+0.724954,SC _ l x g G @
+0.499575,S p @ r
+0.499575,SC _ p @ r
+1.242,P t U
+0.0936584,P t U k
+-0.0199641,S R g i
+-0.0199641,SC _ R g i
+-0.327251,S s i
+-0.327324,SC _ s i
+0.168417,S G I Y
+0.138322,SC _ G I Y
+0.0373345,P t r Y I G
+0.000399615,S u t G I Y
+0.000673972,S u t G I Y r
+0.000718939,S u t G I Y r t
+0.000399615,SC _ u t G I Y
+0.000673972,SC _ u t G I Y r
+0.000718939,SC _ u t G I Y r t
+0.512513,S p ^ d
+0.0196413,S p ^ d n
+0.340533,SC _ p ^ d
+0.00439521,SC _ p ^ d n
+-0.364592,S r x
+-0.360835,SC _ r x
+1.21198,P x r
+-0.0022154,S n W r x
+-0.0022154,SC _ n W r x
+0.0238979,S d n W r
+0.154037,SC _ d n W r
+-0.326381,S d n ^
+-0.327571,SC _ d n ^
+1.39732,P ^ n d
+0.257574,S R d
+0.508521,S R d n
+0.172865,SC _ R d
+0.397882,SC _ R d n
+2.72619,P ^ n d R
+-0.0762961,P d R
+0.959703,S W k
+1.00716,SC _ W k
+0.421472,P D ^ k W
+0.963494,S C W
+0.032252,S C W k ^
+0.241675,S C W k ^ D
+0.43329,SC _ C W
+0.150904,SC _ C W k ^
+0.184736,SC _ C W k ^ D
+1.11942,P W C
+0.0127098,P n ^ T I
+0.759553,P n ^ T I G
+0.862013,S G c
+0.862013,SC _ G c
+0.27971,S R g G
+0.269409,SC _ R g G
+0.00553685,S W W W
+0.00553685,SC _ W W W
+1.13008,CSC _VVVV
+0.746541,S r e h
+1.07873,SC _ r e h
+-0.115385,P h e r
+-0.222005,S i l s
+-0.229726,SC _ i l s
+0.378279,S p i l s
+0.406247,SC _ p i l s
+1.40634,P s l i p
+0.69976,P d r a
+0.849594,P d r a p
+-0.0409885,P p I t
+1.55891,P p I k
+2.31785,P E l m o
+0.256723,S o m l E
+0.173795,SC _ o m l E
+5.723,P S S
+0.418625,S S S
+0.471888,SC _ S S
+0.472621,P l E m i
+0.220039,P e l I t x l b I
+0.0588058,SC _ t I b l x t I
+0.221405,P e l I t x l b I t
+0.44554,S t n @ l p
+0.443093,SC _ t n @ l p
+0.270201,S s t n @
+0.0651543,SC _ s t n @
+2.14784,S u y s E l b
+0.484659,SC _ u y s E l
+1.79294,SC _ u y s E l b
+-0.0552443,S s @
+-0.0552443,SC _ s @
+0.0343979,P b @ s k
+0.910229,P @ s k
+0.22378,P b @ s k I
+0.0980811,S t I k s @
+0.177768,S t I k s @ b
+0.041293,SC _ t I k s @
+0.323386,SC _ t I k s @ b
+0.142463,P b @ s k I t
+0.184721,S R t E b l i
+0.233011,S R t E b l i f
+0.184721,SC _ R t E b l i
+0.235279,SC _ R t E b l i f
+1.09592,P w I n
+0.926721,P D ^ w I n d
+0.113044,P w I n d
+0.372622,S o d n I
+0.847882,S o d n I w
+0.577434,SC _ o d n I
+1.14876,SC _ o d n I w
+-0.0212471,P D ^ h
+0.000668853,P ^ h
+0.000495988,P h i r w
+0.00102468,P h i r w i
+0.0265872,P h i r w i g
+0.342555,P h i r w i g o
+0.000831721,S o g i w r i
+0.000838113,S o g i w r i h
+0.000831721,SC _ o g i w r i
+0.000838113,SC _ o g i w r i h
+0.0927086,S s n W b
+0.381144,SC _ s n W b
+2.01767,P b W n s
+-0.405362,S i w s
+-0.401045,SC _ i w s
+-0.00290603,S t i w s
+-0.00290603,SC _ t i w s
+2.5854,P s w i t
+-0.26197,P w i t
+0.229524,S x C a
+0.938582,S x C a g
+0.716594,SC _ x C a
+0.711158,SC _ x C a g
+0.121858,P a r n
+2.37996,P a r n t
+1.53407,S a y
+0.258869,S a y t
+1.65565,SC _ a y
+0.370292,SC _ a y t
+0.73264,P Y g
+0.950292,P Y g a
+-0.155103,S Y d
+-0.155103,SC _ Y d
+0.356853,P d Y
+0.793356,P Y b E
+1.6988,P Y b E t
+0.0795016,P h @ v e
+0.990022,S s Y n
+0.961965,SC _ s Y n
+1.19504,P n Y s
+0.0330254,S i p
+0.221433,S i p @
+0.0183482,SC _ i p
+0.221433,SC _ i p @
+0.0574431,P p i
+0.58758,P S S S
+1.15876,S S S S
+1.56568,SC _ S S S
+-0.138168,S e m
+-0.129327,SC _ e m
+0.745315,P m e
+0.0162713,S k e m
+0.0162713,SC _ k e m
+0.745129,P m e k
+0.596134,S o r T
+1.27956,SC _ o r T
+1.27489e-05,S t s x f k
+0.00997338,S t s x f k E
+0.00784147,S t s x f k E r
+1.07155,S t s x f k E r b
+1.27489e-05,SC _ t s x f k
+0.00997338,SC _ t s x f k E
+0.00784147,SC _ t s x f k E r
+1.07155,SC _ t s x f k E r b
+0.174304,S z o n
+0.120917,SC _ z o n
+1.75311,P n o z
+1.06651,P l ^ n
+0.378308,S C n
+0.545112,S C n ^
+0.0403109,S C n ^ l
+0.442696,SC _ C n
+0.513221,SC _ C n ^
+0.000558614,SC _ C n ^ l
+1.24169,P l ^ n C
+1.50782,P w e r d
+3.59077,P k r
+0.0356543,S t Y b
+0.0357227,SC _ t Y b
+0.786728,P b Y t
+0.230925,S l E t
+0.230925,SC _ l E t
+1.57951,P t E l
+-0.28398,S d r U
+-0.286815,SC _ d r U
+1.06737,P d Y p
+0.0516227,P d Y p R
+0.246045,P C e n
+0.670641,S J n e
+0.243763,SC _ J n e
+0.731084,P C e n J
+0.290411,S d J
+0.305827,S d J n
+0.522675,S d J n e
+0.807327,S d J n e C
+0.598681,SC _ d J
+0.486902,SC _ d J n e
+1.16308,SC _ d J n e C
+0.326679,S t E w
+0.120387,SC _ t E w
+0.494005,P D ^ s t
+0.319737,P J ^ m
+2.00778,P J ^ m p
+1.05839,S Y l f
+0.692905,SC _ Y l f
+0.965666,S t s E r
+0.805802,SC _ t s E r
+1.28325,P r E s t
+0.496772,P p @
+-0.0880075,S t n @ p
+-0.0880075,SC _ t n @ p
+0.211908,P s k e
+1.76613,P s k e r
+0.769488,S e w x
+0.758926,SC _ e w x
+-0.0621395,P e b Y
+0.486396,S Y b Y
+0.506886,S Y b Y b
+0.373281,SC _ Y b Y
+0.64868,SC _ Y b Y b
+0.921588,S k Y b
+0.880918,SC _ k Y b
+0.00038958,P l E t g o ^
+0.00104216,P l E t g o ^ v
+0.0309102,S v ^ o g t
+0.0550588,S v ^ o g t E
+0.0831434,S v ^ o g t E l
+0.0309102,SC _ v ^ o g t
+0.0550588,SC _ v ^ o g t E
+0.0831434,SC _ v ^ o g t E l
+1.11428,P p r a
+0.0740594,P t e k e
+0.680848,P k e m
+0.430213,S R v o l
+0.420036,SC _ R v o l
+0.0977491,S p Y w
+0.106796,SC _ p Y w
+1.12773,P w Y p
+0.0691251,S G I k e
+0.0691251,SC _ G I k e
+1.2675,P Y w
+0.208235,CSC _CVCVNNV
+0.00113021,S l c f
+0.00113021,SC _ l c f
+0.822131,P f c l
+0.0380826,P c l r Y
+0.00106077,P c l r Y t
+0.470073,S d @ b
+0.238617,SC _ d @ b
+0.101663,P c l d
+0.322583,P d r E
+0.322967,P d r E s
+0.294066,S t s E r d
+0.442441,SC _ t s E r d
+-0.0613782,CSC _CVCVVCCV
+-0.288031,P y U r p
+0.632605,P k r Y
+0.058752,S G I Y r k
+0.058752,SC _ G I Y r k
+0.789981,S C ^ m
+0.856478,SC _ C ^ m
+-0.248556,S i C
+-0.252189,SC _ i C
+0.461335,P C i
+0.143594,S z i C
+0.146895,SC _ z i C
+-0.0536827,S i z i
+-0.0536827,SC _ i z i
+0.088009,S k I k
+0.088009,SC _ k I k
+1.99791,P k I k
+1.4095,S g E
+1.4867,SC _ g E
+0.944786,P l E g
+0.363156,P E g
+0.539342,S z g
+0.314524,SC _ z g
+1.06553,P l E g z
+1.56758,P l e d
+0.199637,P l e d W n
+0.214809,P x n ^
+0.826885,P x n ^ D
+1.46116,P x n ^ D R
+0.805493,S d n x
+0.0637707,S d n x k E s
+0.818983,SC _ d n x
+0.0810055,SC _ d n x k E s
+0.376336,S x l
+0.376336,SC _ x l
+-0.872956,P l x
+0.782002,S n x l
+0.678908,SC _ n x l
+0.138275,S l I t n
+0.151618,S l I t n x
+0.138275,SC _ l I t n
+0.151618,SC _ l I t n x
+-0.0418188,P s a n
+1.05491,P l E f t
+0.0179825,S t f E
+0.158947,S t f E l
+0.145245,SC _ t f E
+0.15489,SC _ t f E l
+0.29978,S n e l p
+0.29978,SC _ n e l p
+0.319322,S d R
+0.319077,SC _ d R
+-0.111529,S v ^ k
+0.296016,S v ^ k G
+0.296298,S v ^ k G I
+-0.106131,SC _ v ^ k
+0.296016,SC _ v ^ k G
+0.296298,SC _ v ^ k G I
+-0.317339,P k r x
+0.29925,S n o f x
+0.353184,SC _ n o f x
+0.409452,S m x
+0.425807,SC _ m x
+2.01441,P x m
+0.617645,S f ^ n I
+0.448729,SC _ f ^ n I
+0.162913,S z r i
+0.214678,SC _ z r i
+0.146948,P r i x
+-0.1449,S l x i r
+-0.147312,SC _ l x i r
+0.576956,P r i x l i
+0.244524,P y ^ m y ^
+0.338682,P y ^ m y ^ m
+1.01014,S m ^ y m ^ y
+0.863727,SC _ m ^ y m ^ y
+2.08422,P g o x
+0.707781,S b I
+0.947525,S b I b
+0.659996,SC _ b I
+0.885909,SC _ b I b
+-0.311567,P d ^ v
+0.453072,S i z ^
+0.475581,SC _ i z ^
+0.430586,P w I C
+0.0506727,S o i
+0.140195,SC _ o i
+0.554895,P l c n
+0.287618,S i p ^ p
+0.287618,SC _ i p ^ p
+1.08262,P p ^ p i
+1.57934,P t E d i
+0.485383,P D ^ b ^
+0.341029,S i n ^ b
+0.487493,SC _ i n ^ b
+7.51504e-05,P b ^ n i
+0.00277077,P w I C w
+0.000113585,P w I C w ^
+0.000161233,P w I C w ^ n
+0.133404,S n ^ w C
+0.22027,S n ^ w C I
+0.25125,S n ^ w C I w
+0.141004,SC _ n ^ w C
+0.183283,SC _ n ^ w C I
+0.25125,SC _ n ^ w C I w
+0.348459,S g ^
+0.348459,SC _ g ^
+0.981409,S r e C
+0.474639,SC _ r e C
+0.322293,S s n @
+0.342598,SC _ s n @
+0.361983,P w Y l
+0.0557292,S t n x z ^
+0.0575853,S t n x z ^ d
+0.0559995,SC _ t n x z ^
+0.128227,SC _ t n x z ^ d
+1.85452,P k @ r
+0.566976,S v i l
+0.561653,SC _ v i l
+2.41007,P l i v
+0.385436,S u p
+-0.00328175,S u p s
+0.388311,SC _ u p
+-0.00328175,SC _ u p s
+0.815926,P s p u
+0.335152,P p u
+0.11344,S n u p
+0.471593,S n u p s
+0.560654,SC _ n u p s
+-0.249854,P p u n
+-0.178312,P h o l d D
+0.00809753,S t W b x W
+0.010011,S t W b x W h
+0.00809753,SC _ t W b x W
+0.010011,SC _ t W b x W h
+0.336935,P v E J t
+0.435019,P v E J t x
+0.453308,P v E J t x b
+0.473112,P v E J t x b x
+0.581451,P v E J t x b x l
+-0.0389812,S k I C
+-0.0389812,SC _ k I C
+1.78514,P C I k
+0.854106,P I n y U
+1.17576,P I n y U r
+0.0262266,S r e C r
+0.133811,S r e C r U
+0.141722,S r e C r U y
+0.0262266,SC _ r e C r
+0.0864947,SC _ r e C r U
+0.156351,SC _ r e C r U y
+0.435313,P k @ r I
+0.456592,P k @ r I t
+0.580767,P p x t e
+0.773907,P p x t e t
+1.04096,P p x t e t o
+0.291031,S z o t
+0.585912,SC _ z o t
+0.0489827,S k G I T
+0.0655018,S z i b e b
+0.0294964,SC _ z i b e
+0.169445,SC _ z i b e b
+0.15676,P b e b i z
+-0.824699,P b i z
+-0.292899,P s @ n d
+0.113521,CSC _VCCNVNVCV
+0.160535,CSC _VCCNVNVCVC
+7.30898e-06,P Y d I d x
+0.129433,P d I d x
+1.43127e-05,P Y d I d x n
+0.197634,P d I d x n
+2.94964e-05,P Y d I d x n t
+0.1148,P d I d x n t
+0.359549,S i p i
+0.207926,SC _ i p i
+0.0452759,S R C k
+0.160997,S R C k I
+0.261747,S R C k I p
+0.0405738,SC _ R C k
+0.179458,SC _ R C k I
+0.250452,SC _ R C k I p
+0.14497,P p I k C R
+-0.0411405,P C R
+1.12883,P m @ k x r o n i
+0.0972263,S i n o r x k @
+0.106995,S i n o r x k @ m
+0.102976,SC _ i n o r x k @
+0.11919,SC _ i n o r x k @ m
+0.254325,S i r t
+0.260863,SC _ i r t
+-0.518839,P Y y
+0.542492,P b Y y U r s
+0.128205,P b Y y U r s E l
+0.93077,S f l E
+1.23285,S f l E s
+0.0733589,S f l E s r U
+0.0731039,S f l E s r U y
+1.39407,SC _ f l E
+1.05948,SC _ f l E s
+0.0364476,SC _ f l E s r U
+0.117695,SC _ f l E s r U y
+0.859127,P b Y y U r s E l f
+0.00146123,S S ^
+0.00146123,SC _ S ^
+0.0551782,CSC _CVNCVCVNV
+0.0496527,S T W m r
+0.20233,S T W m r U
+0.0993069,S T W m r U y
+0.00429449,SC _ T W m r
+0.0414839,SC _ T W m r U
+0.0990105,SC _ T W m r U y
+0.625915,S t s R f
+0.287326,SC _ t s R f
+0.77021,P f R s t
+0.0960651,S l x d
+0.400481,S l x d u
+0.0535779,SC _ l x d
+0.347022,SC _ l x d u
+0.312483,P n u d x l
+0.131228,S z G
+0.381164,S z G I
+0.100933,SC _ z G
+0.390588,SC _ z G I
+0.369053,P T I G z
+0.457786,P c l ^ v
+0.693718,S i r g G
+0.0317944,S i r g G ^
+0.0481089,S i r g G ^ h
+0.710545,SC _ i r g G
+0.0775749,SC _ i r g G ^
+0.384297,SC _ i r g G ^ h
+0.00257711,S t p a
+0.14665,SC _ t p a
+-0.0575633,S o l c
+-0.0575633,SC _ o l c
+0.0237722,P c l o v
+0.288287,P c l o v R
+0.331313,S s E m e
+0.331313,SC _ s E m e
+1.23176,P m E s
+0.893878,S n c g
+1.34731,SC _ n c g
+0.146152,P c l g c n
+1.17389,P k U
+-0.0650299,S k U k
+-0.0650299,SC _ k U k
+0.0219662,P k U k
+0.371577,P k U k i
+0.427177,S n x t
+0.44667,SC _ n x t
+1.04256,P f ^ s
+0.452676,P b x n @
+0.517961,P b x n @ n
+1.21187,S x n @ n
+1.13212,SC _ x n @ n
+0.436261,P b x n @ n x
+1.73404,S k r a
+1.03596,SC _ k r a
+0.088457,S z i k
+0.088457,SC _ z i k
+0.00780427,S i d i
+0.00780427,SC _ i d i
+-0.0644953,P s e t
+-0.0740581,P c l y
+0.263414,S d n @ h
+0.35651,SC _ d n @ h
+0.000611859,P k w Y
+0.934804,S m x h
+0.790686,SC _ m x h
+-0.270377,S i l k
+-0.270861,SC _ i l k
+0.0904131,S n i l k
+0.0907231,SC _ n i l k
+0.731348,P k l i n
+0.0796585,S a h
+0.0999438,SC _ a h
+0.11169,P h a
+0.357925,S d r a
+0.201339,S d r a h
+0.180179,SC _ d r a
+0.287794,SC _ d r a h
+0.882866,P y U r S
+-0.162986,S R S
+-0.157502,SC _ R S
+1.05413,S t R S
+0.789389,SC _ t R S
+0.809496,S t i f
+0.980574,SC _ t i f
+2.04376,P y u x
+0.560089,S s W h
+0.289567,SC _ s W h
+0.0254228,S n I s
+0.0254228,SC _ n I s
+-0.0748705,P s I n
+0.954024,S e y
+1.00425,SC _ e y
+1.06619,S t r a
+1.26759,SC _ t r a
+0.717496,P Y s i
+2.52886,P s k r
+0.152802,P s k r @
+0.154481,P s k r @ C
+-0.417451,P k r @ C
+0.665215,S k E C
+0.665215,SC _ k E C
+1.16014,P C E k
+0.639268,P r I k c
+0.679033,P r I k c r
+1.94417,P r I k c r d
+0.00961776,S R d r c k I
+0.307096,S R d r c k I r
+0.00961776,SC _ R d r c k I
+0.373163,SC _ R d r c k I r
+0.161212,P p a
+3.11168,P z I p
+0.395558,S p I
+0.463841,SC _ p I
+1.41748,P I z e
+0.225965,P f Y n
+0.17159,S d n Y
+0.203558,SC _ d n Y
+-0.439143,P Y n d
+0.297171,S v I
+0.209818,S v I g
+0.219019,SC _ v I
+0.2123,SC _ v I g
+1.50239,P g I v
+0.326482,S G I t Y
+0.323503,SC _ G I t Y
+0.173629,S d n W f
+0.173629,SC _ d n W f
+0.393033,P f W n d
+1.10901,S x d n
+0.483627,SC _ x d n
+0.839164,S s e l p
+0.839164,SC _ s e l p
+2.7464,P h e h e
+0.294399,S e h e h
+0.168192,SC _ e h e h
+0.0880648,S t e g ^
+0.161216,S t e g ^ D
+0.0880648,SC _ t e g ^
+0.161216,SC _ t e g ^ D
+0.313538,S t Y l
+0.00783752,S t Y l ^
+0.0523089,S t Y l ^ D
+0.313189,SC _ t Y l
+0.00783752,SC _ t Y l ^
+0.0523089,SC _ t Y l ^ D
+0.404727,S x l E r b
+0.404727,SC _ x l E r b
+2.38271,P y u z
+0.851754,P s t e d
+-0.453703,S i D
+-0.448299,SC _ i D
+-0.101764,S z i D
+-0.101764,SC _ z i D
+0.254879,P D i z
+0.701385,S m i r k
+0.788677,SC _ m i r k
+0.476128,S p @ l
+0.391982,SC _ p @ l
+0.705248,P k l @ p
+0.599379,P E n i w e
+0.713808,P k ^ t
+0.510231,S Y p
+0.387023,SC _ Y p
+-0.659845,P p Y
+1.64218,S O b
+1.68905,SC _ O b
+-0.573722,P b O
+0.4971,P I n t x
+0.139776,P I n t x r E
+0.140233,P I n t x r E s
+0.31102,P I n t x r E s t
+1.54323,P I n t x r E s t I
+-0.114819,P p @ n d
+1.07762,P s n o
+-0.186282,S l @
+-0.186841,SC _ l @
+1.26192,P @ l
+0.495815,S z v
+0.0613834,S z v ^ l
+0.509246,SC _ z v
+0.0613834,SC _ z v ^ l
+0.494156,P I n D ^ b
+0.550383,P D ^ b @
+1.04515,S n @ m
+0.887617,SC _ n @ m
+2.04845,P k @ C
+0.366156,S z I C
+0.341607,SC _ z I C
+1.26137,S r a e D
+0.918506,SC _ r a e D
+-1.48818,P m x
+0.472799,P k Y n
+1.35734,P k Y n d
+2.15944,P @ n I
+0.000810854,P @ n I m
+1.02385,P @ n I m x
+1.66845,P @ n I m x l
+0.00230192,S s t s
+0.00230192,SC _ s t s
+0.193528,P h I t
+0.215016,P I n D ^ h
+-0.401301,P s x
+-0.102321,S z x
+-0.145128,SC _ z x
+0.0537014,S z o n z
+0.0537014,SC _ z o n z
+0.541192,P I g n
+0.844985,P I g n o
+0.955167,S z I i h
+0.852931,SC _ z I i h
+0.785508,S g @
+0.997572,SC _ g @
+0.217747,S s Y n i
+0.157167,SC _ s Y n i
+0.364298,S C i r
+0.364298,SC _ C i r
+3.41569,P r i C
+1.08471,P s w I
+0.651945,S g ^ h
+0.443725,S g ^ h e
+0.656056,SC _ g ^ h
+0.452567,SC _ g ^ h e
+0.137742,P h I z
+1.44556,S p i S
+0.880015,SC _ p i S
+1.0595,S u r T
+1.04707,SC _ u r T
+0.161309,S z O n
+0.167879,SC _ z O n
+0.0672218,S G I r G
+0.0678915,S G I r G I
+0.0672218,SC _ G I r G
+0.0678915,SC _ G I r G I
+0.112729,P h @ p
+0.175691,P h @ p x
+0.116954,P @ p x
+0.219043,P h @ p x n
+0.845857,S n W l k
+0.845857,SC _ n W l k
+0.25667,P h I z n
+0.320375,S t W t I t
+0.449292,SC _ t W t I t
+0.000173836,P s ^ m T
+0.31919,P s ^ m T I
+0.118403,P s ^ m T I G
+0.888502,S k e k
+0.659353,SC _ k e k
+0.00266581,P p i k x
+0.107763,P p i k x b
+0.226619,P p i k x b u
+0.223722,P s @ t d
+0.497134,P s @ t d W
+0.576561,P s @ t d W n
+1.25745,P C I l
+2.42099,P ^ h ^
+0.000700972,S ^ h ^
+0.000700972,SC _ ^ h ^
+0.0611219,P b W n s b W n s
+0.156057,S s n W b s
+0.0998492,S s n W b s n
+0.214821,S s n W b s n W
+0.0683836,S s n W b s n W b
+0.148725,SC _ s n W b s
+0.224402,SC _ s n W b s n
+0.0920718,SC _ s n W b s n W
+0.141121,SC _ s n W b s n W b
+-0.0248069,S z ^ D
+-0.0044466,SC _ z ^ D
+0.222478,S R p I z
+0.222478,SC _ R p I z
+1.09549,P k l Y m
+-0.585123,P m I G
+0.762866,P Y T
+0.22499,S k G I T Y
+0.216614,SC _ k G I T Y
+0.371926,S s k E m l c b
+0.371926,SC _ s k E m l c b
+0.444199,P t w E n t i
+-0.612878,P w E n t i
+1.81711,P ^ p ^ p ^
+1.45527,P ^ p ^ p ^ p
+6.51482e-05,S p ^ p ^ p
+0.00368869,S p ^ p ^ p ^
+6.51482e-05,SC _ p ^ p ^ p
+0.34076,SC _ p ^ p ^ p ^
+0.120756,S d n W r g
+0.120756,SC _ d n W r g
+0.435704,S t ^ S
+0.384607,SC _ t ^ S
+2.0682,P S ^ t
+0.000406775,P t I k
+0.790304,P t I k x
+1.34933,P t I k x l
+0.2738,S i l x u
+0.2738,SC _ i l x u
+0.05015,P s t e r Y
+0.868602,P s t e r Y t
+0.300287,S k a s
+0.311565,SC _ k a s
+1.06754,P s a k
+0.0041928,S i r o
+0.0041928,SC _ i r o
+0.0369828,S p i k
+0.189994,SC _ p i k
+0.524108,P k i p
+0.25316,P f i t f
+0.00054813,P f @
+0.251922,P f @ s
+0.731431,S t s @ f
+0.888205,SC _ t s @ f
+0.339208,S t E w l
+0.339208,SC _ t E w l
+0.298018,S S @
+0.298018,SC _ S @
+0.321176,P p r a b
+0.168927,S i l b x b a
+0.297037,S i l b x b a r
+0.436711,S i l b x b a r p
+0.168927,SC _ i l b x b a
+0.297037,SC _ i l b x b a r
+0.436711,SC _ i l b x b a r p
+-0.855706,P b l i
+0.634689,S t U f
+0.58311,SC _ t U f
+1.50544,P y u v
+0.000547839,P y u v g
+0.000584229,P y u v g a
+0.787562,S t a g v
+0.000183747,S t a g v u
+0.0118419,S t a g v u y
+0.787562,SC _ t a g v
+0.000183747,SC _ t a g v u
+0.0118419,SC _ t a g v u y
+0.000633796,P y u v g a t
+0.862081,S s i p
+0.862081,SC _ s i p
+0.540877,P p i s
+0.0808172,S z R p
+0.0808172,SC _ z R p
+0.171635,P y U r t
+0.312829,P r ^ n I
+0.317021,P r ^ n I G
+0.247848,P Y l ^ v
+1.47404,P k I s
+0.777621,S s I k
+0.701562,SC _ s I k
+0.318331,S G I p @ l k
+0.318331,SC _ G I p @ l k
+0.116168,P k l o s
+0.781869,S s e f
+1.10068,SC _ s e f
+0.00392844,S i m C
+0.00392844,SC _ i m C
+-0.0337267,S C ^ D
+-0.0337267,SC _ C ^ D
+0.192282,S n I C
+0.192282,SC _ n I C
+0.228427,P w E n t ^
+0.34366,S p ^ t n E w
+0.386782,P w E n t ^ p
+0.711329,S k s E d
+0.711329,SC _ k s E d
+0.444059,P g r e
+0.000297958,P p R p
+2.20481,P p R p x
+-0.981414,P p x l
+0.0988276,S R W
+0.0834031,S R W l f
+0.00153431,SC _ R W
+0.0834031,SC _ R W l f
+0.306729,P f l W R
+0.192086,P T r o I
+0.395959,S e w x t
+0.36243,SC _ e w x t
+0.124694,S k e S
+0.229433,SC _ k e S
+2.09398,P S e k
+0.100622,P S e k I
+0.606639,S n x v i
+0.781497,S n x v i t
+0.606639,SC _ n x v i
+0.781497,SC _ n x v i t
+0.0323563,P k r c l
+0.440806,P c l D ^ w
+0.899493,P c l D ^ w e
+0.831972,S t u y k
+0.83198,SC _ t u y k
+2.64921,P k y u t
+0.504259,S i s n
+0.394486,S i s n @ k Y
+0.502999,SC _ i s n
+0.394486,SC _ i s n @ k Y
+0.491745,S o l I p
+0.491745,SC _ o l I p
+0.914081,S p l E
+0.812273,S p l E h
+0.927646,SC _ p l E
+1.15262,SC _ p l E h
+0.202834,P h E l p
+0.49828,S i l t
+0.49828,SC _ i l t
+0.162141,S k ^ t
+0.00257651,S k ^ t s
+0.162141,SC _ k ^ t
+0.00257651,SC _ k ^ t s
+0.547165,S T @ b
+0.595341,SC _ T @ b
+0.630309,P p U S
+0.959739,P p o k
+0.0480522,P J E
+0.587467,P J E n
+0.128153,P J E n t x
+0.692393,P J E n t x l
+0.0949293,P w ^ t s r
+0.0758177,P w ^ t s r c
+0.134053,P w ^ t s r c G
+0.0820227,S G c r s
+1.02812,S G c r s t
+0.0266967,SC _ G c r s
+1.05869,SC _ G c r s t
+0.240315,P s I G I G
+1.79455,P d @ n s
+0.387054,S T c
+0.387054,SC _ T c
+0.302558,P m Y h
+0.863546,S n ^ s
+0.699116,SC _ n ^ s
+1.38884,S n ^ d
+0.858431,SC _ n ^ d
+0.124531,P d ^ n
+0.483975,S R k c w
+0.729199,SC _ R k c w
+0.483957,S g @ b
+0.502865,SC _ g @ b
+0.563763,S o r a m x
+0.827758,S o r a m x t
+0.563763,SC _ o r a m x
+0.827758,SC _ o r a m x t
+0.966943,S l o b
+0.849855,SC _ l o b
+0.064713,P s I r i x
+0.575073,P s I r i x l
+0.540291,S z m
+0.648512,SC _ z m
+3.92291,P @ p x l
+0.320185,S t Y n
+0.320185,SC _ t Y n
+-0.0130858,P p ^ v
+0.19268,S S a w k s
+0.303469,S s c s
+0.127678,SC _ s c s
+1.15679,S m r c w
+1.03362,SC _ m r c w
+0.310318,S t n E w i
+0.310318,SC _ t n E w i
+0.0581548,P k x m
+2.19802,P k x m p
+0.497173,S R t u y p
+0.000344352,S R t u y p m
+0.0003595,S R t u y p m x
+0.238757,S R t u y p m x k
+0.151976,SC _ R t u y p
+0.000344352,SC _ R t u y p m
+0.0003595,SC _ R t u y p m x
+0.238757,SC _ R t u y p m x k
+0.231023,S z m ^ k
+0.536201,SC _ z m ^ k
+2.55279,P y U r b I b
+0.741761,S i l a d
+0.703546,SC _ i l a d
+0.689732,P t x g E D
+1.01736,P t x g E D R
+0.263266,S z u S
+0.263266,SC _ z u S
+0.400199,S t o k
+0.312388,SC _ t o k
+0.221082,S t s k
+1.04435,S t s k E n
+0.164724,SC _ t s k
+0.832125,SC _ t s k E n
+1.76183,P n E k s t
+0.409193,S S I f
+0.242256,S S I f d
+0.155367,S S I f d l
+0.0139952,S S I f d l o
+0.297337,SC _ S I f
+0.357518,SC _ S I f d
+0.124773,SC _ S I f d l
+4.2395e-06,SC _ S I f d l o
+0.254579,P f I S
+0.824029,P k r ^ n C
+0.000629483,P x m k
+0.275633,P b o n
+-0.0742408,P h W y
+0.490085,P E k s k
+0.530456,P E k s k y
+0.447383,P E k s k y u
+1.04038,P E k s k y u s
+0.124284,S s u y k s k
+0.136511,S s u y k s k E
+0.124284,SC _ s u y k s k
+0.136511,SC _ s u y k s k E
+0.039254,S i m s u y k s
+0.0195793,S i m s u y k s k
+0.164408,S i m s u y k s k E
+0.0854405,SC _ i m s u y k s
+0.12105,SC _ i m s u y k s k
+0.000252122,CSC _VNCVCCCC
+0.1799,SC _ i m s u y k s k E
+0.000642016,CSC _VNCVCCCCV
+1.08225,S r U S
+1.08225,SC _ r U S
+0.402549,S z I i S r
+0.297764,S z I i S r e
+0.823551,S z I i S r e D
+0.306728,SC _ z I i S r
+0.384898,SC _ z I i S r e
+0.738831,SC _ z I i S r e D
+0.0801645,S t e w
+0.080538,SC _ t e w
+0.944684,P w e t
+1.23041,P k @ n Y
+0.371285,S v @ h Y
+0.00242574,S v @ h Y n
+0.259726,S v @ h Y n @
+0.333191,S v @ h Y n @ k
+0.407096,SC _ v @ h Y
+0.00242574,SC _ v @ h Y n
+0.242614,SC _ v @ h Y n @
+0.288212,SC _ v @ h Y n @ k
+0.300361,P Y h @ v
+2.33869,P l @ f
+1.13917,P s l o
+0.576728,S J I
+0.282003,S J I r b
+0.565167,SC _ J I
+0.488617,SC _ J I r b
+-0.245098,P c l x
+0.254417,S p i l s x l c f
+0.254417,SC _ p i l s x l c f
+0.172225,P p a r
+0.116848,P l @ f I
+-0.413943,S G I f
+-0.41606,SC _ G I f
+0.151412,P l @ f I G
+1.01623,S m o h
+1.2543,SC _ m o h
+0.001149,S k @ n
+0.28975,S k @ n s
+0.520163,S k @ n s e
+0.0399384,SC _ k @ n
+0.265336,SC _ k @ n s
+0.543591,SC _ k @ n s e
+0.244955,P p i p
+-0.294447,P Z
+0.150011,S t @ h
+0.150011,SC _ t @ h
+1.17998,P s o b
+0.46501,S d Y r
+0.46501,SC _ d Y r
+1.03166,P r Y d
+0.0513084,S z n i
+0.128792,SC _ z n i
+0.163783,S z r e p
+0.163783,SC _ z r e p
+1.76895,P s t o r
+0.286483,P s x p o
+0.491778,P s x p o z
+1.52737,P s x p o z d
+0.60442,S u t d z
+0.60442,SC _ u t d z
+2.71266,P @ l I
+0.327238,P m I k
+0.084606,S v ^ i
+0.0555063,S v ^ i n
+0.190537,S v ^ i n E
+0.084606,SC _ v ^ i
+0.0555063,SC _ v ^ i n
+0.190537,SC _ v ^ i n E
+1.0988,P p a p
+0.571298,S n ^ n
+0.571298,SC _ n ^ n
+0.154912,S n i b
+0.21052,SC _ n i b
+0.326393,P b i n
+0.682939,S z n i b
+0.101476,SC _ z n i b
+0.296933,P E k s p
+0.195123,S n I S
+0.222978,SC _ n I S
+0.237198,S d U k
+0.237198,SC _ d U k
+0.763036,S i s p
+0.698157,SC _ i s p
+0.00547465,S t n W
+0.00547465,SC _ t n W
+1.05417,P e l a t
+0.15143,P e l a t ^
+0.220069,P e l a t ^ v
+1.0999,P p i C I
+1.10128,P p i C I z
+0.879231,S t n I r f I d
+0.879231,SC _ t n I r f I d
+0.0173644,P Y w I
+0.551093,S d E r b
+0.735059,SC _ d E r b
+0.165902,S n ^ d t s o m l c
+0.284377,SC _ n ^ d t s o m l c
+1.45672,P r x m
+0.0198634,P m I l
+1.1958,S k l I m
+1.2409,SC _ k l I m
+0.307737,P m I l k
+0.00766106,S x m a
+0.0320044,SC _ x m a
+0.101444,SC _ x m a m
+0.136395,S n Y l
+0.136395,SC _ n Y l
+0.571375,P s w i t h a r t
+1.08727,P Y h o p
+0.167628,P p r E
+0.177997,S s E r p
+0.177997,SC _ s E r p
+0.00253687,S z i r
+0.0277632,S z i r I s o r
+0.449599,S z i r I s o r g
+0.00253687,SC _ z i r
+0.0277632,SC _ z i r I s o r
+0.449599,SC _ z i r I s o r g
+2.18236,P b x l u
+0.0120248,S l Y m s
+0.0120248,SC _ l Y m s
+0.265536,S i d ^ b
+0.327097,SC _ i d ^ b
+1.40974,S s l E
+1.72085,SC _ s l E
+0.209929,P p e I G x
+0.266395,P p e I G x t
+0.317483,P p e I G x t E
+0.317676,P p e I G x t E n
+0.301793,S S n E t
+1.18061,S S n E t x
+8.12065e-06,S S n E t x G I
+0.0551952,S S n E t x G I e
+0.230199,S S n E t x G I e p
+0.301793,SC _ S n E t
+1.18061,SC _ S n E t x
+8.12065e-06,SC _ S n E t x G I
+0.0551952,SC _ S n E t x G I e
+0.230199,SC _ S n E t x G I e p
+0.323528,P p e I G x t E n S
+0.69563,S t s i l
+0.69563,SC _ t s i l
+0.0790116,P E n i m o
+0.351444,P E n i m o r
+1.31554,P w U p s
+0.00530148,P w U p s x d e z i
+9.75229e-06,S i z e
+0.0453267,S i z e d x s p
+0.11352,S i z e d x s p U
+0.0647142,S i z e d x s p U w
+0.345197,SC _ i z e
+0.0744933,SC _ i z e d x s p
+0.0435813,SC _ i z e d x s p U
+0.114416,SC _ i z e d x s p U w
+0.268855,S t Y r i b
+0.268855,SC _ t Y r i b
+0.937726,S p E y
+0.95633,SC _ p E y
+0.0305722,S l E b
+0.0305722,SC _ l E b
+0.511569,S m e g
+0.954075,SC _ m e g
+0.851342,S i k G
+0.734488,SC _ i k G
+2.30295,P t I m
+1.86902,P k W n t
+0.512153,P f I G g
+0.188995,S R g G I f
+0.127527,SC _ R g G I f
+0.80272,P f I G g R
+0.381212,P b x h Y n
+0.0429604,S d n Y h x
+0.235489,S d n Y h x b
+0.0429604,SC _ d n Y h x
+0.235489,SC _ d n Y h x b
+0.912459,P b x h Y n d
+0.150667,S z E s
+0.15299,SC _ z E s
+0.185359,P s E z
+0.644035,S t i r t
+0.738757,SC _ t i r t
+0.371389,S d Y s n
+0.221895,S d Y s n I
+0.376286,SC _ d Y s n
+0.239574,SC _ d Y s n I
+0.0623896,S m x l b a
+0.114153,S m x l b a r
+0.160908,S m x l b a r p
+0.0623896,SC _ m x l b a
+0.114153,SC _ m x l b a r
+0.160908,SC _ m x l b a r p
+0.551503,S l E f
+0.907056,SC _ l E f
+0.7972,P f E l
+0.363773,S f c l E
+0.00701951,S f c l E f
+1.01302e-05,SC _ f c l E
+0.00419906,SC _ f c l E f
+0.0516667,S f l E s m
+0.35342,S f l E s m I h
+0.0308451,SC _ f l E s m
+0.221637,SC _ f l E s m I h
+0.55204,P w R r i
+0.248778,S G I C a w
+0.248778,SC _ G I C a w
+0.357175,S n I C I k
+4.01387e-05,S n I C I k ^
+0.486494,S n I C I k ^ D
+0.0293232,SC _ n I C I k
+0.205816,SC _ n I C I k ^
+0.273756,SC _ n I C I k ^ D
+0.186167,P D e r h i I
+0.257653,P D e r h i I z
+0.145589,S z I i h r e
+0.423322,S z I i h r e D
+0.15177,SC _ z I i h r e
+0.444499,SC _ z I i h r e D
+3.36029e-05,P D ^ b @ T
+0.150981,S m u r T @
+0.186191,S m u r T @ b
+0.0442514,SC _ m u r T @
+0.401994,SC _ m u r T @ b
+0.00139537,SC _ m u r T @ b ^ D
+-0.0156563,P T r u m
+0.00651222,S b ^ t T
+0.00166397,S b ^ t T @
+0.0915742,S b ^ t T @ b
+0.0621316,SC _ b ^ t T
+0.00166397,SC _ b ^ t T @
+0.114661,SC _ b ^ t T @ b
+0.00311412,S z D o
+0.26259,S z D o l
+0.333734,S z D o l k
+0.0837825,SC _ z D o
+0.26259,SC _ z D o l
+0.26385,SC _ z D o l k
+0.0925425,P s k w R
+0.218236,P s k w R r x
+0.0585991,S l x r R w k
+0.0533699,S l x r R w k s
+0.166574,SC _ l x r R w k
+0.162572,SC _ l x r R w k s
+0.675352,P s k w R r x l
+0.839266,S r e b
+0.992778,SC _ r e b
+0.366531,S Y p i
+0.0776637,S Y p i t
+5.97524e-05,S Y p i t i w s
+0.282088,SC _ Y p i
+0.393693,SC _ Y p i t
+0.0392843,SC _ Y p i t i w s
+0.234068,P n a k t
+1.13016,P d R t
+0.0773003,S i t R d
+0.0773003,SC _ i t R d
+0.317651,P d R t i
+0.45685,P c l d ^
+0.0183763,P c l d ^ n
+-0.204711,CSC _VCNVNC
+0.411713,P m @ n d i
+-0.115024,S i l p
+-0.115024,SC _ i l p
+1.40947,P s t I G k
+0.621521,S g I b o s
+0.717883,SC _ g I b o s
+0.176034,P k U k i m a n s
+0.164817,P k U k i m a n s t
+0.143112,P k U k i m a n s t R
+0.515208,S R t s n a m
+0.211225,S R t s n a m i k U
+0.302143,S R t s n a m i k U k
+0.524877,SC _ R t s n a m
+0.202975,SC _ R t s n a m i k U
+0.221348,SC _ R t s n a m i k U k
+0.292679,S i s n i
+0.292679,SC _ i s n i
+0.0216465,P w i n s i s
+0.131878,P w i n s i s p
+0.318003,P w i n s i s p Y
+0.293906,P w i n s i s p Y d
+0.287673,P w i n s i s p Y d R
+0.257301,S R d Y p
+0.513283,S R d Y p s
+0.292139,S R d Y p s i s n
+0.390367,S R d Y p s i s n i
+0.309044,S R d Y p s i s n i w
+0.50752,SC _ R d Y p
+0.606304,SC _ R d Y p s
+0.430385,SC _ R d Y p s i s n
+0.255017,SC _ R d Y p s i s n i
+0.359914,SC _ R d Y p s i s n i w
+0.808751,S t W p s
+0.808751,SC _ t W p s
+1.18329,P k e m D
+1.34939,P k e m D ^
+0.525868,P w c S t
+0.0299916,S n ^ s ^
+0.0451787,S n ^ s ^ D
+0.0209368,SC _ n ^ s ^
+0.0451787,SC _ n ^ s ^ D
+0.0850326,S p ^ d Y
+0.174447,SC _ p ^ d Y
+2.54293,P l a l
+0.337156,P l a l i p a p
+1.22411,P g a d
+0.717165,S d a g
+0.284552,SC _ d a g
+0.62675,S i t u
+0.38298,SC _ i t u
+2.40627,P t ^ C
+0.438421,S C ^ t
+0.438421,SC _ C ^ t
+0.956185,P k l I k
+0.518914,S k I l k
+0.518914,SC _ k I l k
+0.435778,P g U d n
+0.399578,P p u p
+0.53826,S i p u p
+0.53826,SC _ i p u p
+0.87433,S s @ l g
+0.87433,SC _ s @ l g
+0.884939,S a m a m a
+0.677941,S a m a m a m
+0.490245,SC _ a m a m a
+0.591309,SC _ a m a m a m
+0.0139445,P m a m a m a
+0.600178,S u y v ^ l Y
+0.613518,SC _ u y v ^ l Y
+0.460129,S i r o t s
+0.460129,SC _ i r o t s
+0.30233,P f e v x r
+0.301422,P f e v x r I
+0.0225086,S t I r x
+0.0983762,S t I r x v
+0.111072,S t I r x v e
+0.698318,S t I r x v e f
+0.0225086,SC _ t I r x
+0.0983762,SC _ t I r x v
+0.111072,SC _ t I r x v e
+0.698318,SC _ t I r x v e f
+0.301821,P f e v x r I t
+0.527791,P m Y f
+0.0376059,P m Y f ^ z i
+0.0934849,P b l @ G
+0.301333,P b l @ G k
+0.0687889,SC _ t I k G @ l b
+0.219375,S n a z l i
+0.235864,S n a z l i w
+0.563145,SC _ n a z l i
+0.234129,SC _ n a z l i w
+0.821079,S s ^ b
+1.10041,SC _ s ^ b
+0.420447,P D ^ b ^ s
+0.102645,P b x l u g
+0.307464,S x g u
+0.411373,S x g u l
+0.31198,S x g u l x
+0.537835,S x g u l x b
+0.377874,SC _ x g u
+0.431904,SC _ x g u l
+0.305567,SC _ x g u l x
+0.411697,SC _ x g u l x b
+0.124441,P b x l u g x
+1.29741,P d I s
+0.288385,S d R b
+0.530361,SC _ d R b
+0.335551,P t R n D ^ p e
+1.18086,S J e p
+3.68472e-05,S J e p ^
+0.187082,S J e p ^ D
+0.00432675,S J e p ^ D n
+0.00438544,S J e p ^ D n R
+0.00443306,S J e p ^ D n R t
+0.982904,SC _ J e p
+3.68472e-05,SC _ J e p ^
+0.0519596,SC _ J e p ^ D
+0.00432675,SC _ J e p ^ D n
+0.00438544,SC _ J e p ^ D n R
+0.00443306,SC _ J e p ^ D n R t
+0.358822,P t R n D ^ p e J
+0.0603977,S k ^ d
+0.0691301,S k ^ d o
+0.14569,S k ^ d o l
+0.126021,S k ^ d o l E
+0.160683,S k ^ d o l E y
+0.154907,SC _ k ^ d
+0.0691301,SC _ k ^ d o
+0.14569,SC _ k ^ d o l
+0.126021,SC _ k ^ d o l E
+0.160683,SC _ k ^ d o l E y
+0.617418,S s r c h
+0.349265,S s r c h u
+0.350654,S s r c h u l
+0.454085,S s r c h u l b
+0.617418,SC _ s r c h
+0.349265,SC _ s r c h u
+0.350654,SC _ s r c h u l
+0.454085,SC _ s r c h u l b
+0.630083,P f r c
+0.0207565,S g c r f n
+0.0430882,S g c r f n i
+0.0598874,S g c r f n i r
+0.632489,S g c r f n i r g
+0.0441063,SC _ g c r f n i
+0.0903121,SC _ g c r f n i r
+0.630254,SC _ g c r f n i r g
+0.0406235,S t @ k l x p R
+0.041999,S t @ k l x p R p
+0.0406235,SC _ t @ k l x p R
+0.041999,SC _ t @ k l x p R p
+1.10678,P k I t i k @ t
+0.274954,S l x f
+0.106679,S l x f I
+0.0675836,S l x f I t
+0.215907,SC _ l x f
+0.106679,SC _ l x f I
+0.0675836,SC _ l x f I t
+0.245463,P C I l d r
+0.262336,P C I l d r I
+1.05295,S n I r d l
+6.20602e-05,S n I r d l I C
+0.027986,SC _ n I r d l I C
+0.262714,P C I l d r I n
+0.00124398,P D ^ E
+0.00193947,P D ^ E n
+0.509508,P D ^ E n d
+0.414071,S d n E ^
+0.199081,S d n E ^ D
+0.229084,SC _ d n E ^
+0.351721,SC _ d n E ^ D
+0.0341852,S i d R
+0.0294903,S i d R b
+0.0341852,SC _ i d R
+0.0294903,SC _ i d R b
+0.193707,S G I Y l f
+0.193707,SC _ G I Y l f
+1.35346,P s p I
+0.0491005,P s p I n
+0.818577,S n W t
+0.491431,S n W t R
+0.320151,S n W t R v
+0.648312,S n W t R v o
+0.877142,SC _ n W t
+0.211593,SC _ n W t R
+0.391753,SC _ n W t R v
+0.748957,SC _ n W t R v o
+0.0321536,P c l o v R t W n
+0.0578057,S n W t R v o l c
+0.220312,P m u v a n b
+0.312748,P m u v a n b @
+0.306427,P m u v a n b @ k
+0.120875,S k @ b n a v
+0.234281,S k @ b n a v u
+0.271732,S k @ b n a v u m
+0.103413,SC _ k @ b n a v
+0.162582,SC _ k @ b n a v u
+0.322096,SC _ k @ b n a v u m
+0.561585,P t E r
+2.5646e-05,S n a z R
+2.5646e-05,SC _ n a z R
+0.260685,S S I w s
+0.00401577,SC _ S I w s
+2.07087,P s w I S
+0.137005,S i t I p m
+0.147624,S i t I p m ^
+0.15124,S i t I p m ^ b
+0.137005,SC _ i t I p m
+0.147624,SC _ i t I p m ^
+0.15124,SC _ i t I p m ^ b
+0.796089,P g E s
+1.11691,S s E g
+1.11691,SC _ s E g
+0.373622,P k r I
+0.315696,S a l a
+0.570171,S a l a l
+0.108461,SC _ a l a
+0.551492,SC _ a l a l
+0.278168,P l a l a l
+0.209113,S a l a l a
+0.69554,S a l a l a l
+0.547576,SC _ a l a l a
+0.221496,SC _ a l a l a l
+0.768578,P l a l a l a
+0.124486,S i k ^
+0.140979,SC _ i k ^
+0.277065,S s l E t ^
+0.239174,S s l E t ^ w
+0.277097,SC _ s l E t ^
+0.0845906,SC _ s l E t ^ w
+-0.938397,P t E l s
+1.18413,P s w I m s o
+-0.0322245,P b ^ v
+0.475252,P s o h
+0.304708,S i p @ h
+0.304708,SC _ i p @ h
+0.0347885,S e d l
+0.401763,S e d l c
+0.306743,SC _ e d l c
+0.465726,S i m u t
+0.303783,SC _ i m u t
+0.214354,P s ^ m ^
+0.886326,P s t I k
+0.887599,S k I t s
+0.878355,SC _ k I t s
+1.09858,S G ^ t
+1.34885,SC _ G ^ t
+0.0216328,P y U r t ^ G
+0.901968,P m a m x z
+0.415484,P s I n s
+0.281663,P x m h
+0.400068,P x m h x
+0.170593,P x m h x m
+0.803,S m x h m
+1.07274,S m x h m x
+0.77926,SC _ m x h m
+0.846819,SC _ m x h m x
+0.196752,P k x n t
+0.741783,S x d n @ r
+0.850126,S x d n @ r I
+0.874108,S x d n @ r I m
+0.380187,SC _ x d n @ r
+0.374078,SC _ x d n @ r I
+0.100023,SC _ x d n @ r I m
+1.66194,P m i n
+1.42896,S T i t
+1.02076,SC _ T i t
+0.00391588,P Y g E
+0.435517,P h u I
+0.130657,P h u I z
+1.14118,P h u I z D
+2.23301e-05,P h u I z D @
+4.21345e-05,P h u I z D @ t
+0.0266372,S t @ D z I u
+0.180789,S t @ D z I u h
+0.0377161,SC _ t @ D z I u
+0.125198,SC _ t @ D z I u h
+-0.0241119,S f c s
+-0.0241119,SC _ f c s
+0.00706294,P e g U d b
+0.668614,S k I z
+0.0236086,S k I z u
+0.120665,S k I z u y
+0.668614,SC _ k I z
+0.0236086,SC _ k I z u
+0.120665,SC _ k I z u y
+0.773331,P b u t i
+0.309751,P g U d J a
+1.6113,S b a J
+0.0022737,S b a J d
+0.166132,S b a J d U
+7.94238e-06,S b a J d U g
+1.23967,SC _ b a J
+7.09003e-06,SC _ b a J d U
+0.0283009,SC _ b a J d U g
+0.494481,P g U d J a b
+9.78648e-05,P T r i f o
+0.379261,S r o f i r
+0.614218,S r o f i r T
+0.38641,SC _ r o f i r
+0.673405,SC _ r o f i r T
+0.000203491,P T r i f o r
+0.17308,P t I g
+0.650816,S R g I t
+0.704748,SC _ R g I t
+2.37308,P t I g R
+0.19858,S u p ^ D i n I w
+0.0373859,SC _ u p ^ D i n I w
+0.189042,S i b ^
+0.189042,SC _ i b ^
+1.93818,P I n D ^ b ^ k
+0.275199,S s I k e
+0.432705,SC _ s I k e
+0.246296,P w e t e m Y n
+0.243897,P w e t e m Y n u
+0.700059,P w e t e m Y n u t
+0.0620423,S t u n Y m e t e
+0.271183,S t u n Y m e t e w
+0.0620423,SC _ t u n Y m e t e
+0.248441,SC _ t u n Y m e t e w
+1.43487,P s k u
+0.722253,P s k u l
+0.12058,P s k u l b
+0.156111,P s k u l b ^
+0.170279,P s k u l b ^ s
+0.445704,S R m r
+0.19266,S R m r a f
+0.445704,SC _ R m r
+0.19266,SC _ R m r a f
+2.41821,P k w @
+1.02389,P k w @ k
+0.0639103,P k w @ k k w
+0.0647447,P k w @ k k w @
+0.0699244,P k w @ k k w @ k
+0.000301719,S k @ w k k @
+0.0063489,S k @ w k k @ w
+0.052656,S k @ w k k @ w k
+0.000301719,SC _ k @ w k k @
+0.0063489,SC _ k @ w k k @ w
+0.052656,SC _ k @ w k k @ w k
+0.328144,S s W m
+0.762312,SC _ s W m
+2.70009,S a h a
+0.604975,SC _ a h a
+0.911434,P E l x f I
+0.911517,P E l x f I n
+0.120835,S t n I f x
+0.44117,S t n I f x l
+0.269946,S t n I f x l E
+0.108639,SC _ t n I f x
+0.422806,SC _ t n I f x l
+0.369747,SC _ t n I f x l E
+0.978198,P E l x f I n t
+0.269191,S f @ r x J
+0.400481,SC _ f @ r x J
+2.08882,P I g n o r
+0.349851,P f I k s
+0.0607576,S G I s k
+0.165142,S G I s k I
+0.0607576,SC _ G I s k
+0.165142,SC _ G I s k I
+0.135376,S G I r x
+0.135376,SC _ G I r x
+0.0847174,S R t s u
+0.101871,S R t s u r
+0.116124,SC _ R t s u
+0.100302,SC _ R t s u r
+0.369484,P b i k e r f
+0.362467,P b i k e r f x
+0.286194,S l x f r
+0.151321,S l x f r e
+0.244031,S l x f r e k
+0.282841,SC _ l x f r
+0.292449,SC _ l x f r e
+0.313923,SC _ l x f r e k
+0.246286,P b i k e r f x l
+0.0889053,P n ^ t b
+0.0946599,P n ^ t b r
+0.623903,P n ^ t b r W
+0.0988079,P n ^ t b r W n
+0.535664,P n ^ t b r W n h
+0.182097,P n ^ t b r W n h e
+0.505694,P n ^ t b r W n h e r
+0.072378,S r e h n W r b t
+0.144974,S r e h n W r b t ^
+0.293321,S r e h n W r b t ^ n
+0.262968,SC _ r e h n W r b t
+0.381348,SC _ r e h n W r b t ^
+0.749723,SC _ r e h n W r b t ^ n
+2.02301e-07,P l I s I
+0.0882767,S n I s I
+4.64252e-05,SC _ n I s I
+3.721e-07,P l I s I n
+0.30421,S t c T
+0.30421,SC _ t c T
+-0.247584,S i d Y
+-0.25334,SC _ i d Y
+0.10533,S i r t ^ D
+0.475618,SC _ i r t ^ D
+0.972971,P D ^ t r i
+-0.0276009,S G I w
+-0.0276009,SC _ G I w
+0.00304134,S i p i l
+0.0118694,S i p i l s
+0.00304134,SC _ i p i l
+0.0118685,SC _ i p i l s
+0.329843,P b ^ b x
+0.0509059,P b ^ b x l
+0.000328236,S s e f r U y
+0.0764019,SC _ s e f r U
+0.00176267,SC _ s e f r U y
+3.1596,P e b i s i
+0.0643269,S z Y b Y b
+0.0643269,SC _ z Y b Y b
+-0.25952,S m u m
+-0.258696,SC _ m u m
+1.69467,P m u m u
+0.289506,S n I s I d E
+0.414326,S n I s I d E m
+0.279298,SC _ n I s I d E
+0.367336,SC _ n I s I d E m
+0.000852928,S l x k G I
+0.214956,S l x k G I w
+0.000852928,SC _ l x k G I
+0.214956,SC _ l x k G I w
+0.839661,P m e d
+0.642103,S R t @
+0.654937,S R t @ m
+0.589261,SC _ R t @
+0.706575,SC _ R t @ m
+0.196672,S i k I
+0.581107,SC _ i k I
+1.96034,P I k i
+0.370024,S i s r c
+0.604544,S i s r c h
+0.467882,SC _ i s r c
+0.486611,SC _ i s r c h
+0.23324,P I k i I
+0.435106,S s I n
+0.434712,S s I n d
+0.318973,S s I n d U
+0.517278,S s I n d U g
+0.353089,SC _ s I n
+0.416209,SC _ s I n d
+0.386039,SC _ s I n d U
+0.465228,SC _ s I n d U g
+2.64005,P p I n C
+0.000184305,P x m k e
+1.52627,S e k m
+1.42324,S e k m x
+1.47712,SC _ e k m
+1.26791,SC _ e k m x
+0.753796,S k c w e
+0.516579,SC _ k c w e
+0.0179672,P w c k I G
+0.0360273,S G I k c w
+0.0360273,SC _ G I k c w
+0.0265403,S i t p
+0.51967,S i t p m
+0.0265403,SC _ i t p
+0.51967,SC _ i t p m
+0.441876,S t e r g
+0.441876,SC _ t e r g
+0.294009,P g r e t
+0.108512,P s t r e n J
+0.626645,P Y w I l
+2.97409,P o m Y
+1.37105,S Y m o
+0.75776,SC _ Y m o
+-0.0141255,S G I b
+-0.00690333,SC _ G I b
+0.00279072,P Y l g I
+0.00327559,P Y l g I v
+0.398915,S v ^ k G I T
+0.398915,SC _ v ^ k G I T
+0.298632,S d l R w ^
+0.394696,S d l R w ^ D
+0.298632,SC _ d l R w ^
+0.337858,SC _ d l R w ^ D
+0.500922,P g I m
+1.29923,P g I m i
+0.279517,S i m I
+0.278702,SC _ i m I
+0.739281,P Y T c
+0.902127,P Y T c t
+0.275127,S o l a w s
+0.275127,SC _ o l a w s
+0.0061817,S s I n d U g Y m
+0.0666555,SC _ s I n d U g Y m
+0.0976803,P h @ G a
+0.00903841,P h @ G a n
+0.162048,S n a G @ h
+0.351777,SC _ n a G @ h
+0.72725,P o m Y g
+0.0376005,S s I n d U g Y m o
+0.0244269,SC _ s I n d U g Y m o
+0.143667,S v ^ r o m
+0.143667,SC _ v ^ r o m
+1.61504,S p R b
+0.696396,SC _ p R b
+0.259474,P t i D I
+0.514197,P w Y p y
+0.691428,P Y h R d
+0.308486,S n x t ^
+0.391064,S n x t ^ b
+0.194774,SC _ n x t ^
+0.428908,SC _ n x t ^ b
+0.373769,P e s E
+0.254766,P e s E k x
+0.279113,P e s E k x n
+0.503066,P e s E k x n d
+0.00702503,S i s i m E
+0.0148133,S i s i m E l
+0.00551764,SC _ i s i m E
+0.28864,SC _ i s i m E l
+0.555661,P m I k i
+0.123603,S r e h Y m
+0.0357173,SC _ r e h Y m
+0.245455,P s ^ m a r
+1.81755,P l R n
+0.00244632,P f c r w R
+4.4391e-05,S d R w r
+0.244602,S d R w r c
+0.419474,S d R w r c f
+0.0581402,SC _ d R w r
+0.293324,SC _ d R w r c
+0.550721,SC _ d R w r c f
+0.0369386,P f c r w R d
+0.115878,P b a G
+0.809439,P b a G k
+0.0485941,S t @ d
+0.705242,SC _ t @ d
+0.653823,S t I Y w k
+0.653823,SC _ t I Y w k
+0.0654007,P s ^ m T I G E
+0.0553729,P s ^ m T I G E l
+0.00351891,S s l E G
+0.017628,S s l E G I
+0.0939059,S s l E G I T
+0.0777692,S s l E G I T m
+0.00942512,S s l E G I T m ^
+0.0580864,S s l E G I T m ^ s
+0.060657,SC _ s l E G
+0.188705,SC _ s l E G I
+0.429864,SC _ s l E G I T
+0.0630188,SC _ s l E G I T m
+0.176983,SC _ s l E G I T m ^
+0.0645503,SC _ s l E G I T m ^ s
+0.209037,P s ^ m T I G E l s
+0.649514,P g U d b O
+0.172983,S O b d
+0.234459,S O b d U
+0.107568,S O b d U g
+0.0336197,SC _ O b d
+0.143381,SC _ O b d U
+0.157264,SC _ O b d U g
+0.246738,S d n x p
+0.246738,SC _ d n x p
+0.551775,S f U
+0.551775,SC _ f U
+1.39272,P l I f t
+0.426145,P Y g E s
+0.0792403,P D ^ m @ t
+0.0102809,S i t p m ^
+0.0102809,SC _ i t p m ^
+0.280413,P d ^ m
+1.16195,P d ^ m p
+0.166784,S k e r
+0.166784,SC _ k e r
+0.954596,S i l E b
+0.399267,SC _ i l E b
+0.0239063,P b E l i
+0.132091,S x S i
+0.165786,SC _ x S i
+0.535483,S d l o t
+0.412415,S d l o t Y
+0.535483,SC _ d l o t
+0.412415,SC _ d l o t Y
+0.26513,P r @ t
+2.02051,P r @ t x
+0.508351,S l x t @ r
+0.499238,SC _ l x t @ r
+0.937061,P r @ t x l
+0.251628,S n o l
+1.19412,S n o l x
+0.735444,SC _ n o l
+0.654476,SC _ n o l x
+0.0882754,S t r a p
+0.0882754,SC _ t r a p
+0.487533,P p a r t
+0.530516,P Y l b
+0.702074,P Y l b i
+0.695795,S r Y w
+0.695795,SC _ r Y w
+-0.355688,S v ^ D
+-0.349364,SC _ v ^ D
+0.170627,P r Y t s Y d ^
+0.940446,P r Y t s Y d ^ p
+0.0233084,S d U g t s e t
+0.0920218,SC _ d U g t s e t
+0.164505,S m R w
+0.164505,SC _ m R w
+-0.147209,P w R m
+0.545167,P f c r e w
+0.0981488,P x p a r
+0.129237,S t r a p x
+0.00770615,SC _ t r a p x
+1.32318,P x p a r t
+0.112957,S n I l k U r b
+0.0100886,SC _ n I l k U r b
+1.21173,P r I n s
+0.00323173,S Y b Y b v
+0.00413668,S Y b Y b v e
+0.18104,S Y b Y b v e w
+0.00323173,SC _ Y b Y b v
+0.00413668,SC _ Y b Y b v e
+0.230767,SC _ Y b Y b v e w
+0.0114601,P v ^
+0.501572,S m @ Y
+0.487454,SC _ m @ Y
+0.206563,P e n t
+0.638786,S r c s I
+0.638786,SC _ r c s I
+0.396037,P y ^ k
+0.412842,P m i n z
+0.00410801,S d @ m
+0.00410801,SC _ d @ m
+1.40563,P m @ d
+0.36587,S R s o l k
+0.36587,SC _ R s o l k
+1.12183,S x b a b
+1.30939,SC _ x b a b
+0.423752,P D ^ g l
+0.460077,P D ^ g l @
+0.519071,P D ^ g l @ s
+0.192734,P g I m i k I
+0.208043,S s I k i
+0.400808,S s I k i m I
+0.430744,S s I k i m I g
+0.0241047,SC _ s I k i
+0.418629,SC _ s I k i m I
+0.392442,SC _ s I k i m I g
+0.121327,P g I m i k I s
+-0.0666192,S i m n
+-0.0666192,SC _ i m n
+0.0698517,S o t g
+0.130712,S o t g I
+0.188132,S o t g I b
+0.233518,SC _ o t g
+0.429649,SC _ o t g I
+0.293263,SC _ o t g I b
+0.392901,S d r a y
+0.254136,SC _ d r a y
+0.627104,S m u y k @
+0.571515,S m u y k @ v
+0.624645,SC _ m u y k @
+0.543815,SC _ m u y k @ v
+0.105463,P D ^ v @ k y u m
+0.119232,S z d R
+0.0641227,SC _ z d R
+0.20692,S k Y l u y d
+0.213024,SC _ k Y l u y d
+1.09342,S d r c l
+0.020349,SC _ d r c l
+0.774879,P l c r d
+0.760033,S s n @ C
+0.760033,SC _ s n @ C
+0.796278,P h i r Y @
+0.62798,P h i r Y @ m
+0.370482,S m @ Y r
+0.27413,S m @ Y r i
+0.571055,S m @ Y r i h
+0.144095,SC _ m @ Y r
+0.140519,SC _ m @ Y r i
+0.0672302,SC _ m @ Y r i h
+0.000611149,P p E G g
+0.00247208,P p E G g w
+0.00243204,P p E G g w I
+1.13839,S n I w g G
+0.120315,S n I w g G E
+0.166287,S n I w g G E p
+0.518969,SC _ n I w g G
+0.0567087,SC _ n I w g G E
+0.150887,SC _ n I w g G E p
+0.00254134,P p E G g w I n
+0.310533,P c l r Y t i
+0.526534,S i t Y r
+0.0777811,S i t Y r l c
+0.521449,SC _ i t Y r
+0.0777811,SC _ i t Y r l c
+0.549503,P Y l h
+0.294102,P h o l d I G
+1.05785,P k x n t r
+1.10872,P k x n t r o
+2.01635,P k x n t r o l
+0.0130656,P v I d
+1.0554,P v I d i
+1.70214,P v I d i o
+2.95506e-06,P v I d i o g e
+0.205948,P v I d i o g e m
+0.315269,S t o m x
+0.525578,S t o m x r
+0.315269,SC _ t o m x
+0.525578,SC _ t o m x r
+0.131877,S Y l f R
+0.00442551,S Y l f R t
+0.356562,S Y l f R t ^
+0.0357982,S Y l f R t ^ b
+0.00436722,SC _ Y l f R
+0.00404549,SC _ Y l f R t
+0.323839,SC _ Y l f R t ^
+0.00959902,SC _ Y l f R t ^ b
+0.846939,P p @ t i
+0.513218,P w U d y
+0.381227,P w U d y u
+0.50875,S k Y l u y d U
+0.509018,S k Y l u y d U w
+0.49482,SC _ k Y l u y d U
+0.489288,SC _ k Y l u y d U w
+-0.12555,S R t s E
+-0.12555,SC _ R t s E
+0.275222,P y E s t R d
+0.0281647,S e d R t s
+0.0711616,S e d R t s E
+0.00283898,S e d R t s E y
+0.013299,SC _ e d R t s E
+0.0177676,SC _ e d R t s E y
+1.45628,P y E s t R d e
+0.914159,P s w i t p i
+0.857365,P J e
+0.283956,S i s p U
+0.242003,S i s p U w
+0.309755,SC _ i s p U
+0.207232,SC _ i s p U w
+0.000366078,S O b g
+0.182672,S O b g I
+0.197743,S O b g I b
+0.00996999,SC _ O b g
+0.307668,SC _ O b g I
+0.126656,SC _ O b g I b
+0.148794,S d U g o s
+0.150523,SC _ d U g o s
+2.03974,P b u b u
+0.215327,P @ l I g z @ n d R
+2.48801e-06,S R d n @ z
+2.59482e-05,S R d n @ z g
+0.0564356,S R d n @ z g I
+0.0832537,S R d n @ z g I l
+0.135962,S R d n @ z g I l @
+2.48801e-06,SC _ R d n @ z
+0.0219987,SC _ R d n @ z g
+0.0562911,SC _ R d n @ z g I
+0.00558424,SC _ R d n @ z g I l
+0.121381,SC _ R d n @ z g I l @
+1.06898,P b o n i n
+0.241383,P b I G g o
+0.237574,P b I G g o w
+0.252632,P b I G g o w ^
+0.121786,S z ^ w o g G
+0.121809,S z ^ w o g G I
+0.114981,S z ^ w o g G I b
+0.121786,SC _ z ^ w o g G
+0.121809,SC _ z ^ w o g G I
+0.164152,SC _ z ^ w o g G I b
+0.263921,P b I G g o w ^ z
+0.0572996,P h I z n e
+0.190818,P h I z n e m
+0.990157,S o m e n z
+0.337338,S o m e n z I
+0.304829,S o m e n z I h
+0.368258,SC _ o m e n z
+0.598345,SC _ o m e n z I
+0.657514,SC _ o m e n z I h
+0.160131,P h I z n e m o
+1.63979,S o i J
+2.10343e-05,S o i J n
+0.0379359,S o i J n E
+2.18979,SC _ o i J
+2.10343e-05,SC _ o i J n
+0.0912842,SC _ o i J n E
+0.344017,P I k i I k
+0.647578,P I k i I k i
+0.0201866,S i k I i k I
+0.0692244,SC _ i k I i k I
+0.0174655,S z m Y
+0.180704,S z m Y C d n I w
+0.0174655,SC _ z m Y
+0.183963,SC _ z m Y C d n I w
+0.0763271,S i n t I
+0.000847858,SC _ i n t I
+0.140572,S t r a m s
+0.075325,SC _ t r a m s
+0.150897,P e p i s ^
+0.23156,P e p i s ^ v
+0.499646,S n i b n i b
+0.309745,SC _ n i b n i b
+-0.395343,P T i
+0.208988,S g E p
+0.0364738,SC _ g E p
+0.659177,P p E g
+0.228345,S t @ b
+0.228345,SC _ t @ b
+0.303866,P b @ t
+0.0661688,S G I Y l f z
+0.0690838,S G I Y l f z i
+0.123297,S G I Y l f z i h
+0.0661688,SC _ G I Y l f z
+0.0690838,SC _ G I Y l f z i
+0.163934,SC _ G I Y l f z i h
+0.377771,P t E l x
+0.35346,S i z I d
+0.35346,SC _ i z I d
+0.000289491,S z i S I
+0.0998749,S z i S I f
+0.0502649,SC _ z i S I
+0.102697,SC _ z i S I f
+0.536271,S i n r a
+0.536271,SC _ i n r a
+1.15384,S l e m
+0.54292,SC _ l e m
+0.076947,P m E s I
+0.172569,P m E s I G
+0.265524,P t O l I
+0.26648,P t O l I t
+2.52483,S l e t z
+0.204496,SC _ l e t z
+2.72e-05,P p @ t i k
+0.156037,P p @ t i k e
+0.472351,P p @ t i k e k
+0.225218,S k r a m
+0.225218,SC _ k r a m
+0.423324,P s t I G k i
+0.341862,S z x S u m
+0.366066,SC _ z x S u m
+0.773759,P m u m u S x z
+0.0720858,P J e l x n
+0.147973,S n x l e
+1.37359,S n x l e J
+0.0239236,SC _ n x l e
+0.332621,SC _ n x l e J
+0.00213089,P k ^ t I t W
+0.43488,P k ^ t I t W t
+0.19823,S t W t I t ^
+0.537805,S t W t I t ^ k
+0.27325,SC _ t W t I t ^
+0.275998,SC _ t W t I t ^ k
+0.97833,P p @ m p R
+0.0127118,S s x z i
+0.0505637,S s x z i J
+0.0127118,SC _ s x z i
+0.0505637,SC _ s x z i J
+0.441678,P J i z x s
+0.120661,P m u t i m
+0.402492,P m u t i m u
+0.0905536,P h i n o z h
+0.0808251,P h i n o z h I
+0.0843408,P h i n o z h I z
+0.139757,S z I h z o n i
+0.119629,S z I h z o n i h
+0.139757,SC _ z I h z o n i
+0.119629,SC _ z I h z o n i h
+0.228053,S G I s k I f
+0.228053,SC _ G I s k I f
+0.0593796,S i t u m i t u m
+0.0200504,SC _ i t u m i t u m
+2.88846,P x r Y z
+0.0541704,S n o l x u
+0.181761,S n o l x u y
+0.0541704,SC _ n o l x u
+0.181761,SC _ n o l x u y
+0.106212,P J e k x
+0.57698,P J e k x b
+0.209461,P Y m f I k s I
+0.229064,P Y m f I k s I G
+0.0926908,S T W m Y m
+0.219797,SC _ T W m Y m
+0.212028,S i u p
+0.254879,SC _ i u p
+0.153217,S U @
+0.293579,S U @ I
+0.257113,S U @ I r
+0.268804,S U @ I r @
+0.274937,S U @ I r @ I
+0.275948,S U @ I r @ I S
+0.153217,SC _ U @
+0.293579,SC _ U @ I
+0.257113,SC _ U @ I r
+0.268804,SC _ U @ I r @
+0.274937,SC _ U @ I r @ I
+0.274937,CSC _VVVCVV
+0.275948,SC _ U @ I r @ I S
+0.275948,CSC _VVVCVVC
+0.343006,S s i r Y
+0.116844,S s i r Y t
+0.0999586,SC _ s i r Y
+0.492569,SC _ s i r Y t
+0.878789,S o t i C
+0.878789,SC _ o t i C
+0.28753,S R g U
+0.28753,SC _ R g U
+2.09229e-06,S n ^ n d @ h
+0.0755521,SC _ n ^ n d @ h
+0.0651394,P s t I G k i f
+0.213418,P s t I G k i f i t
+0.152186,S t i f i k G I t s
+0.140952,SC _ t i f i k G I t s
+0.114165,S l i r r
+0.0232969,S l i r r c
+0.457279,S l i r r c f
+0.37835,SC _ l i r r c
+0.322489,SC _ l i r r c f
+0.447741,P t w I G k
+0.556171,P t w I G k x
+0.568799,P t w I G k x l
+0.0638613,S l x k I s p a p
+0.0638613,SC _ l x k I s p a p
+0.414566,S l i m t o
+0.414566,SC _ l i m t o
+0.000202689,P b W n s i b c
+0.0310974,P b W n s i b c l
+0.0341674,P h a l
+0.057405,S k Y b r
+0.272455,S k Y b r U
+0.135426,SC _ k Y b r
+0.287277,SC _ k Y b r U
+0.286311,SC _ k Y b r U y
+3.71923,P t w i t
+0.002042,S r c s I n
+0.293929,S r c s I n Y
+0.272805,S r c s I n Y d
+0.0234032,SC _ r c s I n
+0.20962,SC _ r c s I n Y
+0.337242,SC _ r c s I n Y d
+0.339285,P t @ b
+1.0401,P t @ b I
+0.361149,P t @ b I T
+1.0355,P t @ b I T x
+0.0235244,S x T I
+0.0366825,S x T I b
+0.201076,S x T I b @
+0.115313,S x T I b @ t
+0.124565,SC _ x T I
+0.00349096,SC _ x T I b
+0.0777494,SC _ x T I b @
+0.404178,SC _ x T I b @ t
+-0.258177,S n E h
+-0.263031,SC _ n E h
+-0.0255992,P h E n
+0.0168893,P S e k S e k
+0.0932761,S k e S k
+0.0562464,S k e S k e
+0.396955,S k e S k e S
+0.00246085,SC _ k e S k
+0.236403,SC _ k e S k e
+0.297016,SC _ k e S k e S
+0.314876,P f r c g i
+0.200885,P t w i t i b R d
+0.827354,P I n C w
+0.926721,P I n C w R
+0.147925,S m R w C n
+0.0529678,S m R w C n I
+0.0511561,SC _ m R w C n
+0.0416614,SC _ m R w C n I
+1.0209,P I n C w R m
+0.15499,P t O l I t p e p
+0.174275,S R p e p t I l O
+0.262343,S R p e p t I l O t
+0.174275,SC _ R p e p t I l O
+0.262343,SC _ R p e p t I l O t
+0.225985,P t O l I t p e p R
+0.297655,P w c t R m E l x
+1.58062e-05,S n x l E m R
+1.74988e-05,S n x l E m R t
+0.0332684,S n x l E m R t c
+0.164582,S n x l E m R t c w
+1.58062e-05,SC _ n x l E m R
+1.74988e-05,SC _ n x l E m R t
+0.000163807,SC _ n x l E m R t c
+0.126418,SC _ n x l E m R t c w
+0.490897,P w c t R m E l x n
+0.149701,S z o i r i
+0.270763,S z o i r i C
+0.149701,SC _ z o i r i
+0.270763,SC _ z o i r i C
+0.0600437,S i n r a b
+0.0600437,SC _ i n r a b
+0.155105,S i n @ r g
+0.155105,SC _ i n @ r g
+0.13086,S z n u p s
+0.13086,SC _ z n u p s
+0.0878112,P s R v I
+0.323491,S s I v
+0.801343,S s I v R
+0.415135,S s I v R s
+8.68374e-05,SC _ s I v
+0.659342,SC _ s I v R
+0.710192,SC _ s I v R s
+0.247581,P s R v I s
+1.83565,P t i D I G
+0.0648072,S i b e b x
+0.265203,S i b e b x s
+0.0648072,SC _ i b e b x
+0.265203,SC _ i b e b x s
+1.6447,P s k r ^ b
+0.222602,S t u s o n
+0.702161,S t u s o n s
+0.222602,SC _ t u s o n
+0.702161,SC _ t u s o n s
+0.25403,P z e v y
+0.884732,P z e v y R
+0.0447382,S R y v e z
+0.0447382,SC _ R y v e z
+1.10233,P m @ g i
+0.092476,S i f c
+0.906682,S i f c k
+0.1249,SC _ i f c
+0.742515,SC _ i f c k
+7.17487e-06,S f c b I
+0.0147833,S f c b I b
+7.17487e-06,SC _ f c b I
+0.0147833,SC _ f c b I b
+0.403046,P m I k i m
+0.679409,P m I k i m W
+0.840316,P m I k i m W s
+2.51918,P v ^ z
+0.570097,S z ^ v
+0.55372,SC _ z ^ v
+2.90665,P d y x
+0.912646,S x y d
+1.29332,SC _ x y d
+0.000296711,P d Y i S
+0.578519,P d Y i S x
+0.997462,S x S i Y
+0.894363,S x S i Y d
+0.202599,SC _ x S i Y
+0.498344,SC _ x S i Y d
+0.128439,P l E f t f U
+0.153721,P l E f t f U t
+0.0284487,S t U f t f E
+0.081682,S t U f t f E l
+0.0284487,SC _ t U f t f E
+0.081682,SC _ t U f t f E l

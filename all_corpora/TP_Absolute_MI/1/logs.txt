@@ -1,0 +1,1 @@
+2023-01-23 17:58:15,551 - wordseg-tp - INFO - running TP with absolute threshold and mi dependency measure

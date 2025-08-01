@@ -1,0 +1,1 @@
+2023-01-23 17:58:58,693 - wordseg-tp - INFO - running TP with relative threshold and ftp dependency measure
