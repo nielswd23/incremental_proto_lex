@@ -1,0 +1,18 @@
+9/12/25 
+Had to filter out empty lines because some of the corpora (PhilipsPearl) had an extra, empty line.
+
+
+8/26/25
+We are going to do a clean run of all of the analysis to once and for all ensure that the corpora are standardized, and we don't have any conflicting results.
+
+What we have is five different output corpora for each segmentation strategy corresponding to different random seeds (exception of TP segmentation algorithms). To get the final set of scored list files that will go into the bayesian analysis, we need to do these four steps:
+
+1. Check that the corpora contains both "^" and "x" Klattbet symbols
+2. Ensure consistency across the 5 random seeds (delete spaces, convert to set, then compare)
+3. Format the files for ngram calculator (each word on its own line and a space between each character)
+4. Run each file through ngram calculator using the updated infant stimuli (Canaan sent over email)
+
+TP segmentation needs to be rerun in order to pass it through the pipeline. The TP segmentation strategies are deterministic in data order, so we can't simply do random seeding in the model. Take the corrected PearlBrent input file, delete the spaces in the utterances, produce 5 random shuffles of the data, then run the 6 TP segmentation algorithms on each of the shuffles.
+
+
+For the incremental implementation, we will choose one of the random seeds, and then extract that file from the AG segmentation files, the JPSD (MaxEnt) segmentation files, and the PUDDLE segmentation files. This will then be run through the incremental code that I have (with the updated infant stimuli sets and removing any standardizing that the code does like replacing x for ^). This code produces spilts in the segmented file (1/512, 1/128, 1/64, 1/32, 1/16, 1/8, 1/4, 1/2) and removes the segmentation from all other lines (reversing the segmentation of that line's utterance). Thus, we incrementally increase how much of the corpus is segmented under a particular algorithm (up to 1/2 of the corpus), and run each partially segmented corpus through the ngram calculator to track progress on the infant stimuli sets. 

@@ -30,100 +30,9 @@ def load_segmented_files(main_folder: str):
     return file_lists
 
 
-files = load_segmented_files("./all_corpora/AGSimple")
-
 ### First we want to check consistency of the segmented output 
-##### 1. have the right set of klattbet symbols and 2. across the seeds we have the same corpus 
-
-def normalize_lines(lines):
-    """Remove spaces from each line and return a set."""
-    return {"".join(line.split()) for line in lines}
-
-
-def check_corpora(models, base_name, global_reference):
-    """
-    Check that all 5 variants contain ^ and x, match each other,
-    and also match the global reference corpus.
-    
-    Args:
-        models: dict with variants
-        base_name: str, folder name (e.g. "AGSimple")
-        global_reference: set, the global normalized reference corpus
-    
-    Returns:
-        dict summary with booleans
-    """
-    all_keys = [f"{base_name}{i}" for i in range(1, 6)]
-    result = {"symbols_ok": True, "local_match": True, "global_match": True}
-
-    # 1. Symbol check
-    for key in all_keys:
-        lines = models.get(key, [])
-        joined = " ".join(lines)
-        if "^" not in joined or "x" not in joined:
-            print(f"Missing symbols in {key}")
-            result["symbols_ok"] = False
-
-    # 2. Local comparison (all 5 match each other)
-    corpora_sets = {key: normalize_lines(models.get(key, [])) for key in all_keys}
-    reference_local = corpora_sets[all_keys[0]]
-    for key, s in corpora_sets.items():
-        if s != reference_local:
-            print(f"{key} differs from {all_keys[0]} in {base_name}")
-            result["local_match"] = False
-
-    # 3. Global comparison (match reference corpus)
-    for key, s in corpora_sets.items():
-        if s != global_reference:
-            print(f"{key} does not match global reference corpus")
-            result["global_match"] = False
-
-    return result
-
-
-
-global_ref = normalize_lines(files['AGSimple1'])
-summary = check_corpora(files, "AGSimple", global_ref)
-
-print(summary)
-# Example output: {'symbols_ok': True, 'local_match': True, 'global_match': True}
-
-import os
-
-def load_segmented_files(main_folder: str):
-    """
-    Read ./<main_folder>/<1..5>/Model.txt into lists.
-    
-    Args:
-        main_folder: Path to the main folder (e.g., "./AGSimple"). 
-    
-    Returns:
-        dict mapping "<FolderName><k>" -> list of lines (stripped of newlines).
-        Example: {"AGSimple1": [...], "AGSimple2": [...], ...}
-    """
-    file_lists = {}
-    base = os.path.basename(os.path.normpath(main_folder))  # e.g., "AGSimple"
-
-    for i in range(1, 6):
-        path = os.path.join(main_folder, str(i), "Model.txt")
-        key = f"{base}{i}"
-
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                lines = [line.rstrip("\n") for line in f]
-        except FileNotFoundError:
-            # If a file is missing, store an empty list
-            lines = []
-
-        file_lists[key] = lines
-
-    return file_lists
-
-
-files = load_segmented_files("./all_corpora/AGSimple")
-
-### First we want to check consistency of the segmented output 
-##### 1. have the right set of klattbet symbols and 2. across the seeds we have the same corpus 
+##### 1. have the right set of klattbet symbols and 
+##### 2. across the seeds we have the same corpus 
 
 def normalize_lines(lines):
     """Remove spaces from each line and return a set."""
@@ -176,15 +85,6 @@ def check_corpora(models, base_name, global_reference):
             result["global_match"] = False
 
     return result
-
-
-
-# global_ref = normalize_lines(files['AGSimple1'])
-# summary = check_corpora(files, "AGSimple", global_ref)
-
-# print(summary)
-# run this load_segmented_files then checking for all corpora that we're testing
-
 
 # list of folders to exclude 
 special_folders = ["AGGrammars", "TP_Absolute_BTP", "TP_Absolute_FTP", 
