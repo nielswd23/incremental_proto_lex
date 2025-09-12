@@ -30,7 +30,7 @@ def load_segmented_files(main_folder: str):
     return file_lists
 
 
-### First we want to check consistency of the segmented output 
+### We want to check consistency of the segmented output 
 ##### 1. have the right set of klattbet symbols and 
 ##### 2. across the seeds we have the same corpus 
 
@@ -119,6 +119,3 @@ for folder, result in summaries.items():
     print(f"{folder}: {result}")
 
 
-
-### Then we format the corpora to run through the ngram calculator 
-## (I think I already have code written for this)
