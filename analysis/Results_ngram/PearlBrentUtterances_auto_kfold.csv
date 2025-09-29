@@ -1,0 +1,4 @@
+accuracy,.lower,.upper,.width,.point,.interval,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.6045454545454545,0.5727272727272728,0.6393939393939394,0.95,median,hdi,1,0.92675,0.0467426247724306,unigram_contrast,PearlBrentUtterances
+0.5166666666666667,0.4818181818181818,0.556060606060606,0.95,median,hdi,0.7905,2.5e-4,0.169012039637119,bigram_contrast,PearlBrentUtterances
+0.6303030303030303,0.5984848484848485,0.6636363636363637,0.95,median,hdi,1,0.998,0.017026643528435,both_contrast,PearlBrentUtterances
