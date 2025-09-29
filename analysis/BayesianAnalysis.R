@@ -21,8 +21,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
   # if there is more than one value for RS
   if (length(unique(train_dataset$RS)) > 1){
     print("more than one RS value")
-    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
-    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
+    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
+    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept"),
@@ -30,8 +30,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
     )
   } else{
     print("only one RS value")
-    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
-    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
+    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
+    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept")
@@ -49,6 +49,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
                  prior = my_priors,
                  thin = 1,
                  seed = seed,
+                 # save_model = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
+                 # file = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
                  file = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  file_refit = "always",
@@ -88,7 +90,7 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
   
   print("reading in the null model")
   
-  q <- readRDS("./KFoldModelFits_ngram/AccuracyPosteriorForUnigramBaseline_2_2_2025.rds")
+  q <- readRDS("./KFoldModelFits_positional/AccuracyPosteriorForUnigramBaseline_2_2_2025.rds")
   
   o <- left_join(preds, actuals)%>%
     mutate(Correct = if_else(Predicted == GroundTruth, 1,0)) %>%
@@ -145,11 +147,10 @@ parse_filename <- function(filename) {
 read_in_candidate_lexicons <- function(lexicon_file_name){
   parts <- parse_filename(basename(lexicon_file_name))
   
-  t <- read.csv(file.path("./ScoredLists/standard", lexicon_file_name),
-                stringsAsFactors = FALSE) %>%
+  t <- read.csv(lexicon_file_name, stringsAsFactors = FALSE) %>%
     rename(KlattbetAdjustedSpaced = word) %>%
     mutate(
-      KlattbetAdjusted = str_remove_all(KlattbetAdjustedSpaced, " "),
+      KlattbetAdjusted = gsub(" ", "", KlattbetAdjustedSpaced),
       RS      = parts$fold,
       model   = parts$model,
       contrast= parts$contrast
@@ -162,16 +163,18 @@ read_in_candidate_lexicons <- function(lexicon_file_name){
 ## END readin function ##
 
 # get the list of files to iterate through
-all_scored_lists <- list.files("../ScoredLists/standard", recursive = TRUE)
+all_scored_lists <- list.files("../ScoredLists/standard", recursive = TRUE, full.names = TRUE)
+all_scored_basenames <- basename(all_scored_lists)
 
-unigram_contrast_lists <- all_scored_lists[grepl("unigram_contrast.csv$", all_scored_lists)]
-bigram_contrast_lists  <- all_scored_lists[grepl("bigram_contrast.csv$",  all_scored_lists)]
-both_contrast_lists    <- all_scored_lists[grepl("both_contrast.csv$",    all_scored_lists)]
+# global lists (just the filenames)
+unigram_contrast_lists <- all_scored_lists[grepl("unigram_contrast.csv$", all_scored_basenames)]
+bigram_contrast_lists  <- all_scored_lists[grepl("bigram_contrast.csv$",  all_scored_basenames)]
+both_contrast_lists    <- all_scored_lists[grepl("both_contrast.csv$",    all_scored_basenames)]
 seed <- 1
 
 check_list_compliance <- function(all_files) {
   parsed <- map_dfr(all_files, function(f) {
-    parts <- parse_filename(f)
+    parts <- parse_filename(basename(f))
     tibble(model = parts$model, fold = parts$fold, contrast = parts$contrast)
   })
   
@@ -193,19 +196,32 @@ check_list_compliance(all_scored_lists)
 
 # get a list of the model names (folder names)
 list_of_model_types <- list.dirs("../ScoredLists/standard", recursive = FALSE, full.names = FALSE)
-
+priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
 
 
 ### Running model ###
-for (model in list_of_model_types) {
+for (model in priority_list) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
-  # grab this model's files for each contrast
-  this_model_unigram_contrast_lists <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_unigram_contrast.csv$"), all_scored_lists)]
-  this_model_bigram_contrast_lists  <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_bigram_contrast.csv$"),  all_scored_lists)]
-  this_model_both_contrast_lists    <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_both_contrast.csv$"),    all_scored_lists)]
+  # masks must be against basenames, not full relative paths
+  uni_mask  <- grepl(paste0("^", model, "[0-9]+_unigram_contrast\\.csv$"), all_scored_basenames)
+  bi_mask   <- grepl(paste0("^", model, "[0-9]+_bigram_contrast\\.csv$"),  all_scored_basenames)
+  both_mask <- grepl(paste0("^", model, "[0-9]+_both_contrast\\.csv$"),    all_scored_basenames)
   
+  this_model_unigram_contrast_lists <- all_scored_lists[uni_mask]
+  this_model_bigram_contrast_lists  <- all_scored_lists[bi_mask]
+  this_model_both_contrast_lists    <- all_scored_lists[both_mask]
+  
+  # sanity check: fail early if something is empty
+  if (length(this_model_unigram_contrast_lists) == 0)
+    stop("No unigram files found for model ", model)
+  
+  # # grab this model's files for each contrast
+  # this_model_unigram_contrast_lists <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_unigram_contrast.csv$"), all_scored_lists)]
+  # this_model_bigram_contrast_lists  <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_bigram_contrast.csv$"),  all_scored_lists)]
+  # this_model_both_contrast_lists    <- all_scored_lists[grepl(paste0("^", model, "[0-9]+_both_contrast.csv$"),    all_scored_lists)]
+
   # read in addins
   unigram_contrast_addins <- read.csv("../infant_stim_csvs/infant_2a_stimuli_unigram_contrast.csv", stringsAsFactors = FALSE) %>%
     tibble() %>% mutate(KlattbetAdjusted = Klattbet)
@@ -232,5 +248,7 @@ for (model in list_of_model_types) {
   res <- rbind(unigram_results, bigram_results, both_results)
   print(res)
   
+  # write_csv(res, paste0("./Results_positional/", model, "_auto_kfold.csv"))
   write_csv(res, paste0("./Results_ngram/", model, "_auto_kfold.csv"))
 }
+

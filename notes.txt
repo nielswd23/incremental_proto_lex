@@ -1,3 +1,10 @@
+9/29/25
+Command to run the Rscript:
+nohup Rscript BayesianAnalysis.R > analysis_run.log 2>&1 &
+
+Added the ngram vs positional runs of the model back in (just commenting out some lines). 
+
+
 9/12/25 
 Had to filter out empty lines because some of the corpora (PhilipsPearl) had an extra, empty line.
 
