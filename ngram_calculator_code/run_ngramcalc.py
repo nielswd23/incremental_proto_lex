@@ -20,6 +20,7 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
+# for seg_type in tasks:
 for seg_type in sorted(os.listdir(incremental_root)):
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
@@ -48,7 +49,13 @@ for seg_type in sorted(os.listdir(incremental_root)):
 # ---------------------------
 # Gather tasks for formatted corpora
 # ---------------------------
+# quick modification if only wanting to run a few additional folders
+selected_corpora = [
+    "OLDPearlCorpusUtterances",
+    "OLDPearlCorpusWordTypes"
+]
 for corpus_name in sorted(os.listdir(formatted_root)):
+# for corpus_name in selected_corpora:
     corpus_path = os.path.join(formatted_root, corpus_name)
     if not os.path.isdir(corpus_path):
         continue
