@@ -1,0 +1,4 @@
+accuracy,.lower,.upper,.width,.point,.interval,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.7212121212121212,0.693939393939394,0.7515151515151515,0.95,median,hdi,1,1,0.000131593146413336,unigram_contrast,AGPhonotactic
+0.6166666666666667,0.5803030303030303,0.646969696969697,0.95,median,hdi,1,0.98175,0.0326305739461958,bigram_contrast,AGPhonotactic
+0.7015151515151515,0.6712121212121213,0.7287878787878788,0.95,median,hdi,1,1,0.000493029626275771,both_contrast,AGPhonotactic

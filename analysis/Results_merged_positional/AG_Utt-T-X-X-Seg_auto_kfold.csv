@@ -1,0 +1,4 @@
+accuracy,.lower,.upper,.width,.point,.interval,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.5833333333333334,0.546969696969697,0.6166666666666667,0.95,median,hdi,1,0.5775,0.092687436026274,unigram_contrast,AG_Utt-T-X-X-Seg
+0.543939393939394,0.5041149493572191,0.5783573735996428,0.95,median,hdi,0.9865,0.02775,0.16413445826428,bigram_contrast,AG_Utt-T-X-X-Seg
+0.6651515151515152,0.6363636363636364,0.7,0.95,median,hdi,1,1,0.00363477984699582,both_contrast,AG_Utt-T-X-X-Seg
