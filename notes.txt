@@ -1,3 +1,31 @@
+10/8/25 
+Whenever the bayesian analysis runs fail, it's always on the both contrast stimuli. The runs are outputting KFoldModel... for unigram but not both. Once I have run the rest of the models, I will add some print statements to the BayesianAnalysis script to see what the successful ones are printing and why some are failing. 
+
+10/8/25 
+TODO: edit format_for_ngramcalc.py to merge the "x" and "^" symbols to create formatted_corpora_merged
+-- or maybe call the old one formatted_corpora_unmerged seeing that we'll probably stick with this analysis. Will also need to change incremental_corpora_out  
+Then rerun the whole process. 
+run_ngramcalc.py to get ScoredLists 
+run BayesianAnalysis.R
+Make figures 
+
+10/2/25
+A couple of errors that I'm encountering during runs of the BayesianAnalysis.
+1. When running the PhilipsPearl_DMCMC_Bigram model:
+[1] "kfolding"
+Error in getGlobalsAndPackages(expr, envir = envir, globals = globals) :
+  The total size of the 17 globals exported for future expression (‘FUN()’) is 503.87 MiB. This exceeds the maximum allowed size 500.00 MiB per by R option "future.globals.maxSize". This limit is set to protect against transfering too large objects to parallel workers by mistake, which may not be intended and could be costly. See help("future.globals.maxSize", package = "future") for further explainations and how to adjust or remove this threshold The three largest globals are ‘FUN’ (172.39 MiB of class ‘function’), ‘up_args’ (166.45 MiB of class ‘list’) and ‘newdata’ (165.02 MiB of class ‘list’)
+Calls: fit_and_predict_bayesian ... getGlobalsAndPackagesXApply -> getGlobalsAndPackages
+In addition: There were 44 warnings (use warnings() to see them)
+Execution halted
+
+2. Ran into an error when running the AGSimple model: 
+mutate: new variable 'Correct' (double) with 2 unique values and 0% NA group_by: one grouping variable (DrawNum) summarise: now 4,000 rows and 2 columns, ungrouped select: dropped one variable (DrawNum) mutate: new variable 'is_above_chance' (double) with one unique value and 0% NA new variable 'p_above_chance' (double) with one unique value and 0% NA new variable 'p_above_random' (double) with one unique value and 0% NA select: dropped 2 variables (accuracy, is_above_chance) distinct: removed 3,999 rows (>99%), one row remaining Error in data.frame(..., check.names = FALSE) : arguments imply differing number of rows: 2, 1 Calls: fit_and_predict_bayesian ... mutate -> log_mutate -> cbind -> cbind -> data.frame In addition: There were 33 warnings (use warnings() to see them) Execution halted
+ 
+
+I will skip these for now and then try to rerun before troubleshooting. There's really no reason that some runs should work over other's given that they are all reading in the same filetypes 
+
+
 9/29/25
 Command to run the Rscript:
 nohup Rscript BayesianAnalysis.R > analysis_run.log 2>&1 &

@@ -21,8 +21,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
   # if there is more than one value for RS
   if (length(unique(train_dataset$RS)) > 1){
     print("more than one RS value")
-    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
-    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
+    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
+    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept"),
@@ -30,8 +30,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
     )
   } else{
     print("only one RS value")
-    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
-    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
+    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
+    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept")
@@ -49,10 +49,10 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
                  prior = my_priors,
                  thin = 1,
                  seed = seed,
-                 # save_model = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
-                 # file = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
-                 save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
-                 file = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
+                 save_model = paste0("./KFoldModelFitsMerged_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
+                 file = paste0("./KFoldModelFitsMerged_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
+                 # save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
+                 # file = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  file_refit = "always",
                  control = list(max_treedepth =10), silent = 0,
                  sample_prior = "yes"
@@ -77,6 +77,12 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
     rownames_to_column() %>%
     rename(ItemClassID = rowname,
            GroundTruth = ".")
+
+#  t_a <- left_join(preds, actuals) %>%
+#    mutate(Correct = if_else(Predicted == GroundTruth, 1, 0)) %>%
+#    group_by(DrawNum) %>%
+#    summarise(accuracy = mean(Correct), .groups = "drop") %>%
+#    median_hdi(accuracy)
   
   t_a <- left_join(preds, actuals) %>%
     mutate(Correct = if_else(Predicted ==GroundTruth, 1,0 ))  %>% 
@@ -163,7 +169,7 @@ read_in_candidate_lexicons <- function(lexicon_file_name){
 ## END readin function ##
 
 # get the list of files to iterate through
-all_scored_lists <- list.files("../ScoredLists/standard", recursive = TRUE, full.names = TRUE)
+all_scored_lists <- list.files("../ScoredLists_merged/standard", recursive = TRUE, full.names = TRUE)
 all_scored_basenames <- basename(all_scored_lists)
 
 # global lists (just the filenames)
@@ -195,12 +201,14 @@ check_list_compliance(all_scored_lists)
 
 
 # get a list of the model names (folder names)
-list_of_model_types <- list.dirs("../ScoredLists/standard", recursive = FALSE, full.names = FALSE)
-priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
-
+list_of_model_types <- list.dirs("../ScoredLists_merged/standard", recursive = FALSE, full.names = FALSE)
+# priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
+# priority_list = c("OLDPearlCorpusUtterances", "OLDPearlCorpusWordTypes")
+priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
-for (model in priority_list) {
+# for (model in priority_list) {
+for (model in list_of_model_types[c(25:27)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
@@ -248,7 +256,7 @@ for (model in priority_list) {
   res <- rbind(unigram_results, bigram_results, both_results)
   print(res)
   
-  # write_csv(res, paste0("./Results_positional/", model, "_auto_kfold.csv"))
-  write_csv(res, paste0("./Results_ngram/", model, "_auto_kfold.csv"))
+  write_csv(res, paste0("./Results_merged_positional/", model, "_auto_kfold.csv"))
+  # write_csv(res, paste0("./Results_ngram/", model, "_auto_kfold.csv"))
 }
 

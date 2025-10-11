@@ -5,10 +5,10 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # Input roots
 incremental_root = "../incremental_corpora_out"
-formatted_root = "../formatted_corpora"
+formatted_root = "../formatted_corpora_merged"
 
 # Output root
-output_root = "../ScoredLists"
+output_root = "../ScoredLists_merged"
 
 # Test stimuli
 bigram_contrast = "../infant_stim_formatted/infant_2c_stimuli_bigram_contrast.txt"
@@ -20,8 +20,8 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-# for seg_type in tasks:
-for seg_type in sorted(os.listdir(incremental_root)):
+for seg_type in tasks:
+# for seg_type in sorted(os.listdir(incremental_root)):
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
         continue
@@ -54,6 +54,8 @@ selected_corpora = [
     "OLDPearlCorpusUtterances",
     "OLDPearlCorpusWordTypes"
 ]
+selected_corpora = ["OLDTinyInfantLexiconNoNumbers_Prepped"]
+
 for corpus_name in sorted(os.listdir(formatted_root)):
 # for corpus_name in selected_corpora:
     corpus_path = os.path.join(formatted_root, corpus_name)
