@@ -1,0 +1,4 @@
+median_accuracy,hdi_low,hdi_high,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.6015151515151516,0.5696969696969697,0.6363636363636364,1,0.90875,0.0502167348429031,unigram_contrast,PhilipsPearl_Ideal_Unigram_Online
+0.5545454545454546,0.5196969696969697,0.5909090909090909,0.99625,0.0845,0.155031337629311,bigram_contrast,PhilipsPearl_Ideal_Unigram_Online
+0.6196969696969697,0.5893939393939394,0.656060606060606,1,0.992,0.028268451334542,both_contrast,PhilipsPearl_Ideal_Unigram_Online

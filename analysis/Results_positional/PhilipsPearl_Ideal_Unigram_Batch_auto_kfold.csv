@@ -1,0 +1,4 @@
+accuracy,.lower,.upper,.width,.point,.interval,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.678030303030303,0.6454545454545455,0.7075757575757575,0.95,median,hdi,1,1,0.00166048971835255,unigram_contrast,PhilipsPearl_Ideal_Unigram_Batch
+0.5878787878787879,0.553030303030303,0.6227272727272727,0.95,median,hdi,1,0.69875,0.0788101461447557,bigram_contrast,PhilipsPearl_Ideal_Unigram_Batch
+0.6863636363636364,0.6575757575757576,0.7181818181818181,0.95,median,hdi,1,1,0.000888075353641926,both_contrast,PhilipsPearl_Ideal_Unigram_Batch
