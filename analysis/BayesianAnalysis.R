@@ -16,6 +16,7 @@ options(cmdstanr_write_stan_file_dir = getwd())
 
 ### function - bayesian
 fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
+  print("START FIT_AND_PREDICT fct")
   
   
   # if there is more than one value for RS
@@ -83,16 +84,39 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
 #    group_by(DrawNum) %>%
 #    summarise(accuracy = mean(Correct), .groups = "drop") %>%
 #    median_hdi(accuracy)
+
+  print("PREDS:")
+  print(head(preds))
+  print("ACTUALS:")
+  print(head(actuals))
   
-  t_a <- left_join(preds, actuals) %>%
-    mutate(Correct = if_else(Predicted ==GroundTruth, 1,0 ))  %>% 
-    #mutate(Correct = if_else(Predicted == GroundTruth, 1,0)) %>%
+#  t_a <- left_join(preds, actuals) %>%
+#    mutate(Correct = if_else(Predicted ==GroundTruth, 1,0 ))  %>% 
+#    #mutate(Correct = if_else(Predicted == GroundTruth, 1,0)) %>%
+#    group_by(DrawNum) %>%
+#    summarise(accuracy = sum(Correct)/length(Correct)) %>%
+#    ungroup() %>%
+#    select(accuracy) %>%
+#    median_hdi()
+
+  t_a_raw <- left_join(preds, actuals) %>%
+    mutate(Correct = as.integer(Predicted == GroundTruth)) %>%
     group_by(DrawNum) %>%
-    summarise(accuracy = sum(Correct)/length(Correct)) %>%
-    ungroup() %>%
-    select(accuracy) %>%
-    median_hdi()
+    summarise(accuracy = mean(Correct), .groups = "drop") %>%
+    median_hdi(accuracy, .width = 0.95)
   
+  t_a <- t_a_raw %>%
+    summarise(
+      accuracy  = median(accuracy),
+      .lower    = min(.lower),
+      .upper    = max(.upper),
+      .width    = first(.width),
+      .point    = first(.point),
+      .interval = paste0(first(.interval), "-collapsed")
+    )
+
+  print("t_a:")
+  print(t_a)  
   
   print("reading in the null model")
   
@@ -118,7 +142,12 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
            p_above_random = mean(if_else(accuracy>0.58,1,0))) %>%
     select(p_above_chance,p_above_random) %>%
     distinct()
-  
+
+  print("t_b")
+  print(head(t_b))
+  print("o")
+  head(o)
+  print("Created t_a, t_b, and o. About to run bind_cols")  
   
   
   m_unigram_prob_gold <- cbind(t_a,t_b,o) %>% # 
@@ -208,7 +237,7 @@ priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
 # for (model in priority_list) {
-for (model in list_of_model_types[c(25:27)]) {
+for (model in list_of_model_types[c(3,10,17,24)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
@@ -249,7 +278,11 @@ for (model in list_of_model_types[c(25:27)]) {
   both_contrast_joined    <- left_join(both_contrast_addins,    both_contrast_stimuli,    by = "KlattbetAdjusted")
   
   # fit models
+  print("READING in unigram")
+  print(unigram_contrast_joined)  
   unigram_results <- fit_and_predict_bayesian(unigram_contrast_joined, seed, "unigram_contrast", model)
+  print("READING in bigram")
+  print(bigram_contrast_joined)
   bigram_results  <- fit_and_predict_bayesian(bigram_contrast_joined,  seed, "bigram_contrast",  model)
   both_results    <- fit_and_predict_bayesian(both_contrast_joined,    seed, "both_contrast",    model)
   

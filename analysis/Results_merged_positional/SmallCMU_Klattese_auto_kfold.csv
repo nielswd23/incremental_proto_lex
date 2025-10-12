@@ -1,0 +1,4 @@
+accuracy,.lower,.upper,.width,.point,.interval,p_above_chance,p_above_random,OverlapWithRandom,list,model
+0.7575757575757576,0.7318181818181818,0.7848484848484848,0.95,median,hdi,1,1,8.08454732421693e-06,unigram_contrast,SmallCMU_Klattese
+0.6333333333333333,0.6015151515151516,0.6666666666666666,0.95,median,hdi,1,0.999,0.0156347908316578,bigram_contrast,SmallCMU_Klattese
+0.7,0.6727272727272727,0.7318181818181818,0.95,median,hdi,1,1,0.000568085597441478,both_contrast,SmallCMU_Klattese
