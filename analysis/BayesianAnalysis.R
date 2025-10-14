@@ -50,8 +50,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
                  prior = my_priors,
                  thin = 1,
                  seed = seed,
-                 save_model = paste0("./KFoldModelFitsMerged_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
-                 file = paste0("./KFoldModelFitsMerged_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
+                 save_model = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
+                 file = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  # save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
                  # file = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  file_refit = "always",
@@ -198,7 +198,7 @@ read_in_candidate_lexicons <- function(lexicon_file_name){
 ## END readin function ##
 
 # get the list of files to iterate through
-all_scored_lists <- list.files("../ScoredLists_merged/standard", recursive = TRUE, full.names = TRUE)
+all_scored_lists <- list.files("../ScoredLists/standard", recursive = TRUE, full.names = TRUE)
 all_scored_basenames <- basename(all_scored_lists)
 
 # global lists (just the filenames)
@@ -230,14 +230,14 @@ check_list_compliance(all_scored_lists)
 
 
 # get a list of the model names (folder names)
-list_of_model_types <- list.dirs("../ScoredLists_merged/standard", recursive = FALSE, full.names = FALSE)
+list_of_model_types <- list.dirs("../ScoredLists/standard", recursive = FALSE, full.names = FALSE)
 # priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
 # priority_list = c("OLDPearlCorpusUtterances", "OLDPearlCorpusWordTypes")
 priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
 # for (model in priority_list) {
-for (model in list_of_model_types[c(3,10,17,24)]) {
+for (model in list_of_model_types[c(34:36)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
@@ -289,7 +289,7 @@ for (model in list_of_model_types[c(3,10,17,24)]) {
   res <- rbind(unigram_results, bigram_results, both_results)
   print(res)
   
-  write_csv(res, paste0("./Results_merged_positional/", model, "_auto_kfold.csv"))
+  write_csv(res, paste0("./Results_positional/", model, "_auto_kfold.csv"))
   # write_csv(res, paste0("./Results_ngram/", model, "_auto_kfold.csv"))
 }
 

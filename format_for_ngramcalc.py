@@ -74,7 +74,5 @@ def format_and_save_all(all_corpora_path="./all_corpora",
 
 
 if __name__ == "__main__":
-    special_folders = ["AGGrammars", "TP_Absolute_BTP", "TP_Absolute_FTP", 
-                       "TP_Absolute_MI", "TP_Relative_BTP", "TP_Relative_FTP", 
-                       "TP_Relative_MI"]
+    special_folders = ["AGGrammars"]
     format_and_save_all("./all_corpora", "./formatted_corpora", special_folders)

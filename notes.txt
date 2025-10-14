@@ -1,3 +1,6 @@
+10/13/25
+Found that the error was from the t_a df when using median_hdi(). This creates a high density interval but if there are two  high density intervals, then it will output those two instead of the the one output interval. Here's how I did the troubleshooting: https://chatgpt.com/share/68edb3ac-b7c0-8001-8aa0-d6e06802e206 
+
 10/8/25 
 Whenever the bayesian analysis runs fail, it's always on the both contrast stimuli. The runs are outputting KFoldModel... for unigram but not both. Once I have run the rest of the models, I will add some print statements to the BayesianAnalysis script to see what the successful ones are printing and why some are failing. 
 
