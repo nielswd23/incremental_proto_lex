@@ -1,0 +1,5 @@
+word,word_len,uni_prob,uni_prob_freq_weighted,bi_prob,bi_prob_freq_weighted,bi_prob_smoothed,bi_prob_freq_weighted_smoothed,pos_uni_score,pos_uni_score_freq_weighted,pos_uni_score_smoothed,pos_uni_score_freq_weighted_smoothed,pos_bi_score,pos_bi_score_freq_weighted,pos_bi_score_smoothed,pos_bi_score_freq_weighted_smoothed
+D ^ z,3,-8.833316937499323,,-inf,,-9.59082949401417,,1.3781512605042017,,1.287311277947364,,1.0714285714285714,,1.0099904905744812,
+y ^ z,3,-10.219611298619212,,-inf,,-11.053663932256397,,1.2016806722689075,,1.199075983829717,,1.0,1.0,1.0066901605414778,1.0
+D ^ d,3,-8.140169756939377,,-inf,,-9.64212278840172,,1.5448179271708684,,1.330789538816929,,1.0714285714285714,,1.0099904905744812,
+D Y z,3,-9.526464118059266,,-inf,,-10.232683380186565,,1.2352941176470589,,1.222795148915106,,1.0,1.0,1.0066901605414778,1.0
