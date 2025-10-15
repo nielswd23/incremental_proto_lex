@@ -1,3 +1,13 @@
+10/15/25
+Too many NAs when running the BayesianAnalysis with the ngram predictors for TinyInfantLexicon and top_22 because there were a lot of unseen sounds. Filtering out the words with unseen sounds in the analysis by removing any rows where uni_prob == -inf. 
+Should also run the positional score analysis on these updated csvs because even though the positional score returns a usable number with unseen characters, we shouldn't be predicting this way.
+
+10/15/25
+Another error, but this seems more random and usually resolves when running again. Any harm in expanding the size?
+
+The total size of the 17 globals exported for future expression (‘FUN()’) is 503.85 MiB. This exceeds the maximum allowed size 500.00 MiB per by R option "future.globals.maxSize". This limit is set to protect against transfering too large objects to parallel workers by mistake, which may not be intended and could be costly. See help("future.globals.maxSize", package = "future") for further explainations and how to adjust or remove this threshold The three largest globals are ‘FUN’ (172.38 MiB of class ‘function’), ‘up_args’ (166.44 MiB of class ‘list’) and ‘newdata’ (165.02 MiB of class ‘list’)
+Calls: fit_and_predict_bayesian ... getGlobalsAndPackagesXApply -> getGlobalsAndPackages
+
 10/13/25
 Found that the error was from the t_a df when using median_hdi(). This creates a high density interval but if there are two  high density intervals, then it will output those two instead of the the one output interval. Here's how I did the troubleshooting: https://chatgpt.com/share/68edb3ac-b7c0-8001-8aa0-d6e06802e206 
 
