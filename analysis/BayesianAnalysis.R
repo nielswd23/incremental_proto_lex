@@ -207,21 +207,58 @@ bigram_contrast_lists  <- all_scored_lists[grepl("bigram_contrast.csv$",  all_sc
 both_contrast_lists    <- all_scored_lists[grepl("both_contrast.csv$",    all_scored_basenames)]
 seed <- 1
 
+#check_list_compliance <- function(all_files) {
+#  parsed <- map_dfr(all_files, function(f) {
+#    parts <- parse_filename(basename(f))
+#    tibble(model = parts$model, fold = parts$fold, contrast = parts$contrast)
+#  })
+  
+#  # group by model + fold, make sure all 3 contrasts exist
+#  checks <- parsed %>%
+#    group_by(model, fold) %>%
+#    summarise(n_contrasts = n_distinct(contrast), .groups = "drop")
+  
+#  if (any(checks$n_contrasts != 3)) {
+#    stop("Some model/fold combinations are missing a contrast file!")
+#  } else {
+#    print("All models have matching unigram, bigram, and both contrast files for each fold.")
+#  }
+#}
+
 check_list_compliance <- function(all_files) {
   parsed <- map_dfr(all_files, function(f) {
     parts <- parse_filename(basename(f))
-    tibble(model = parts$model, fold = parts$fold, contrast = parts$contrast)
+    tibble(file = basename(f),
+           model = parts$model,
+           fold = parts$fold,
+           contrast = parts$contrast)
   })
   
-  # group by model + fold, make sure all 3 contrasts exist
+  # group by model + fold, count contrasts
   checks <- parsed %>%
     group_by(model, fold) %>%
-    summarise(n_contrasts = n_distinct(contrast), .groups = "drop")
+    summarise(
+      n_contrasts = n_distinct(contrast),
+      contrasts_present = paste(sort(unique(contrast)), collapse = ", "),
+      .groups = "drop"
+    )
   
-  if (any(checks$n_contrasts != 3)) {
-    stop("Some model/fold combinations are missing a contrast file!")
+  # identify missing combinations
+  missing <- checks %>% filter(n_contrasts != 3)
+  
+  if (nrow(missing) > 0) {
+    message("Some model/fold combinations are missing a contrast file!\n")
+    print(missing)
+    
+    # Optionally: show the filenames contributing to those models/folds
+    bad_models <- unique(missing$model)
+    bad_files <- parsed %>% filter(model %in% bad_models)
+    message("\nFiles involved in problematic model/fold combinations:\n")
+    print(bad_files %>% arrange(model, fold, contrast))
+    
+    stop("Compliance check failed.")
   } else {
-    print("All models have matching unigram, bigram, and both contrast files for each fold.")
+    message("All models have matching unigram, bigram, and both contrast files for each fold.")
   }
 }
 
@@ -237,7 +274,7 @@ priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
 # for (model in priority_list) {
-for (model in list_of_model_types[c(29, 32:38)]) {
+for (model in list_of_model_types[c(37:38)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
