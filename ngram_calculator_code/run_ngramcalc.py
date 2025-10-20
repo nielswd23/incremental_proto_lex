@@ -20,8 +20,8 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-for seg_type in tasks:
-# for seg_type in sorted(os.listdir(incremental_root)):
+# for seg_type in tasks:
+for seg_type in sorted(os.listdir(incremental_root)):
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
         continue
@@ -41,6 +41,10 @@ for seg_type in tasks:
 
             base_name = os.path.splitext(filename)[0]
 
+            # Replace the "sample" prefix in base_name with the sample_number
+            if base_name.startswith("sample"):
+                base_name = base_name.replace("sample", sample_number, 1)
+
             tasks.append((train_path, bigram_contrast, os.path.join(output_dir, f"{base_name}_bigram_contrast.csv")))
             tasks.append((train_path, both_contrast,   os.path.join(output_dir, f"{base_name}_both_contrast.csv")))
             tasks.append((train_path, unigram_contrast,os.path.join(output_dir, f"{base_name}_unigram_contrast.csv")))
@@ -56,6 +60,7 @@ selected_corpora = [
 ]
 selected_corpora = ["OLDTinyInfantLexiconNoNumbers_Prepped"]
 selected_corpora = ["TP_btp_absolute", "TP_btp_relative", "TP_ftp_absolute", "TP_ftp_relative", "TP_mi_absolute", "TP_mi_relative"]
+selected_corpora = []
 
 # for corpus_name in sorted(os.listdir(formatted_root)):
 for corpus_name in selected_corpora:
