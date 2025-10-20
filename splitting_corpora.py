@@ -36,13 +36,13 @@ def disjoint_random_samples(corpus_size, k, slice_factor, seed=None):
 
 def process_corpus(corpus, indices_segmented):
     """
-    indices_segmented determine which lines should remain segmented.
-    Every other line is unsegmented and treated as a "word".
+    indices_segmented determine which lines should be left unsegmented.
+    Every other line is segmented and the words are extracted.
     """
     processed_corpus = []
     seen = set()
     for i, line in enumerate(corpus):
-        if i in indices_segmented:
+        if i not in indices_segmented:
             words = line.split()
             for word in words:
                 formatted = ' '.join(word)
