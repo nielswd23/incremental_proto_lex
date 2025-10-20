@@ -38,7 +38,7 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
       prior(normal(0, 2.5), class = "Intercept")
     )
   }
-  dir.create(dirname("./KFoldModelFits_positional_incremental/"), recursive = TRUE, showWarnings = FALSE)
+  dir.create("./KFoldModelFits_positional_incremental/AGSimple")
   print("fitting main model")
   b_model <- brm(my_bf,
                  data = train_dataset,
@@ -278,7 +278,7 @@ priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
 # for (model in priority_list) {
-for (model in list_of_model_types[c(7,8)]) {
+for (model in list_of_model_types[c(1:6)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
