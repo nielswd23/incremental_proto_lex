@@ -22,8 +22,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
   # if there is more than one value for RS
   if (length(unique(train_dataset$RS)) > 1){
     print("more than one RS value")
-    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
-    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
+    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed)+(1|RS))
+    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed)+(1|RS))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept"),
@@ -31,14 +31,14 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
     )
   } else{
     print("only one RS value")
-    my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
-    # my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
+    # my_bf <- bf(List ~ scale(pos_uni_score_smoothed)*scale(pos_bi_score_smoothed))
+    my_bf <- bf(List ~ scale(uni_prob)*scale(bi_prob_smoothed))
     my_priors <- c(
       prior(normal(0, 1), class = "b"),
       prior(normal(0, 2.5), class = "Intercept")
     )
   }
-  dir.create("./KFoldModelFits_positional_incremental/AGPhonotactic")
+  dir.create("./KFoldModelFits_ngram_incremental/AGPhonotactic")
   print("fitting main model")
   b_model <- brm(my_bf,
                  data = train_dataset,
@@ -50,8 +50,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
                  prior = my_priors,
                  thin = 1,
                  seed = seed,
-                 save_model = paste0("./KFoldModelFits_positional_incremental/AGPhonotactic/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
-                 file = paste0("./KFoldModelFits_positional_incremental/AGPhonotactic/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
+                 save_model = paste0("./KFoldModelFits_ngram_incremental/AGPhonotactic/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
+                 file = paste0("./KFoldModelFits_ngram_incremental/AGPhonotactic/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  # save_model = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
                  # file = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"),
                  # save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"),
@@ -331,7 +331,7 @@ for (model in list_of_model_types[c(7,8)]) {
   print(res)
   
   # write_csv(res, paste0("./Results_positional/", model, "_auto_kfold.csv"))
-  dir.create("./Results_incremental/AGPhonotactic")
-  write_csv(res, paste0("./Results_incremental/AGPhonotactic/", model, "_auto_kfold.csv"))
+  dir.create("./Results_incremental_ngram/AGPhonotactic")
+  write_csv(res, paste0("./Results_incremental_ngram/AGPhonotactic/", model, "_auto_kfold.csv"))
 }
 
