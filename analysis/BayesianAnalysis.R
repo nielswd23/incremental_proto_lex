@@ -278,7 +278,7 @@ priority_list = c("OLDTinyInfantLexiconNoNumbers_Prepped")
 
 ### Running model ###
 # for (model in priority_list) {
-for (model in list_of_model_types[c(7,8)]) {
+for (model in list_of_model_types[c(7:12)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
