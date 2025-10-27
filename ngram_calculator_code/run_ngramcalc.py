@@ -4,7 +4,8 @@ import ngram_calculator
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # Input roots
-incremental_root = "../incremental_corpora_out"
+# incremental_root = "../incremental_corpora_out"
+incremental_root = "../incremental_corpora_out_v2"
 formatted_root = "../formatted_corpora"
 
 # Output root
@@ -31,7 +32,8 @@ for seg_type in sorted(os.listdir(incremental_root)):
         if not os.path.isdir(train_dir):
             continue
 
-        output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
+        # output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
+        output_dir = os.path.join(output_root, "incremental_v2", seg_type, sample_number)
         os.makedirs(output_dir, exist_ok=True)
 
         for filename in os.listdir(train_dir):

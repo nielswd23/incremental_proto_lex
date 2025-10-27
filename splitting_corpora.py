@@ -1,39 +1,115 @@
 import random
 import re
 import os
+import math 
 
+# def disjoint_random_samples(corpus_size, k, slice_factor, seed=None):
+#     """
+#     Randomly selects k disjoint samples of n/slice_factor indices from a corpus.
+
+#     :param corpus_size: int, total size of the corpus (n)
+#     :param k: int, number of samples needed
+#     :param slice_factor: int, denominator for each sample's size (e.g., 512, 128, etc.)
+#     :param seed: int or None, random seed for reproducibility
+#     :return: List[List[int]] -- list of k lists of indices
+#     """
+#     if seed is not None:
+#         random.seed(seed)
+
+#     all_indices = list(range(corpus_size))
+#     random.shuffle(all_indices)
+
+#     sample_size = corpus_size // slice_factor
+#     samples = []
+#     total_needed = k * sample_size
+
+#     if total_needed > corpus_size:
+#         raise ValueError(
+#             f"Cannot sample {k} disjoint samples of size {sample_size} from {corpus_size} lines."
+#         )
+
+#     for i in range(k):
+#         sample = all_indices[i * sample_size : (i + 1) * sample_size]
+#         samples.append(sample)
+
+#     return samples
+
+## version 2. no longer requires disjoint set across samples. This allows for
+## fractional slice facros such as 1.5 to extend the set of unsegmented lines
+## beyond just 1/2 of the corpus
 def disjoint_random_samples(corpus_size, k, slice_factor, seed=None):
     """
-    Randomly selects k disjoint samples of n/slice_factor indices from a corpus.
+    Return k samples of size floor(n / slice_factor) indices from a corpus of size n.
+    - slice_factor can be float (> 1.0). E.g., 1.5 => samples of ~2/3 of the corpus.
+    - Disjointness is enforced *within each split*.
+    - If k * sample_size > n, the function performs multiple independent splits,
+      reshuffling each time, until k samples are produced.
 
     :param corpus_size: int, total size of the corpus (n)
-    :param k: int, number of samples needed
-    :param slice_factor: int, denominator for each sample's size (e.g., 512, 128, etc.)
+    :param k: int, number of samples requested
+    :param slice_factor: float (>1), denominator for each sample's size
     :param seed: int or None, random seed for reproducibility
-    :return: List[List[int]] -- list of k lists of indices
+    :return: List[List[int]] -- k lists of indices
     """
-    if seed is not None:
-        random.seed(seed)
+    if corpus_size <= 0:
+        raise ValueError("corpus_size must be positive.")
+    try:
+        sf = float(slice_factor)
+    except Exception as e:
+        raise TypeError("slice_factor must be a number.") from e
+    if sf <= 1.0:
+        raise ValueError("slice_factor must be > 1.0 (each sample must be a proper fraction of the corpus).")
 
-    all_indices = list(range(corpus_size))
-    random.shuffle(all_indices)
+    # sample_size = floor(n / slice_factor); ensure at least 1
+    sample_size_float = corpus_size / sf
+    sample_size = int(math.floor(sample_size_float))
+    if sample_size < 1:
+        sample_size = 1
 
-    sample_size = corpus_size // slice_factor
-    samples = []
-    total_needed = k * sample_size
+    # Max number of disjoint samples you can pack in a single split
+    per_split_capacity = max(1, corpus_size // sample_size)
 
-    if total_needed > corpus_size:
-        raise ValueError(
-            f"Cannot sample {k} disjoint samples of size {sample_size} from {corpus_size} lines."
-        )
+    rng = random.Random(seed)
+    out = []
+    while len(out) < k:
+        # New split: shuffle the entire index set
+        all_indices = list(range(corpus_size))
+        rng.shuffle(all_indices)
 
-    for i in range(k):
-        sample = all_indices[i * sample_size : (i + 1) * sample_size]
-        samples.append(sample)
+        # Create up to per_split_capacity disjoint blocks in this split
+        take = min(per_split_capacity, k - len(out))
+        for j in range(take):
+            start = j * sample_size
+            end = start + sample_size  # end is safe: per_split_capacity * sample_size <= corpus_size
+            out.append(all_indices[start:end])
 
-    return samples
+    return out
 
 
+# def process_corpus(corpus, indices_segmented):
+#     """
+#     indices_segmented determine which lines should be left unsegmented.
+#     Every other line is segmented and the words are extracted.
+#     """
+#     processed_corpus = []
+#     seen = set()
+#     for i, line in enumerate(corpus):
+#         if i not in indices_segmented:
+#             words = line.split()
+#             for word in words:
+#                 formatted = ' '.join(word)
+#                 if formatted not in seen:
+#                     seen.add(formatted)
+#                     processed_corpus.append(formatted)
+#         else:
+#             line_no_whitespace = re.sub(r'\s+', '', line)
+#             formatted_line = ' '.join(line_no_whitespace)
+#             if formatted_line not in seen:
+#                 seen.add(formatted_line)
+#                 processed_corpus.append(formatted_line)
+#     return processed_corpus
+
+# version of process_corpus() that only includes segmented lines 
 def process_corpus(corpus, indices_segmented):
     """
     indices_segmented determine which lines should be left unsegmented.
@@ -49,22 +125,18 @@ def process_corpus(corpus, indices_segmented):
                 if formatted not in seen:
                     seen.add(formatted)
                     processed_corpus.append(formatted)
-        else:
-            line_no_whitespace = re.sub(r'\s+', '', line)
-            formatted_line = ' '.join(line_no_whitespace)
-            if formatted_line not in seen:
-                seen.add(formatted_line)
-                processed_corpus.append(formatted_line)
     return processed_corpus
-
 
 # -----------------------
 # Setup
 # -----------------------
 input_root = "./all_corpora"
-output_root = "./incremental_corpora_out"
-levels = [512, 128, 64, 32, 16, 8, 4, 2]
-samples_per_level = {512: 8, 128: 8, 64: 8, 32: 8, 16: 8, 8: 8, 4: 4, 2: 2}
+# output_root = "./incremental_corpora_out"
+output_root = "./incremental_corpora_out_v2"
+# levels = [512, 128, 64, 32, 16, 8, 4, 2]
+# samples_per_level = {512: 8, 128: 8, 64: 8, 32: 8, 16: 8, 8: 8, 4: 4, 2: 2}
+levels = [512, 128, 64, 32, 16, 8, 4, 2, 1.9, 1.75, 1.5, 1.25]
+samples_per_level = {512: 8, 128: 8, 64: 8, 32: 8, 16: 8, 8: 8, 4: 8, 2: 8, 1.9: 8, 1.75: 8, 1.5:8, 1.25:8}
 random_seed = 42
 
 # Explicit list of folders you want to process
