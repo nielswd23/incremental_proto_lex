@@ -135,8 +135,8 @@ input_root = "./all_corpora"
 output_root = "./incremental_corpora_out_v2"
 # levels = [512, 128, 64, 32, 16, 8, 4, 2]
 # samples_per_level = {512: 8, 128: 8, 64: 8, 32: 8, 16: 8, 8: 8, 4: 4, 2: 2}
-levels = [512, 128, 64, 32, 16, 8, 4, 2, 1.9, 1.75, 1.5, 1.25]
-samples_per_level = {512: 8, 128: 8, 64: 8, 32: 8, 16: 8, 8: 8, 4: 8, 2: 8, 1.9: 8, 1.75: 8, 1.5:8, 1.25:8}
+levels = [64, 32, 16, 8, 4, 2, 1.75, 1.5, 1.25, 1.1, 1.05, 1.01]
+samples_per_level = {64: 8, 32: 8, 16: 8, 8: 8, 4: 8, 2: 8, 1.75: 8, 1.5:8, 1.25:8, 1.1:8, 1.05:8, 1.01:8}
 random_seed = 42
 
 # Explicit list of folders you want to process
