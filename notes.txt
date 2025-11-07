@@ -1,3 +1,6 @@
+11/6/25
+In case I don't clean up the code anymore, the main analysis script BayesianAnalysis.R is not very user friendly because I was shoehorning it into every iteration of analysis that we did. So it's only set-up to run one collection of models at a time. So at first this was the collection of different segmentation algorithms. But currently it's set up for incremental runs where it runs a collection of different slices of one segmentation algorithm. So I would have to enter in the specific algorithm for each line that mentioned that path (line 53, 54, 204, etc.). Importantly, to switch to the ngram analysis, I would uncomment lunes 26 and 35 which is predicting the high vs low from the ngram measures. And then I was also running into memory issues when running more than 6 models at a time. So, in line 281, I was simply indexing 6 at a time.  
+
 10/27/25 
 Working on a different version of the incremental analysis. Original implementation was do the splits in corpus lines, segment some of the lines which were added to the wordlist, and then treat the rest of the unsegmented lines as words. Version 2 is to just throw out the unsegmented lines which might be overwhelming the phonotactic statistics and incrementally learn from less and less data. Surprisingly, this version 2 produces very different results. Previosuly, the model would fail to distinguish the contrasts after just 1/8 of the lines being unsegmented. In version 2 where unseg lines are thrown out, even as much as 1/2 of the lines being thrown out, the model still seems to be making the right contrasts. Thus, I need to edit how I am splitting the corpora in splitting_corpora.py.
 
@@ -26,6 +29,7 @@ Then rerun the whole process.
 run_ngramcalc.py to get ScoredLists 
 run BayesianAnalysis.R
 Make figures 
+--- 11/6/25 update: merging the symbols did not produce very different effects. We found the error and it was that one of the old files had a space before each line.
 
 10/2/25
 A couple of errors that I'm encountering during runs of the BayesianAnalysis.
