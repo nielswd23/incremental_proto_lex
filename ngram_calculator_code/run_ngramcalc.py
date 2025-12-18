@@ -21,7 +21,7 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-# for seg_type in tasks:
+# for seg_type in tasks: # quick way to skip incremental runs
 for seg_type in sorted(os.listdir(incremental_root)):
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
@@ -62,9 +62,9 @@ selected_corpora = [
 ]
 selected_corpora = ["OLDTinyInfantLexiconNoNumbers_Prepped"]
 selected_corpora = ["TP_btp_absolute", "TP_btp_relative", "TP_ftp_absolute", "TP_ftp_relative", "TP_mi_absolute", "TP_mi_relative"]
-selected_corpora = []
+selected_corpora = ["top_22Content"]
 
-# for corpus_name in sorted(os.listdir(formatted_root)):
+# for corpus_name in sorted(os.listdir(formatted_root)): # when running on all of the formatted corpora
 for corpus_name in selected_corpora:
     corpus_path = os.path.join(formatted_root, corpus_name)
     if not os.path.isdir(corpus_path):

@@ -1,3 +1,6 @@
+12/18/25 
+Adding a run of top 22 content words. To create some variability, I took 18 from the list to create 5 folds. BayesianAnalysis.R is set up to run just this model. 
+
 11/6/25
 In case I don't clean up the code anymore, the main analysis script BayesianAnalysis.R is not very user friendly because I was shoehorning it into every iteration of analysis that we did. So it's only set-up to run one collection of models at a time. So at first this was the collection of different segmentation algorithms. But currently it's set up for incremental runs where it runs a collection of different slices of one segmentation algorithm. So I would have to enter in the specific algorithm for each line that mentioned that path (line 53, 54, 204, etc.). Importantly, to switch to the ngram analysis, I would uncomment lunes 26 and 35 which is predicting the high vs low from the ngram measures. And then I was also running into memory issues when running more than 6 models at a time. So, in line 281, I was simply indexing 6 at a time.  
 
