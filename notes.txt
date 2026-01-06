@@ -1,3 +1,6 @@
+1/5/26
+Error in top 22 content so rerunning these with updated list. Also want to get ngram scores so we need to filter out the lines in the resulting csv with -inf unigram scores (unseen character) -- did this with clean_unseen_cases.py.
+
 12/18/25 
 Adding a run of top 22 content words. To create some variability, I took 18 from the list to create 5 folds. BayesianAnalysis.R is set up to run just this model. 
 
@@ -52,7 +55,7 @@ I will skip these for now and then try to rerun before troubleshooting. There's 
 
 
 9/29/25
-Command to run the Rscript:
+Command to run the Rscript (also can run "tail analysis_run.log" to check in on run):
 nohup Rscript BayesianAnalysis.R > analysis_run.log 2>&1 &
 
 Added the ngram vs positional runs of the model back in (just commenting out some lines). 

@@ -15,4 +15,4 @@ s ^ m
 l I t x l
 J ^ s t
 W t
-k U m
+k ^ m

@@ -274,7 +274,7 @@ list_of_model_types <- list.dirs("../ScoredLists/standard", recursive = FALSE, f
 # list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/AGSimple", recursive = FALSE, full.names = FALSE)
 # priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
 # priority_list = c("OLDPearlCorpusUtterances", "OLDPearlCorpusWordTypes")
-priority_list = c("top_22Content")
+priority_list = c("top_22ContentCleaned")
 
 ### Running model ###
 for (model in priority_list) {

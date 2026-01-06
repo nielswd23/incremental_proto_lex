@@ -21,8 +21,8 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-# for seg_type in tasks: # quick way to skip incremental runs
-for seg_type in sorted(os.listdir(incremental_root)):
+for seg_type in tasks: # quick way to skip incremental runs
+# for seg_type in sorted(os.listdir(incremental_root)):
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
         continue
