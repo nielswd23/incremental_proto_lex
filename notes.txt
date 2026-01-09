@@ -1,3 +1,9 @@
+1/9/26
+I only had PearlBrentUtterances and PearlBrentWords on github in the final formatted_corpora, but we need the initial PearlBrent corpus in order to run the incremental processing script (splitting_corpora.py). I included the full Pearl Brent corpus (ensuring that it had both x and ^ characters and that it hadn't gone through any of the previous processing). This is included in all_corpora/PearlBrentWords/1/Model.txt because that is what the incremental script expects. 
+
+1/6/26 
+Adding Gold IDS to incremental runs. Also adding a slice in between 1.05 and 1.01 becuase this seems to be the critical region where some models start to fail. Want to see more gradation from success to failure 
+
 1/5/26
 Error in top 22 content so rerunning these with updated list. Also want to get ngram scores so we need to filter out the lines in the resulting csv with -inf unigram scores (unseen character) -- did this with clean_unseen_cases.py.
 
