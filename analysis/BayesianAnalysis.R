@@ -278,7 +278,7 @@ list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/PearlBrentWords"
 
 ### Running model ###
 # for (model in priority_list) { # for listing segmentation type to run
-for (model in list_of_model_types[c(1:6)]) {
+for (model in list_of_model_types[c(13)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
