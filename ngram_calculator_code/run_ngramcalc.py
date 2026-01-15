@@ -21,16 +21,17 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-selected_incremental = ["PearlBrentWords"]
+# selected_incremental = ["PearlBrentWords"]
 
 # for seg_type in tasks: # quick way to skip incremental runs
-for seg_type in selected_incremental: # way to run selected corpora
-# for seg_type in sorted(os.listdir(incremental_root)): # original run for all of the segmentation types in incremental root
+# for seg_type in selected_incremental: # way to run selected corpora
+for seg_type in sorted(os.listdir(incremental_root)): # original run for all of the segmentation types in incremental root
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
         continue
 
     for sample_number in sorted(os.listdir(seg_type_path)):
+    # sample_number = "1.025"
         train_dir = os.path.join(seg_type_path, sample_number)
         if not os.path.isdir(train_dir):
             continue
