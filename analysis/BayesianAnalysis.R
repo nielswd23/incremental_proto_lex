@@ -278,7 +278,7 @@ list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/AG_Utt-X-T-X-X-S
 
 ### Running model ###
 # for (model in priority_list) { # for listing segmentation type to run
-for (model in list_of_model_types[c(7:12)]) {
+for (model in list_of_model_types[c(13:16)]) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
