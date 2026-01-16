@@ -30,30 +30,30 @@ for seg_type in sorted(os.listdir(incremental_root)): # original run for all of 
     if not os.path.isdir(seg_type_path):
         continue
 
-    for sample_number in sorted(os.listdir(seg_type_path)):
-    # sample_number = "1.025"
-        train_dir = os.path.join(seg_type_path, sample_number)
-        if not os.path.isdir(train_dir):
+    # for sample_number in sorted(os.listdir(seg_type_path)):
+    sample_number = "1.015"
+    train_dir = os.path.join(seg_type_path, sample_number)
+    if not os.path.isdir(train_dir):
+        continue
+
+    # output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
+    output_dir = os.path.join(output_root, "incremental_v2", seg_type, sample_number)
+    os.makedirs(output_dir, exist_ok=True)
+
+    for filename in os.listdir(train_dir):
+        train_path = os.path.join(train_dir, filename)
+        if not os.path.isfile(train_path):
             continue
 
-        # output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
-        output_dir = os.path.join(output_root, "incremental_v2", seg_type, sample_number)
-        os.makedirs(output_dir, exist_ok=True)
+        base_name = os.path.splitext(filename)[0]
 
-        for filename in os.listdir(train_dir):
-            train_path = os.path.join(train_dir, filename)
-            if not os.path.isfile(train_path):
-                continue
+        # Replace the "sample" prefix in base_name with the sample_number
+        if base_name.startswith("sample"):
+            base_name = base_name.replace("sample", sample_number, 1)
 
-            base_name = os.path.splitext(filename)[0]
-
-            # Replace the "sample" prefix in base_name with the sample_number
-            if base_name.startswith("sample"):
-                base_name = base_name.replace("sample", sample_number, 1)
-
-            tasks.append((train_path, bigram_contrast, os.path.join(output_dir, f"{base_name}_bigram_contrast.csv")))
-            tasks.append((train_path, both_contrast,   os.path.join(output_dir, f"{base_name}_both_contrast.csv")))
-            tasks.append((train_path, unigram_contrast,os.path.join(output_dir, f"{base_name}_unigram_contrast.csv")))
+        tasks.append((train_path, bigram_contrast, os.path.join(output_dir, f"{base_name}_bigram_contrast.csv")))
+        tasks.append((train_path, both_contrast,   os.path.join(output_dir, f"{base_name}_both_contrast.csv")))
+        tasks.append((train_path, unigram_contrast,os.path.join(output_dir, f"{base_name}_unigram_contrast.csv")))
 
 
 # ---------------------------

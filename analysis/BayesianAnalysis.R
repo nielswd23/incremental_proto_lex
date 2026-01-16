@@ -38,7 +38,7 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
       prior(normal(0, 2.5), class = "Intercept")
     )
   }
-  dir.create("./KFoldModelFits_positional_incremental_v2/AG_Utt-X-T-X-X-Seg") # for incremental runs only
+  dir.create("./KFoldModelFits_positional_incremental_v2/PUDDLE") # for incremental runs only
   print("fitting main model")
   b_model <- brm(my_bf,
                  data = train_dataset,
@@ -50,8 +50,8 @@ fit_and_predict_bayesian <- function(train_dataset, seed, gram, model){
                  prior = my_priors,
                  thin = 1,
                  seed = seed,
-                 save_model = paste0("./KFoldModelFits_positional_incremental_v2/AG_Utt-X-T-X-X-Seg/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"), # for incremental positional analysis. Running one segmentation type (e.g., PUDDLE) at a time and iterating over slice conditions
-                 file = paste0("./KFoldModelFits_positional_incremental_v2/AG_Utt-X-T-X-X-Seg/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"), # for incremental positional analysis 
+                 save_model = paste0("./KFoldModelFits_positional_incremental_v2/PUDDLE/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"), # for incremental positional analysis. Running one segmentation type (e.g., PUDDLE) at a time and iterating over slice conditions
+                 file = paste0("./KFoldModelFits_positional_incremental_v2/PUDDLE/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"), # for incremental positional analysis 
                  # save_model = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"), # for positional analysis
                  # file = paste0("./KFoldModelFits_positional/",gram,"_prob_",model,"_brmsSeed_",seed,"fit"), # for positional analysis
                  # save_model = paste0("./KFoldModelFits_ngram/",gram,"_prob_",model,"_brmsSeed_",seed,".stan"), # for ngram analysis
@@ -201,7 +201,7 @@ read_in_candidate_lexicons <- function(lexicon_file_name){
 
 # get the list of files to iterate through
 # all_scored_lists <- list.files("../ScoredLists/standard", recursive = TRUE, full.names = TRUE)
-all_scored_lists <- list.files("../ScoredLists/incremental_v2/AG_Utt-X-T-X-X-Seg", recursive = TRUE, full.names = TRUE)
+all_scored_lists <- list.files("../ScoredLists/incremental_v2/PUDDLE", recursive = TRUE, full.names = TRUE)
 all_scored_basenames <- basename(all_scored_lists)
 
 # global lists (just the filenames)
@@ -271,14 +271,15 @@ check_list_compliance(all_scored_lists)
 
 # get a list of the model names (folder names)
 # list_of_model_types <- list.dirs("../ScoredLists/standard", recursive = FALSE, full.names = FALSE)
-list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/AG_Utt-X-T-X-X-Seg", recursive = FALSE, full.names = FALSE) # for incremental runs
+list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/PUDDLE", recursive = FALSE, full.names = FALSE) # for incremental runs
 # priority_list = c("PearlBrentUtterances", "PearlBrentWords", "TinyInfantLexiconNoNumbers_Prepped")
 # priority_list = c("OLDPearlCorpusUtterances", "OLDPearlCorpusWordTypes")
 # priority_list = c("top_22ContentCleaned")
 
 ### Running model ###
 # for (model in priority_list) { # for listing segmentation type to run
-for (model in list_of_model_types[c(13:16)]) {
+# for (model in list_of_model_types[c(13:16)]) {
+for (model in c("1.015", "1.02")) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
@@ -332,7 +333,7 @@ for (model in list_of_model_types[c(13:16)]) {
   
   # write_csv(res, paste0("./Results_positional/", model, "_auto_kfold.csv"))
   # write_csv(res, paste0("./Results_ngram/", model, "_auto_kfold.csv"))
-  dir.create("./Results_incremental_positional_v2/AG_Utt-X-T-X-X-Seg") # for incremental we need to create dir first because we have a folder for each segmentation type and then results for each slice within
-  write_csv(res, paste0("./Results_incremental_positional_v2/AG_Utt-X-T-X-X-Seg/", model, "_auto_kfold.csv"))
+  dir.create("./Results_incremental_positional_v2/PUDDLE") # for incremental we need to create dir first because we have a folder for each segmentation type and then results for each slice within
+  write_csv(res, paste0("./Results_incremental_positional_v2/PUDDLE/", model, "_auto_kfold.csv"))
 }
 
