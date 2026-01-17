@@ -279,7 +279,7 @@ list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/JPSD_d_1.55", re
 ### Running model ###
 # for (model in priority_list) { # for listing segmentation type to run
 # for (model in list_of_model_types[c(13:16)]) {
-for (model in c("1.015", "1.02")) {
+for (model in c("1.0175")) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
