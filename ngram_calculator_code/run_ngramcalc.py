@@ -31,7 +31,7 @@ for seg_type in sorted(os.listdir(incremental_root)): # original run for all of 
         continue
 
     # for sample_number in sorted(os.listdir(seg_type_path)):
-    sample_number = "1.0175"
+    sample_number = "1.01625"
     train_dir = os.path.join(seg_type_path, sample_number)
     if not os.path.isdir(train_dir):
         continue

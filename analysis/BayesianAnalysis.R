@@ -279,7 +279,7 @@ list_of_model_types <- list.dirs("../ScoredLists/incremental_v2/PUDDLE", recursi
 ### Running model ###
 # for (model in priority_list) { # for listing segmentation type to run
 # for (model in list_of_model_types[c(13:16)]) {
-for (model in c("1.0175")) {
+for (model in c("1.01625")) {
   set.seed(seed)
   print(paste0("working on current model ", model))
   
