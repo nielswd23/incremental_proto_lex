@@ -21,39 +21,39 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-# selected_incremental = ["PearlBrentWords"]
+selected_incremental = ["Goldwater_Bigram"]
 
 # for seg_type in tasks: # quick way to skip incremental runs
-# for seg_type in selected_incremental: # way to run selected corpora
-for seg_type in sorted(os.listdir(incremental_root)): # original run for all of the segmentation types in incremental root
+for seg_type in selected_incremental: # way to run selected corpora
+# for seg_type in sorted(os.listdir(incremental_root)): # original run for all of the segmentation types in incremental root
     seg_type_path = os.path.join(incremental_root, seg_type)
     if not os.path.isdir(seg_type_path):
         continue
 
-    # for sample_number in sorted(os.listdir(seg_type_path)):
-    sample_number = "1.01625"
-    train_dir = os.path.join(seg_type_path, sample_number)
-    if not os.path.isdir(train_dir):
-        continue
-
-    # output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
-    output_dir = os.path.join(output_root, "incremental_v2", seg_type, sample_number)
-    os.makedirs(output_dir, exist_ok=True)
-
-    for filename in os.listdir(train_dir):
-        train_path = os.path.join(train_dir, filename)
-        if not os.path.isfile(train_path):
+    for sample_number in sorted(os.listdir(seg_type_path)):
+        # sample_number = "1.01625"
+        train_dir = os.path.join(seg_type_path, sample_number)
+        if not os.path.isdir(train_dir):
             continue
 
-        base_name = os.path.splitext(filename)[0]
+        # output_dir = os.path.join(output_root, "incremental", seg_type, sample_number)
+        output_dir = os.path.join(output_root, "incremental_v2", seg_type, sample_number)
+        os.makedirs(output_dir, exist_ok=True)
 
-        # Replace the "sample" prefix in base_name with the sample_number
-        if base_name.startswith("sample"):
-            base_name = base_name.replace("sample", sample_number, 1)
+        for filename in os.listdir(train_dir):
+            train_path = os.path.join(train_dir, filename)
+            if not os.path.isfile(train_path):
+                continue
 
-        tasks.append((train_path, bigram_contrast, os.path.join(output_dir, f"{base_name}_bigram_contrast.csv")))
-        tasks.append((train_path, both_contrast,   os.path.join(output_dir, f"{base_name}_both_contrast.csv")))
-        tasks.append((train_path, unigram_contrast,os.path.join(output_dir, f"{base_name}_unigram_contrast.csv")))
+            base_name = os.path.splitext(filename)[0]
+
+            # Replace the "sample" prefix in base_name with the sample_number
+            if base_name.startswith("sample"):
+                base_name = base_name.replace("sample", sample_number, 1)
+
+            tasks.append((train_path, bigram_contrast, os.path.join(output_dir, f"{base_name}_bigram_contrast.csv")))
+            tasks.append((train_path, both_contrast,   os.path.join(output_dir, f"{base_name}_both_contrast.csv")))
+            tasks.append((train_path, unigram_contrast,os.path.join(output_dir, f"{base_name}_unigram_contrast.csv")))
 
 
 # ---------------------------
