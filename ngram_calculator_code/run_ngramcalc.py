@@ -21,7 +21,7 @@ unigram_contrast= "../infant_stim_formatted/infant_2a_stimuli_unigram_contrast.t
 # ---------------------------
 tasks = []
 
-selected_incremental = ["Goldwater_Bigram"]
+selected_incremental = ["PearlBrentWords"]
 
 # for seg_type in tasks: # quick way to skip incremental runs
 for seg_type in selected_incremental: # way to run selected corpora

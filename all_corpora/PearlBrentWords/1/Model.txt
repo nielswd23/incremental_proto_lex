@@ -625,15 +625,11 @@ wi g^nx lUk @t D^ bUk
 Elmo k@n lUk @t D^ bUk tu
 bum
 bum
-S S
 k^m hir
 k^m hir
-S
 lEmi lUk @t yu
-S
 Its oke
 oke
-S
 k^m an
 lEts lUk WtsYd
 yR yR
@@ -679,8 +675,6 @@ Y no yu du
 yEs
 w^t e switi
 mami h@z gaCx
-S
-S
 yur J^st tYrd arnt ya
 se o Ym tYrd
 se mami
@@ -689,7 +683,6 @@ hir wY dont yu h@v s^m mor wctR
 Y bEt
 D@t yu nid e lItxl mor wctR
 J^st h@v e nYs nYs n@pi
-S S S S S
 Der yu go
 yR
 Iz D@t cl bEtR
@@ -801,7 +794,6 @@ wir J^st
 k^m an
 wi gatx
 pUt yUr dYpR an
-S
 mami Iz J^st p^tIG yUr dYpR an
 Der wi go
 Der yu go
@@ -822,7 +814,6 @@ yu J^st pUld mamiz her
 nW wir g^nx pUt yUr p@nts b@k an
 o w^t ar yu krYIG xbWt
 W
-S
 DIs wUd bi m^C iziR
 If yu wRnt kIkIG yUr lItxl lEgz
 k^m an
@@ -1190,8 +1181,8 @@ k@n yu gEt D^ sRkxl
 It rold xwe
 rold xwe
 w^ts D@t
-D@ts e hWz
-D@ts e hWz Sep
+D@ts e hWs
+D@ts e hWs Sep
 waC morgIn
 lUk
 D^ star goz In D^ star
@@ -1315,7 +1306,7 @@ lUk @t D@t pIkCR
 w^t Iz D@t
 D@ts @n xmbrElx
 xmbrElx
-yu yus @n xmbrElx tu ste drY wEn It renz
+yu yuz @n xmbrElx tu ste drY wEn It renz
 yEs yEs yu du
 ^o
 no D@ts mamiz
@@ -1831,7 +1822,6 @@ o dont kIk mami
 yu kIkt D^ krim rYt Wt ^v mamiz h@ndz
 DIs Iz g^nx mek It fil bEtR morgIn
 c
-S
 Its oke
 Its oke
 mamiz g^nx mek It fil bEtR
@@ -2196,7 +2186,7 @@ D@ts e gUd gRl
 gUd gRl
 W
 W
-Y dont TIGk yu SUd yus mamiz her tu hold yUrsElf ^p Eni
+Y dont TIGk yu SUd yuz mamiz her tu hold yUrsElf ^p Eni
 w^ts rcG switi
 k^m hir
 w^ts rcG switi
@@ -3059,7 +3049,7 @@ hir k^mz D^ tr@fIk lYt
 wil J^st h@v tu tRn dWn pWlz r^n
 DEn wEn wi gEt hom wil gEt stret Wt ^v D^ kar
 yEs wi wIl
-wil go stret In D^ hWz @nd gEt mcrgi e sn@k
+wil go stret In D^ hWs @nd gEt mcrgi e sn@k
 wir g^nx gEt mcrgi e sn@k
 DIs gYz k^mIG ^p rixli kwIk bxhYnd ^s morgIn
 hir wi go
@@ -3074,7 +3064,7 @@ Y pramIs yu
 rYt nW
 rYt nW morgIn D^ klak sEz tu et o tu
 et o tu
-@nd wi wIl bi In D^ hWz bxfor It sEz et o for
+@nd wi wIl bi In D^ hWs bxfor It sEz et o for
 hirz D^ stritlYt
 hirz D^ stritlYt
 hirz D^ stritlYt
@@ -3110,8 +3100,8 @@ Der wi go switi
 lEts flIp D^ h@ndxl ^p so mami k@n k@ri yu
 okidoki
 okidoki
-In D^ hWz
-In D^ hWz
+In D^ hWs
+In D^ hWs
 kr^nC kr^nC kr^nC ^p D^ Ysi sYdwck
 kr^nC kr^nC kr^nC
 Derz D^ d@di
@@ -3768,8 +3758,6 @@ D^ bebiz an D^ b^s krY w@w@w@
 cl ovR tWn
 hirz m@ndiz fevxrIt peJ
 D^ m^DRz an D^ b^s se S S S
-S S S
-S S S
 D^ m^DRz an D^ b^s se S S S
 cl ovR tWn
 lEts tRn D^ peJ h^ni
@@ -4438,15 +4426,15 @@ la la la la la la la
 la la la
 la la la
 Yv h@v D^ tEdi ber @nd D^ dcgi
-Ym goIG tu pUt DEm In e hWz
-Ym goIG tu pUt DEm In e hWz
-c wi dont h@v In^f blaks tu mek e hWz an D^ tebxl
+Ym goIG tu pUt DEm In e hWs
+Ym goIG tu pUt DEm In e hWs
+c wi dont h@v In^f blaks tu mek e hWs an D^ tebxl
 nat In^f blaks
-wi k@n ple hWz
-tiniwini hWz
+wi k@n ple hWs
+tiniwini hWs
 wet e mYnut
-dcgiz In D^ hWz
-nW tEdi bErz In D^ hWz
+dcgiz In D^ hWs
+nW tEdi bErz In D^ hWs
 hirz D^
 Y l^v yu dctR
 m@ndi
@@ -4674,16 +4662,11 @@ D^ bebiz an D^ b^s go
 D^ bebiz an D^ b^s krY
 cl ovR tWn
 D^ m^DRz an D^ b^s go
-S S S
-S S S
-S S S
 D^ m^DRz an D^ b^s go
-S S S
 cl ovR tWn
 o yu fcrgat yUr kIti
 miW
 D^ End ^v D^ lYn
-S
 In @nd Wt
 muv an b@k
 ^p @nd dWn
@@ -5355,7 +5338,7 @@ yUr kar ki fEl bxhYnd D^ CenJIG tebxl
 oke
 wIl yu pliz sIt In yUr krIb so mami k@n go pati
 yu k@n lUk @t yUr mobil
- @nd mamx go pati
+@nd mamx go pati
 wYl yur In yUr krIb
 lEmi gEt cl D^ bl@GkIts Wt ^v D^ we
 Y wIl bi rYt b@k
@@ -5475,7 +5458,7 @@ dont drap It
 h@G an
 o yu drapt It
 dId yu drap It
-hWz D@t w^n
+hWs D@t w^n
 no
 w^t ar yu duIG
 w^t ar yu duIG
@@ -6130,7 +6113,7 @@ e kW
 e dcg
 e mWs
 o w^t e bEd
-o w^t e hWz
+o w^t e hWs
 o dir o dir
 Y k@nat hir
 wIl yu pliz k^m ovR hir
@@ -6155,8 +6138,8 @@ Y wIl nat h@v DIs w^n xbWt
 wEn hi k^mz In
 pUt hIm Wt
 DIs w^n Iz kwYIt @z e mWs
-Y lYk tu h@v hIm In D^ hWz
-@t WR hWz wi opxn k@nz
+Y lYk tu h@v hIm In D^ hWs
+@t WR hWs wi opxn k@nz
 wi h@v tu opxn mEni k@nz
 @nd D@t Iz wY
 wi h@v e
@@ -6288,14 +6271,14 @@ klos D^ rUf
 Der hi Iz In D^ wIndo
 Der hi Iz In D^ wIndo
 o Its hard tu gEt hIm h^
-gatx yus tu h@ndz
+gatx yuz tu h@ndz
 hold hIm
 yu gat hIm
 lIft ^p
 lIft ^p
 werd hi go
 Der hi Iz
-pUt hIm b@k InsYd D^ hWz
+pUt hIm b@k InsYd D^ hWs
 kips rolIG xwe
 wer yu kip goIG
 Y si
@@ -6379,7 +6362,7 @@ yR yu lUk @t D^ gr@s WtsYd
 w^t ar cl Doz
 nEkst s^mR wil go Wt @nd ple
 yR
-@t sIdniz hWz
+@t sIdniz hWs
 yu si waCIG
 gat yUr bEli
 gat yUr bEli
@@ -8290,10 +8273,10 @@ dont wanx gIv mi fYv h^
 kUd yu kip
 If yu sIt ^p
 no
-si yu trYIG tu yus mi
+si yu trYIG tu yuz mi
 yEs yu ar
-yur trYIG tu yus mi
-yur trYIG tu yus mi
+yur trYIG tu yuz mi
+yur trYIG tu yuz mi
 sIt ^p pliz
 T@Gkyu
 Siz m@d
@@ -8453,7 +8436,7 @@ nW yu trYIG tu it D@t bcl
 hxm
 wY yu kip lUkIG @t D@t
 o Iz D@t yUr fevxrIt nW
-sIns yu @kCuxli lEt mi yus It e lItxl bIt xgo
+sIns yu @kCuxli lEt mi yuz It e lItxl bIt xgo
 yR wi J^st
 wi J^st s@t Der @nd lEt mi klin Wt hIz noz
 Y truli dIdxnt no wer D@t bebi kem fr^m
@@ -8910,7 +8893,7 @@ yR
 Y si D@t
 k^m b@k
 no dont it
-dont yus mi tu go tu D^ ti vi
+dont yuz mi tu go tu D^ ti vi
 yu gat It
 yR
 yu dId It h^
@@ -9263,7 +9246,7 @@ D@ts nat rYt
 yu wont xlW mi tu ple It
 D@ts oke Do
 Yl lEt yu h@v yUr f^n @nd yu k@n ple
-hWz D@t
+hWs D@t
 h^
 k@n Y si It
 k@n Y si
@@ -9350,7 +9333,7 @@ w^t yu duIG
 hxm
 yu wanx lUk
 yu wanx
-hWz D@t
+hWs D@t
 o Its e lItxl briz k^mIG In hir
 wi mYt h@v tu klos It
 mYt bi tu m^C
@@ -9742,10 +9725,10 @@ o
 bO Its klWdIG ^p WtsYd
 lUkIG lYk De wanx ren
 o si wckR
-w^nt tu yus wckR
+w^nt tu yuz wckR
 hxm
 brUklIn
-w^nt tu yus wckR
+w^nt tu yuz wckR
 oke
 k^m an
 yur gEtIG Wt
@@ -10774,7 +10757,7 @@ k^m an
 Der De ar
 hxm
 hY
-lEts go si If Derz Eni tulz wi kUd yus tu klin Wt Doz
+lEts go si If Derz Eni tulz wi kUd yuz tu klin Wt Doz
 h^
 hxm
 If Der ar wil du It
@@ -10791,7 +10774,7 @@ wEl Y dont si EniTIG dWn hir
 no no
 Its oke
 Its oke
-no wi arnt g^nx yus D@t
+no wi arnt g^nx yuz D@t
 Iz Der EniTIG
 he lUk
 Derz C@ns
@@ -10833,7 +10816,7 @@ Y w^ndR wEn D@t h@pxnd
 wEl
 J^st dIsk^vRd D^ mYk h@d fclxn dWn mY SRt
 gret
-clrYt lEts fYnd s^m tul In D^ hWz
+clrYt lEts fYnd s^m tul In D^ hWs
 o Y no J^st D^ tul
 Y no J^st D^ tul mIlki
 wil go klin It Wt
@@ -11074,7 +11057,7 @@ w^t ar De duIG
 wer dId De go
 De wEnt ^p Der
 w^ts ^p
-hWz It goIG swit pi
+hWs It goIG swit pi
 wil si
 fIks D^ sxspEndR
 oke
@@ -11133,12 +11116,12 @@ yR
 yu wanx ple an hir
 k^m an swithart
 @lIgz@ndR
-hWz DIs
+hWs DIs
 ar Diz yUr dr^mz
 hir
 yEs
 he bubu
-hWz DIs
+hWs DIs
 huz D^ bebi
 Iz D@t yu
 Iz D@t yu
@@ -11153,7 +11136,7 @@ pUl It Wt
 w^t Iz mamx duIG h^
 wups
 Der wi go
-o yu yus D^ klIps
+o yu yuz D^ klIps
 oke
 ups
 hY bebi
@@ -11416,7 +11399,7 @@ Ym p^tIG It cl xwe swit l^v
 yEs
 @nd DIs Iz wer yUr stu Iz g^nx go
 w^ts DIs
-Its D^ hWz ^v D^ stu
+Its D^ hWs ^v D^ stu
 l@st C@ns
 stu
 o hi CenJd hIz mYnd
@@ -11605,7 +11588,6 @@ o bubi
 no no switipY
 no no
 h@v tu xt@C It
-S S S S
 D^ @ftR dInR muvi
 Its vEri Impcrtxnt
 w^ts DIs
@@ -11635,7 +11617,7 @@ hiz e gUd bO
 yEs
 yEs hi d^z lYk tu h@v hIz m^DR nirbY
 yEs hi d^z
-yu wanx go In yUr swIG hir In D^ hWz
+yu wanx go In yUr swIG hir In D^ hWs
 DEn wi dont h@v tu go Wt
 wUd yu lYk D@t
 wUd yu lYk D@t
@@ -11825,13 +11807,13 @@ yu wanx go Wt @nd si D^ wInd CYmz
 wi kUd du D@t
 yu l^v D^ wInd CYmz
 cr wi kUd ple wID
-dr^mz @nd st^f hir In D^ hWz
+dr^mz @nd st^f hir In D^ hWs
 lEt mi S^t D^ dor
 Its gEtIG CIli Do swithart
 bubun
 pUt yUr stu xwe
 wi nEvR rixli gat D@t pUt xwe
-wi h@v In^f @nts In DIs hWz
+wi h@v In^f @nts In DIs hWs
 w^nts hIz pEg h^
 hElo pEg
 Its pEg
@@ -11872,7 +11854,7 @@ w^t du yu du wID DIs krezi pEg
 o hiz flYIG xgEn
 hiz flYIG
 lUk @t hIm go
-flYIG Tru D^ hWz
+flYIG Tru D^ hWs
 hElo bebi
 hElo bebi
 w^t
@@ -11880,7 +11862,7 @@ du yu wanx gEt Wt ^v D^ Cer
 Wt ^v D^ bWnsR
 k^m an
 D@ts In^f
-wi dont w^nt tu gEt sIk ^v EniTIG In DIs hWz
+wi dont w^nt tu gEt sIk ^v EniTIG In DIs hWs
 no
 k^m an
 hir wi go
@@ -12038,7 +12020,6 @@ o
 ^o Its mebi Der w^z e pupi
 Y hop nat
 o
-S S S S S S
 k^m an
 k^m an k^m an k^m an k^m an
 o Its oke
@@ -12128,20 +12109,16 @@ Its wctR
 no dont f^s bonin
 no no
 no no dont f^s
-S S S
 Ym sari
 k^m an
 Ym duIG It rixli f@st
 @z f@st @z Y k@n
-S
 w^ts DIs
-S
 wir g^nx go Wt @nd si D^ skwRrxl
 wir g^nx go si D^ skwRrxl
 yEs wi ar
 yu @nd mi
 D^ skwRxli
-S S S
 no swithart
 stap It
 stap It switipY
@@ -12149,7 +12126,6 @@ no mor dYpR CenJIz
 no mor
 no mor
 no no
-S S
 w^ts DIs
 w^ts D@t
 w^ts D@t
@@ -12186,13 +12162,10 @@ muv yUr w^n arm
 gatx pUt an yUr SRt
 so wi k@n go Wt
 ^DRwYz yul gEt kold
-S S S
 J^st p^tIG an s^m lcG slivz fcr yu so D@t yu wont gEt
-S
 o Y no
 Its rixli D@t yUr tYrd
 tYrd bebi
-S
 wir g^nx go si skwRxli
 wir g^nx go Wt @nd si skwRxli nW
 yu @nd mi
@@ -12202,7 +12175,6 @@ Der hi Iz
 hiz WtsYd
 wir g^nx go WtsYd @nd si hIm h^
 yu @nd mi
-S S S
 Derz WR kIti
 k^m an
 go an Wt
@@ -12216,10 +12188,8 @@ Y m^st zIp yu ^p
 yu wanx gEt koldR
 no no
 no Y no yu dont
-S
 Y no
 Y no
-S S S
 k^m an
 oke lEts fYnd yUr h@t
 wir g^nx fYnd yUr h@t
@@ -12530,7 +12500,7 @@ Y w^ndR If DIs stupId TIG rIkcrdId cr nat
 Y kUd J^st skrim If It dIdxnt wRk
 lEts hop It wRkt
 gad
-hWz D^ bO
+hWs D^ bO
 xmke
 wi h@v tu wRk Wt D^ Suz TIG h^
 D@ts fcr yu
@@ -12619,7 +12589,6 @@ mamx h@z tu pUt yUr dYpR an
 @lIgz@ndR hold stIl
 @lIgz@ndR
 w^n mor
-S S S
 Der wi go
 gUd bO
 w^t e gUd bO yu ar
@@ -12724,7 +12693,7 @@ lEmi sn@p D^ ^DR lEg
 oke
 gUd bO
 lEts si
-hWz DIs stupId TIG goIG
+hWs DIs stupId TIG goIG
 hElo bebi
 Iz D@t D^ kIti
 yu
@@ -12896,7 +12865,7 @@ w^ts D@t
 @lIgz@ndR
 w^ts DIs
 hElo bebi
-hWz DIs wEDR h^
+hWs DIs wEDR h^
 bebi
 hElo
 hElo
@@ -13136,9 +13105,7 @@ yu dont w^nt yUr fit kold
 Ym biIG nYs tu yu
 @lIgz@ndR
 w^n fUt
-S S S
 xn^DR fUt
-S S S S S
 oke
 hir yu go
 TIGz arnt b@d
@@ -13878,7 +13845,7 @@ yEp
 yEs
 yu tYrd yEt
 hxm
-yus mor ^v Doz D@t fUt
+yuz mor ^v Doz D@t fUt
 @nd nat nat D@t ^m
 nat Doz tipi toz
 blEs yu
@@ -15284,7 +15251,7 @@ kold
 kold
 se o De tu kold
 go gIv It b@k tu papx
-yu gatx yus tu h@ndz fcr D@t
+yu gatx yuz tu h@ndz fcr D@t
 wi g^nx rol D@t b@k tu papx oke
 g^nx rol It b@k
 tRn xrWnd
@@ -17456,7 +17423,7 @@ yR
 w^t d^z D@t p^pidcg se
 d^z hi se arfarf
 yu w^nt DIs bUk tu
-yus D@t bUk
+yuz D@t bUk
 hir lEmi hElp
 hir
 Y TIGk wi h@v tu gEt s^m smclR bUks tu pUt In Der
@@ -17569,7 +17536,7 @@ D^ wilz an D^ b^s
 go rWnd @nd rWnd
 rWnd @nd rWnd
 rWnd @nd rWnd D^ wilz an D^ bYk go rWnd @nd rWnd
-cl Tru D^ hWz
+cl Tru D^ hWs
 k@n yu mek e nOz
 se nOz
 w^t du yu w^nt hxm
@@ -18032,7 +17999,7 @@ yUr rum
 @nd mamiz goIG tu
 p@k yUr b@g
 wil tek tu
-@nt pxtris @nd ^Gkxl kEvInz hWz
+@nt pxtris @nd ^Gkxl kEvInz hWs
 wir g^nx go Der txnYt @nd si kElsi @nd kitxn
 arnt wi
 yR
@@ -20181,7 +20148,7 @@ yur sterIG @t It h^
 Y k@nt riC D@t
 hir yu go
 wups
-hWz D@t
+hWs D@t
 D@ts w^n ^v Doz lItxl sidz
 hir yu go
 oke
@@ -20864,7 +20831,7 @@ D^ wUlf se
 Yl h^f
 @nd Yl p^f
 D^ Tri lItxl pIg
-@nd Yl blo yUr hWz In
+@nd Yl blo yUr hWs In
 h^
 hxm
 hY kyuti
@@ -21166,7 +21133,7 @@ k^m an
 k^m an
 k^m an
 wo nat wID w^n h@nd
-gatx yus tu h@ndz
+gatx yuz tu h@ndz
 lEts fYnd yUr ^DR Su
 lEts fYnd
 Derz @lIn xgEn
@@ -21976,12 +21943,12 @@ se mY tOz ar In Der
 se lEmi tek DEm Wt
 lEt mi tek DEm Wt
 w^t dId yu fYnd
-k@n D@t go In yUr hWz
-du yu wanx pUt D@t In yUr hWz
+k@n D@t go In yUr hWs
+du yu wanx pUt D@t In yUr hWs
 hir
-pUt D@t In yUr hWz
+pUt D@t In yUr hWs
 si
-Der w^z e ber In D@t hWz
+Der w^z e ber In D@t hWs
 o yur trYIG tu pUt It b@k In Der
 oke
 pUt It b@k In DEn
@@ -22176,11 +22143,11 @@ Derz no f^n ^p hir Iz It
 w^t dId yu TIGk Y w^z g^nx du
 o yu fWnd TIGz yu k@n mEs wID
 gEt b@k dWn DEn
-lEts si hu Iz In yUr ber hWz
+lEts si hu Iz In yUr ber hWs
 Der w^z e ber In Der
-se mami DIs Iz nat e ber hWz
-DIs e pipxl hWz
-@nd cl Diz @nImxlz ar In mY pipxl hWz
+se mami DIs Iz nat e ber hWs
+DIs e pipxl hWs
+@nd cl Diz @nImxlz ar In mY pipxl hWs
 Derz e ber In Der @nd e dcg In Der
 D@ts mamiz Su
 mamiz Su
@@ -22217,7 +22184,7 @@ Its skwer ber
 hi w^zInt lcst @ftR cl
 hi J^st fEl b@k Der
 lUk @t D@t wIndo
-Derz e ber In D@t hWz
+Derz e ber In D@t hWs
 @nd lUk In Der
 Derz e dcg In D@t w^n
 ar yu h@vIG f^n
@@ -22488,7 +22455,7 @@ k@n yu opxn D^ rEd skwer
 si
 Derz e rEd skwer
 Its e rEd skwer
-xm It Iz tosti wcrm InsYd D^ hWz
+xm It Iz tosti wcrm InsYd D^ hWs
 Y dont nid mY kot Enimor
 sEz pu
 pu opxnz iC yElo sRkxl cl bY hImsElf
@@ -22760,9 +22727,9 @@ ber @nd dcg
 ber @nd dcg
 hirz
 hirz dcg
-dcg In D^ hWz
+dcg In D^ hWs
 hirz D^ ber
-pUt D^ ber In D^ hWz
+pUt D^ ber In D^ hWs
 nW S^t D^ dor an DEm
 w^t w^z It
 It w^z wctR
@@ -24758,7 +24725,7 @@ Der goz D^ b^s
 yR
 @nd Derz D^ lItxl kar
 yu J^st med e kar rEk
-@nd hirz D^ lItxl hWz
+@nd hirz D^ lItxl hWs
 lUk
 Derz tu gRl pipxl
 yu g^nx du D@t
@@ -25531,12 +25498,12 @@ Yl bi rYt b@k
 no gIv mi Doz
 yu dont ivxn lYk Diz
 Y dont no wY yu riCIG fcr DEm
-Y h@v pIn yu dWn J^st tu yus DEm an yu
+Y h@v pIn yu dWn J^st tu yuz DEm an yu
 dont yu krcl nir D^ EJ
 yul fcl
 Y se dont @nd yu du
 Ym pUt DIs ^p bxkcz yu nat yuzIG It no we
-yul prabxbli yus It wEn yu go tu bEd
+yul prabxbli yuz It wEn yu go tu bEd
 yu d^n Cest D^ batxl rYt an cf D^ bEd
 w^t ar yu duIG
 k^m an
@@ -26132,7 +26099,7 @@ k^m hir
 ^o
 Its oke
 dId wi h@v e lcG de
-yu wckt cl ovR D^ hWz
+yu wckt cl ovR D^ hWs
 yu trYIG tu gEt DIs wck TIG dWn p@t h^
 ^o
 D@ts mY lIp
@@ -26552,10 +26519,10 @@ yu no
 dRti fUt
 Ym wYpIG cf D@t lItxl dRti fUt
 SUd h@v kEpt yUr sak @nd Su an
-yu nid s^m hWz Suz
+yu nid s^m hWs Suz
 TIGk yu gat s^m
 Y J^st gatx fYnd DEm
-D@t lItxl hWz Su
+D@t lItxl hWs Su
 w^t yUr sIstR dId wID DEm
 Si nEvR wor DEm
 b^t Del fIt yUr fit J^st fYn
@@ -26919,7 +26886,7 @@ wet e mYnut
 lEt mi pUt yu ovR hir
 k@n yu hold an tu D^ Cer
 Der yu go
-hWz D@t
+hWs D@t
 ups
 wUpsxdezi
 o yu sIt dWn
@@ -26938,7 +26905,7 @@ wer yu goIG tu wck
 yu goIG tu wck s^mwer
 upsi
 lEts pUt D^ Cer b@k
-hWz D@t
+hWs D@t
 @nd d@dxl bi hom txde
 d@dxl bi hom txde
 xm
@@ -27006,7 +26973,7 @@ no no no
 ovR hir
 hxm
 yR
-hWz D@t
+hWs D@t
 @nd Yl tek DIs kcrd xwe
 Der wi go
 wups
@@ -27319,7 +27286,6 @@ o no
 hEltR skEltR
 splISspl@S
 splISspl@S
-S S
 hRri skRri hRri skRri
 h^f p^f
 h^f p^f
@@ -27336,7 +27302,7 @@ bY lIndx wYndR wYndR
 IlxstretId bY k@rxl bRk
 lUk @t DIs
 rEd
-rxhab tYd e rEd rIbxn In D^ wIndo ^v hR hWz so D^ IzrelYt
+rxhab tYd e rEd rIbxn In D^ wIndo ^v hR hWs so D^ IzrelYt
 JaSux tu etin
 w^t
 w^ts D^ m@tR swithart
@@ -27736,7 +27702,7 @@ bEtR stap halxrIG @t mi
 Ym D^ mami
 k^m an
 J^st nYn m^nTs
-TIGk yu D^ m@n ^v D^ hWz
+TIGk yu D^ m@n ^v D^ hWs
 wer Iz D^
 So mi D^ m^ni
 gIv mi D^ peCEk
@@ -27806,7 +27772,7 @@ smcl fit bIg fit hir k^m pIg fit
 si D@t
 hIz fit hR fit
 f^zi fR fit
-In D^ hWz @nd an D^ strit hW mEni mEni fit yu mit
+In D^ hWs @nd an D^ strit hW mEni mEni fit yu mit
 ^p In D^ er fit
 ovR e Cer fit
 mor @nd mor fit
@@ -27877,7 +27843,7 @@ yR yR
 se Y gat e gridi bebi
 yu no hW tu it dont yu m@n m@n
 wi nid scs
-hir wi yus barbxkyu scs
+hir wi yuz barbxkyu scs
 @nd DIs
 kcl DIs e mil
 Y nid rImp stek @nd pxteto
@@ -28261,8 +28227,6 @@ no nid tu kip halxrIG In hir nW
 yu rixli TIGk yu r^nIG
 bclIG ^p yUr fIsts
 wi mYt h@v tu pUt yu In but k@mp Rli
-S
-S
 wEl If yu nat slipIG yu nid tu klin It ^p
 klin It ^p
 mamx
@@ -28378,7 +28342,6 @@ ar yu sIGIG e scG
 a Y dont fil lYk tckIG
 yu rxmEmbR d@t muvi
 fYv part
-S
 mamx
 yu nid tu lRn hW tu
 EksprEs yUrsElf bxsYdz halxrIG cl D^ tYm

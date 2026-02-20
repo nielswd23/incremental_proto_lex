@@ -157,7 +157,7 @@ target_folders = [
     "Goldwater_Bigram"
 ]
 
-# target_folders = ["PearlBrentWords"]
+target_folders = ["PearlBrentWords"]
 # target_folders = ["Goldwater_Bigram"]
 
 # -----------------------
