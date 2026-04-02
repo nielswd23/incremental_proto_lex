@@ -74,5 +74,5 @@ def format_and_save_all(all_corpora_path="./all_corpora",
 
 
 if __name__ == "__main__":
-    special_folders = ["AGGrammars"]
+    special_folders = ["AGGrammars"] # for skipping folders
     format_and_save_all("./all_corpora", "./formatted_corpora", special_folders)
